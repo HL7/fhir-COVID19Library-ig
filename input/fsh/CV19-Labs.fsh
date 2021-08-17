@@ -389,7 +389,7 @@ Description: "SARScoronavirus2RNAPrThrPtSerPlasOrdProbeamptarLabObs is a test fo
 * value[x] only CodeableConcept
 * valueCodeableConcept from DetectedNotdetectedVS (extensible)
 
-Profile: SARScoronavirus2AbImpPtSerPlasNomLabObs
+Profile: SARScoronavirus2AbImpPtSerPlasNomLabObs 
 Id: SARS-CoV2-Ab-Imp-pt-serplas-nom-LabObs
 Parent: CodedLaboratoryObservationBase
 Title: "SARS-CoV-2 (COVID19) Ab [Interpretation] in Serum or Plasma"

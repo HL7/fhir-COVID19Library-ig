@@ -47,13 +47,13 @@ Description: "The country or countries to which the subject may have traveled."
     TravelEndDate 0..1
 * component[TravelStartDate].code = LNC#82752-7 "Date travel started"
 * component[TravelStartDate].value[x] only dateTime
-* component[Country].code = LNC#94651-7 "Country of travel"
+* component[Country].code = LNC#94651-7 "Country of travel [Location]"
 * component[Country].value[x] only CodeableConcept
 * component[Country].valueCodeableConcept from ISOCountryVS (preferred)
 * component[State].code = LNC#82754-3 "State of travel"
 * component[State].value[x] only CodeableConcept
 * component[State].valueCodeableConcept from ISOStateVS (preferred)
-* component[City].code = LNC#94653-3 "City of travel"
+* component[City].code = LNC#94653-3 "City of travel [Location]"
 * component[City].value[x] only string
 * component[TravelEndDate].code = LNC#91560-3 "Date of departure from travel destination"
 * component[TravelEndDate].value[x] only dateTime
@@ -116,7 +116,7 @@ Parent: Observation
 Id: gestational-age-at-onset-of-illness
 Title: "Gestational Age at Onset of Illness"
 Description: "The number of weeks the subject was pregnant when a given illness began."
-* code = LNC#81270-1 "Gestational age in weeks - at onset of illness"
+* code = LNC#81270-1 "Gestational age in weeks--at onset of illness"
 * value[x] only Quantity
 * valueQuantity.code = UCUM#wk
 * interpretation 0..0

@@ -13,3 +13,4 @@ Alias:   USCoreBirthSex = http://hl7.org/fhir/us/core/StructureDefinition/us-cor
 Alias:   USCoreRace = http://hl7.org/fhir/us/core/StructureDefinition/us-core-race
 Alias:   eICRCondition = http://hl7.org/fhir/us/ecr/StructureDefinition/eicr-condition
 Alias:   SmartHealthCardsVaccination = http://hl7.org/fhir/uv/smarthealthcards-vaccination/StructureDefinition/vaccination-credential-immunization
+Alias:   USCoreImmunization = http://hl7.org/fhir/us/core/StructureDefinition/us-core-immunization
