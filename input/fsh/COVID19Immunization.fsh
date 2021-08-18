@@ -14,7 +14,7 @@ Description: "A profile of the Immunization resource, constrainind some elements
     ProcedureCode named procedureCode 0..1 MS
 * extension[procedureCode].valueCodeableConcept = SCT#33879002 "Administration of vaccine to produce active immunity (procedure)"
 * vaccineCode.coding.code from COVID19_CVX_CodesVS (extensible)
-* manufacturer = Reference(COVID19Manufacturer)
+* manufacturer only Reference(covid19-manufacturer)
 
 Extension: ProcedureCode
 Id: procedure-code

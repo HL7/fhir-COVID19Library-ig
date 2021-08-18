@@ -1,8 +1,8 @@
-Profile:	    LaboratoryObservationBase
-Parent:         USCoreObservationLab
-Id:             c19-laboratory-observation-base
-Title:          "Laboratory Observation Base"
-Description:    "Abstract base class for laboratory observations."
+Profile: LaboratoryObservationBase
+Parent: USCoreObservationLab
+Id: c19-laboratory-observation-base
+Title: "Laboratory Observation Base"
+Description: "Abstract base class for laboratory observations."
 * ^abstract = true
 * bodySite 0..0
 * method 0..0
@@ -39,7 +39,7 @@ Description:    "Abstract base class for laboratory observations."
 * extension contains 
     ReportingPriority named reportingPriority 0..1
 
-Extension:  ReportingPriority
+Extension: ReportingPriority
 Id: reporting-priority
 Description: "The urgency level for which an observation must be reported."
 Title: "Reporting Priority"
@@ -47,18 +47,18 @@ Title: "Reporting Priority"
 * valueCodeableConcept from ReportingPriorityVS (preferred)
 
 Profile: QuantitativeLaboratoryObservationBase
-Parent:  LaboratoryObservationBase
-Id:      c19-quantitative-laboratory-observation-base
-Title:   "Quantitative Laboratory Observation Base"
-Description:  "Abstract base class for quantitative laboratory observations."
+Parent: LaboratoryObservationBase
+Id: c19-quantitative-laboratory-observation-base
+Title: "Quantitative Laboratory Observation Base"
+Description: "Abstract base class for quantitative laboratory observations."
 * ^abstract = true
 * value[x] only Quantity
 
 Profile: CodedLaboratoryObservationBase
-Parent:  LaboratoryObservationBase
-Id:      c19-coded-laboratory-observation-base
-Title:   "Coded Laboratory Observation Base"
-Description:  "Abstract base class for coded laboratory observations."
+Parent: LaboratoryObservationBase
+Id: c19-coded-laboratory-observation-base
+Title: "Coded Laboratory Observation Base"
+Description: "Abstract base class for coded laboratory observations."
 * ^abstract = true
 * value[x] only CodeableConcept
 
@@ -70,10 +70,11 @@ Description:  "Abstract base class for coded laboratory observations."
 // * ^abstract = true
 // * value[x] only Ratio
 
-Profile:  LaboratoryObservationPanelBase
-Parent:   LaboratoryObservationBase
-Title:    "Laboratory Observation Panel Base"
-Description:  "A panel that contains member observations"
+Profile: LaboratoryObservationPanelBase
+Parent: LaboratoryObservationBase
+Id: c19-lab-panel-observation-base
+Title: "Laboratory Observation Panel Base"
+Description: "A panel that contains member observations"
 * ^abstract = true
 // slice definition for hasMember
 * hasMember ^slicing.discriminator.type = #profile // #pattern

@@ -38,7 +38,7 @@ Title: "Detected, Not-detected, Equivocal, Invalid value set"
 Description: "Theset of values for laboratoery tests that report detected, not-detected, equivocal, or invalid as results."
 * SCT#260415000 "Not detected (qualifier value)"
 * SCT#260373001 "Detected (qualifier value)"
-* SCT#4245007 "Equivocal (qualifier value)"
+* SCT#42425007 "Equivocal (qualifier value)"
 * LabObs#invalid "invalid"
 
 ValueSet: DetNotDetInclInvVS
@@ -131,7 +131,7 @@ Description: "A set of SNOMED CT codes that describe the diagnosed condition tha
 * ^version = "0.1.0"
 * SCT#840539006 "Disease caused by 2019 novel coronavirus (disorder)"
 * SCT#840544004 "Suspected disease caused by 2019 novel coronavirus (situation)"
-* SCT#882784691000119000 "Pneumonia caused by severe acute respiratory syndrome coronavirus 2 (disorder)"
+* SCT#882784691000119100 "Pneumonia caused by severe acute respiratory syndrome coronavirus 2 (disorder)"
 * SCT#674814021000119106 "Acute respiratory distress syndrome caused by severe acute respiratory syndrome coronavirus 2 (disorder)"
 * SCT#880529761000119102 "Lower respiratory infection caused by severe acute respiratory syndrome coronavirus 2 (disorder)"
 * SCT#138389411000119105 "Acute bronchitis caused by severe acute respiratory syndrome coronavirus 2 (disorder)"
@@ -400,7 +400,7 @@ Description: "A set of codes that describe underlying cardiovascular medical con
 * SCT#72092001 "Arteriosclerotic vascular disease (disorder)"
 * SCT#49436004 "Atrial fibrillation (disorder)"
 * SCT#70142008 "Atrial septal defect (disorder)"
-* SCT#819955006 "Atresia of pulmonary valve (disorder)"
+* SCT#719955006 "Atresia of pulmonary valve (disorder)"
 * SCT#233917008 "Atrioventricular block (disorder)"
 * SCT#253416000 "Atrioventricular septal defect: atrial and ventricular components (disorder)"
 * SCT#6374002 "Bundle branch block (disorder)"
@@ -897,7 +897,7 @@ Description: "A set of codes that describe conditions that are not otherwise cat
 ValueSet: FluABSARSCoV2SARSCoVVS
 Id: fluAB-SARSCoV2-SARSCoV-value-set
 Title: "Influenza A, Influenza B, SARS CoV 2, and SARS CoV value set"
-Description: " A set of SNOMED terms that describe the virus detected or not detected."
+Description: "A set of SNOMED terms that describe the virus detected or not detected."
 * ^version = "0.1.0"
 * SCT#407479009 "Influenza A virus (organism)"
 * SCT#407480007 "Influenza B virus (organism)"
@@ -934,10 +934,11 @@ Description: "A set of vaccine identifier codes from the CVX codes system specif
 * CVX#212 "SARS-COV-2 (COVID-19) vaccine, vector non-replicating, recombinant spike protein-Ad26, preservative free, 0.5 mL"
 * CVX#210 "SARS-COV-2 (COVID-19) vaccine, vector non-replicating, recombinant spike protein-ChAdOx1, preservative free, 0.5 mL"
 
-ValueSet: COVID19VaccineProcedureVS
+/* ValueSet: COVID19VaccineProcedureVS
 Id: covid19-porocedure-code-value-set 
 Title: "COVID 19 Vaccine Procedure Code value set"
+Description: "A set of SNOEMD CT procedure codes that describe the administration of a SARS CoV2 vaccine."
 * SCT#33879002 "Administration of vaccine to produce active immunity (procedure)"
 * SCT#1119350007 "Administration of SARS-CoV-2 mRNA vaccine (procedure)"
 * SCT#1144997007 "Administration of first dose of SARS-CoV-2 mRNA vaccine (procedure)"
-* SCT#1144998002 "Administration of second dose of SARS-CoV-2 mRNA vaccine (procedure)"
+* SCT#1144998002 "Administration of second dose of SARS-CoV-2 mRNA vaccine (procedure)" */
