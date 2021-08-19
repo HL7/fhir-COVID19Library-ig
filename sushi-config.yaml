@@ -10,8 +10,8 @@
 # │  supported properties, see: https://fshschool.org/sushi/configuration/                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: hl7.fhir.us.covid19
-canonical: http://fhir.logicahealth.org/covid19
-version: 0.13.1
+canonical: http://hl7.org/fhir/us/covid19
+version: 0.13.0
 name: LogicaCOVID19FHIRProfileLibraryIG
 title: Logica COVID-19 FHIR Profile Library IG
 status: active
