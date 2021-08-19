@@ -3,6 +3,7 @@ Id: present-absent-unknown-vs
 Title: "Present, Absent, Unknown Value Set"
 Description: "The SNOMED CT codes for present, absent, and unknown."
 * ^version = "0.1.0"
+* ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
 * SCT#52101004 "Present (qualifier value)"
 * SCT#2667000 "Absent (qualifier value)"
 * SCT#261665006 "Unknown (qualifier value)"
@@ -12,6 +13,7 @@ Id: covid19-det-not-det-inconclusive-vs
 Title: "Detected, Not Detected, Inconclusive Value Set"
 Description: "A set of SNOMED codes representing the result of a test as detected, not detected, equivalent, or inconclusive."
 * ^version = "0.1.0"
+* ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
 * SCT#260415000 "Not detected (qualifier value)"
 * SCT#419984006 "Inconclusive (qualifier value)"
 * SCT#260373001 "Detected (qualifier value)"
@@ -21,6 +23,7 @@ ValueSet: DetNotDetIncVS
 Id: detected-not-detected-value-set
 Title: "Detected, Not-detected Value Set"
 Description: "The set of SNOMED CT terms that describe the test values of Detected, Not-detected, or Inconclusive."
+* ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
 * SCT#419984006 "Inconclusive (qualifier value)"
 * SCT#260415000 "Not detected (qualifier value)"
 * SCT#260373001 "Detected (qualifier value)"
@@ -29,6 +32,8 @@ ValueSet: DetectedNotdetectedVS
 Id: covid19-det-notdet-vs
 Title: "Detected, Not-detected value set"
 Description: "The set of codes for laboratory tests that report detected or not-detected result values."
+* ^version = "0.1.0"
+* ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
 * SCT#260415000 "Not detected (qualifier value)"
 * SCT#260373001 "Detected (qualifier value)"
 
@@ -36,6 +41,8 @@ ValueSet: DetNotDetEquivocalInvVS
 Id: det-notdet-equivocal-invalid-vs
 Title: "Detected, Not-detected, Equivocal, Invalid value set"
 Description: "Theset of values for laboratoery tests that report detected, not-detected, equivocal, or invalid as results."
+* ^version = "0.1.0"
+* ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
 * SCT#260415000 "Not detected (qualifier value)"
 * SCT#260373001 "Detected (qualifier value)"
 * SCT#42425007 "Equivocal (qualifier value)"
@@ -45,6 +52,8 @@ ValueSet: DetNotDetInclInvVS
 Id: det-notdet-inconclusive-invalid-vs 
 Title: "Detected, Not-detected, Inconclusive, Invalid value set"
 Description: "The set of values for laboratory tests that report detected, not-detected, inconclusive, and invalid as results."
+* ^version = "0.1.0"
+* ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
 * SCT#260415000 "Not detected (qualifier value)"
 * SCT#260373001 "Detected (qualifier value)"
 * SCT#419984006 "Inconclusive (qualifier value)"
@@ -54,6 +63,8 @@ ValueSet: PositiveNegativeVS
 Id: covid19-pos-neg-vs
 Title: "Positive, Negative value set"
 Description: "The two laboratory values for tests that report positive or negative as results."
+* ^version = "0.1.0"
+* ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
 * SCT#10828004 "Positive (qualifier value)"
 * SCT#260385009 "Negative (qualifier value)"
 
@@ -62,6 +73,7 @@ Id: covid19-pos-neg-eqvs
 Title: "Positive/Negative Value Set"
 Description: "A set of SNOMED codes representing the result of a test as positive or negative."
 * ^version = "0.1.0"
+* ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
 * SCT#10828004 "Positive (qualifier value)"
 * SCT#260385009 "Negative (qualifier value)"
 * LabObs#equivalent "equivalent"
@@ -70,6 +82,8 @@ ValueSet: PosNegSusInvVS
 Id: covid19-pos-neg-susp-inv-vs
 Title: "COVID19 Positive Negative Suspected Invalid value set"
 Description: "The set of laboratory values for tests that report positive, negative, suspected, or invalid results."
+* ^version = "0.1.0"
+* ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
 * SCT#10828004 "Positive (qualifier value)"
 * SCT#260385009 "Negative (qualifier value)"
 * SCT#415684004 "Suspected (qualifier value)"
@@ -79,6 +93,8 @@ ValueSet: PosNegInvVS
 Id: covid19-pos-neg-inv-vs
 Title: "COVID19 Positive Negative Invalid value set"
 Description: "The set of laboratory values for tests that report positive, negative, or invaid results."
+* ^version = "0.1.0"
+* ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
 * SCT#10828004 "Positive (qualifier value)"
 * SCT#260385009 "Negative (qualifier value)"
 * LabObs#invalid "invalid"
@@ -87,6 +103,8 @@ ValueSet: PosNegIndVS
 Id: covid19-pos-neg-ind-vs
 Title: "COVID19 Positive, Negative, Indeterminate value set"
 Description: "The set of laboratory values for tests that report positive, negative, or indeterminate results."
+* ^version = "0.1.0"
+* ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
 * SCT#10828004 "Positive (qualifier value)"
 * SCT#260385009 "Negative (qualifier value)"
 * SCT#82334004 "Indeternimate (qualifier value)"
@@ -95,6 +113,8 @@ ValueSet: ReactiveNonreactiveInvalidVS
 Id: covid19-react-nonreact-inv-vs
 Title: "COVID19 Reactive, Non-reactive, Invalid value set"
 Description: "The set of values for laboratory tests that report reactive, non-reactive, or invalid results."
+* ^version = "0.1.0"
+* ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
 * SCT#11214006 "Reactive (qualifier value)"
 * SCT#131194007 "Non-reactive (qualifier value)"
 * LabObs#invalid "invalid"
@@ -103,6 +123,8 @@ ValueSet: ReactiveNonreactiveVS
 Id: covid19-react-nonreact-vs
 Title: "COVID19 Reactive Non-reactive value set"
 Description: "The set of values for laboratory tests that report reactive or non-reactive results."
+* ^version = "0.1.0"
+* ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
 * SCT#11214006 "Reactive (qualifier value)"
 * SCT#131194007 "Non-reactive (qualifier value)"
 
@@ -110,6 +132,8 @@ ValueSet: AbNotDetPastRecentInfectionVS
 Id: Ab-det-past-recent-infection-vs
 Title: "Antibody Not Detected, Past/Recent Infection LOINC answer value set."
 Description: "The set of LOINC answer codes for tests that report antibodies not detected or past/recent infection values as resutls."
+* ^version = "0.1.0"
+* ^copyright = "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc"
 * LNC#LA28480-4 "Ab not detected"
 * LNC#LA28481-2 "Past infection"
 * LNC#LA28482-0 "Recent infection"
@@ -119,6 +143,7 @@ Id: covid19-reporting-priority-vs
 Title: "Reporting Priorities Value Set"
 Description: "A set of SNOMED codes representing how important it is to report a lab or other observation."
 * ^version = "0.1.0"
+* ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
 * SCT#50811001 "Routine (qualifier value)"
 * SCT#49499008 "Stat (qualifier value)"
 * SCT#709122007 "As soon as possible (qualifier value)"
@@ -129,6 +154,7 @@ Id: covid-19-snomed-diagnosis-vs
 Title: "COVID-19 SNOMED CT Diagnosis Value Set"
 Description: "A set of SNOMED CT codes that describe the diagnosed condition that is due to SARS coronavirus 2 infection."
 * ^version = "0.1.0"
+* ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
 * SCT#840539006 "Disease caused by 2019 novel coronavirus (disorder)"
 * SCT#840544004 "Suspected disease caused by 2019 novel coronavirus (situation)"
 * SCT#882784691000119100 "Pneumonia caused by severe acute respiratory syndrome coronavirus 2 (disorder)"
@@ -151,6 +177,7 @@ Id: yes-no-vs
 Title: "Yes/No Value Set"
 Description: "The SNOMED CT codes to answer in the affirmative or negative."
 * ^version = "0.1.0"
+* ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
 * SCT#373066001 "Yes (qualifier value)"
 * SCT#373067005 "No (qualifier value)"
 
@@ -159,6 +186,7 @@ Id: hl7-yes-no-vs
 Title: "HL7 Yes/No value set"
 Description: "The HL7 version 2 codes for answers in the affirmative or negative."
 * ^version = "0.1.0"
+* ^copyright = "TBD"
 * YesNo#Y "Yes"
 * YesNo#N "No"
 
@@ -167,6 +195,7 @@ Id: country-codes-vs
 Title: "Country Codes Value Set"
 Description: "The set of SNOMED CT codes that represent countries."
 * ^version = "0.1.0"
+* ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
 * codes from system SCT where concept is-a #223369002 "Country (geographical location)"
 
 ValueSet: ISOCountryVS
@@ -174,6 +203,7 @@ Id: iso-country-codes-value-set
 Title: "ISO Code System 3166 country codes"
 Description: "The ISO 3166 system country codes."
 * ^version = "0.1.0"
+* ^copyright = "TBD"
 * codes from system ISO
 
 ValueSet: CloseContactSettingVS
@@ -181,6 +211,7 @@ Id: close-contact-setting-vs
 Title: "Close Contact Setting Value Set"
 Description: "The SNOMED CT codes that describe teh situation in which a close contact exposure was made with an infected individual."
 * ^version = "0.1.0"
+* ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
 * SCT#43741000 "Site of care (environment)"
 * SCT#272497004 "Residential  (environment)"
 * SCT#285141008 "Work environment (environment)"
@@ -191,6 +222,7 @@ Id: state-codes-vs
 Title: "State Codes Value Set"
 Description: "The list of SNOMED CT codes that represent states."
 * ^version = "0.1.0"
+* ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
 * codes from system SCT where concept is-a #224037005 "Region of United States of America (geographic location)"
 
 ValueSet: ISOStateVS
@@ -198,6 +230,7 @@ Id: iso-state-codes-value-set
 Title: "ISO Code System 3166 state/province codes."
 Description: "The ISO 3166 State/Province codes."
 * ^version = "0.1.0"
+* ^copyright = "TBD"
 * codes from system ISOS
 
 ValueSet: COVID19SignsAndSymptomsVS
@@ -205,6 +238,7 @@ Id: covid19-signs-1nd-symptoms-value-set
 Title: "COVID-19 Signs and Symptoms Value Set"
 Description: "The set of SNOMED CT codes that represent the signs and symptoms associated with COVID 19."
 * ^version = "0.2.0"
+* ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
 * SCT#21522001 "Abdominal pain (finding)"
 * SCT#13791008 "Asthenia (finding)"
 * SCT#84387000 "Asymptomatic (finding)"
@@ -248,6 +282,7 @@ Id: certainty-of-presence-value-set
 Title: "Certainty of Presence Value Set"
 Description: "The set of SNOMED CT codes that represent the level of certainty that a condition exists."
 * ^version = "0.2.0"
+* ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
 * SCT#415684004	"Suspected (qualifier value)"
 * SCT#410593006 "Probably NOT present (qualifier value)"
 * SCT#410592001	"Probably present (qualifier value)"
@@ -261,6 +296,7 @@ Id: certainty-of-absence-value-set
 Title: "Certainty of Absence Value Set"
 Description: "The set of SNOMED CT codes that represent the leve of certainty that a condition does not exist."
 * ^version = "0.2.0"
+* ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
 * SCT#410594000	"Definitely NOT present (qualifier value)"
 * SCT#723511001	"Refuted (qualifier value)"
 * SCT#410516002 "Known absent"
@@ -270,6 +306,7 @@ Id: healthcare-occupation-value-set
 Title: "Healthcare Occupation Value Set"
 Description: "A set of SNOMED CT codes that represent occupations within the health care industry."
 * ^version = "0.1.0"
+* ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
 * codes from system SCT where concept is-a #223366009 "Healthcare professional (occupation)"
 
 // ValueSet: NUCCValueSet
@@ -283,6 +320,7 @@ Id: known-exposure-la-ValueSet
 Title: "Known Exposure LOINC Answer Value Set"
 Description: "A set of LOINC answers for known expopsure"
 * ^version = "0.1.0"
+* ^copyright = "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc"
 * LNC#LA30830-6 "Travel to Wuhan"
 * LNC#LA30831-4 "Travel to Hubei"
 * LNC#LA30832-2 "Travel to mainland China"
@@ -301,6 +339,7 @@ Id: covid19-underlying-medical-condition-vs
 Title: "COVID-19 Underlying Medical Condition Value Set"
 Description: "A set of SNOMED CT terms that descibe conditions that are present along with the COVID19 disease."
 * ^version = "0.4.0"
+* ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
 * SCT#48531003 "Achalasia (finding)"
 * SCT#78648007 "At risk for infection (finding)"
 * SCT#253184003 "Chiari malformation (disorder)"
@@ -345,6 +384,7 @@ Id: smoking-status-value-set
 Title: "Smoking Status Value Set"
 Description: "The set of SNOMED CT terms that describe the state of tobacco use."
 * ^version = "0.1.0"
+* ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
 * SCT#77176002 "Smoker (finding)"
 * SCT#266919005 "Never smoked tovacco (finding)"
 * SCT#8517006 "Ex-smoker (finding)"
@@ -355,6 +395,7 @@ Id: covid-19-severity-value-set
 Title: "COVID-19 Signs and Symptoms Severity Value Set"
 Description: "An assertion of the degree of severity of a sign or symptom as reported by the subject."
 * ^version = "0.1.0"
+* ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
 * SCT#255604002 "Mild (qualifier value)"
 * SCT#6736007 "Moderate (severity modifier)(qualifier value)"
 * SCT#24484000 "Severe (severity modifier)(qualifier value)"
@@ -371,6 +412,7 @@ Id: covid-19-disease-severity-value-set
 Title: "COVID-19 Disease Severity Value Set"
 Description: "The set of codes that describe the seriousness of the subject's COVID19 disease."
 * ^version = "0.1.0"
+* ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
 * SCT#255604002 "Mild (qualifier value)"
 * SCT#6736007 "Moderate (severity modifier)(qualifier value)"
 * SCT#24484000 "Severe (severity modifier)(qualifier value)"
@@ -381,6 +423,7 @@ Id: pregnancy-status-value-set
 Title: "Pregnancy Status Value Set"
 Description: "The set of codes that describe one's state of pregnancy."
 * ^version = "0.1.0"
+* ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
 * SCT#77386006 "Patient currently pregnant (finding)"
 * SCT#60001007 "Not pregnant (finding)"
 
@@ -389,6 +432,7 @@ Id: covid19-underlying-cardiovascular-condition-value-set
 Title: "COVID-19 cardiovascular underlying condition reference set"
 Description: "A set of codes that describe underlying cardiovascular medical conditions for COVID19."
 * ^version = "0.2.0"
+* ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
 * SCT#401314000 "Acute non-ST segment elevation myocardial infarction (disorder)"
 * SCT#401303003 "Acute ST segment elevation myocardial infarction (disorder)"
 * SCT#67362008 "Aortic aneurysm (disorder)"
@@ -481,6 +525,7 @@ Id: covid19-underlying-neurolgic-condition-value-set
 Title: "COVID-19 neurologic underlying condition reference set"
 Description: "A set of codes that describe underlying conditions of a neurologic nature for COVID19."
 * ^version = "0.2.0"
+* ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
 * SCT#26929004 "Alzheimer's disease (disorder)"
 * SCT#86044005 "Amyotrophic lateral sclerosis (disorder)"
 * SCT#89369001 "Anencephalus (disorder)"
@@ -559,6 +604,7 @@ Id: covid19-underlying-immunocompromised-condition-value-set
 Title: "COVID-19 immunocompromised underlying condition reference set"
 Description: "A set of codes that describe underlying immmunocompromised conditions for COVID19."
 * ^version = "0.2.0"
+* ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
 * SCT#62479008 "Acquired immune deficiency syndrome (AIDS) (disorder)"
 * SCT#91857003 "Acute lymphoid leukemia, disease (disorder)"
 * SCT#91861009 "Acute myeloid leukemia, disease (disorder)"
@@ -643,6 +689,7 @@ Id: covid19-underlying-respiratory-condition-value-set
 Title: "COVID-19 respiratory underlying condition reference set"
 Description: "A set of codes that describe underling respiratory conditions for COVID19."
 * ^version = "0.2.0"
+* ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
 * SCT#427099000 "Active tuberculosis (disorder)"
 * SCT#22607003 "Asbestosis (disorder)"
 * SCT#195967001 "Asthma (disorder)"
@@ -671,6 +718,7 @@ Id: covid19-underlying-metabolic-condition-value-set
 Title: "COVID-19 metabolic underlying condition reference set"
 Description: "A set of codes that describe underlying metabolic conditions for COVID19"
 * ^version = "0.2.0"
+* ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
 * SCT#267454002 "Acatalasemia (disorder)"
 * SCT#238069004 "Acyl-coenzyme A oxidase deficiency (disorder)"
 * SCT#363732003 "Addison's disease (disorder)"
@@ -773,6 +821,7 @@ Id: covid91-underlying-hemoglobinopathy-condition-value-set
 Title: "COVID-19 hemoglobinopathy underlying condition reference set"
 Description: "A set of codes that describe underlying hemoglobinopathy conditions for COVID19"
 * ^version = "0.2.0"
+* ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
 * SCT#68913001 "Alpha thalassemia (disorder)"
 * SCT#36351005 "Antithrombin III deficiency (disorder)"
 * SCT#306058006 "Aplastic anemia (disorder)"
@@ -810,6 +859,7 @@ Id: covid19-underlying-renal-condition-value-set
 Title: "COVID-19 renal underlying condition reference set"
 Description: "A set of codes that describe underlying renal conditions for COVID19"
 * ^version = "0.2.0"
+* ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
 * SCT#68544003 "Acute post-streptococcal glomerulonephritis (disorder)"
 * SCT#17602002 "Amyloidosis (disorder)"
 * SCT#788613004 "Anti-glomerular basement membrane disease (disorder)"
@@ -833,6 +883,7 @@ Id: covid19-underlying-immune-condition-value-set
 Title: "COVID-19 immune underlying condition reference set"
 Description: "A set of codes that describe underlying immune conditions for COVID19"
 * ^version = "0.2.0"
+* ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
 * SCT#75053002 "Acute febrile mucocutaneous lymph node syndrome (disorder)"
 * SCT#82275008 "Allergic granulomatosis angiitis (disorder)"
 * SCT#9631008 "Ankylosing spondylitis (disorder)"
@@ -867,6 +918,7 @@ Id: covid19-underlying-gastrointestinal-hepatic-condition-value-set
 Title: "COVID-19 gastrointestinal or hepatic underlying condition reference set"
 Description: "A set of codes that describe underlying gastrointestinal or hepatic conditions for COVID19."
 * ^version = "0.2.0"
+* ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
 * SCT#235875008 "Alcoholic hepatitis (disorder)"
 * SCT#408335007 "Autoimmune hepatitis (disorder)"
 * SCT#235597001 "Barrett's esophagus with esophagitis (disorder)"
@@ -888,6 +940,7 @@ Id: covid19-underlying-uncategorized-condition-value-set
 Title: "COVID-19 uncategorized underlying condition reference set"
 Description: "A set of codes that describe conditions that are not otherwise categorized that are underlyers to COVID19."
 * ^version = "0.1.0"
+* ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
 * SCT#444932008 "Dependence on ventilator (finding)"
 * SCT#38341003 "Hypertensive disorder, systemic arterial (disorder)"
 * SCT#15100005 "Postpartum state, 2 weeks (finding)"
@@ -899,6 +952,7 @@ Id: fluAB-SARSCoV2-SARSCoV-value-set
 Title: "Influenza A, Influenza B, SARS CoV 2, and SARS CoV value set"
 Description: "A set of SNOMED terms that describe the virus detected or not detected."
 * ^version = "0.1.0"
+* ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
 * SCT#407479009 "Influenza A virus (organism)"
 * SCT#407480007 "Influenza B virus (organism)"
 * SCT#840533007 "SARS-CoV-2"
@@ -910,6 +964,7 @@ Id: fluAB-SARSCoV2-value-set
 Title: "Influenza A, Influenza B, and SARS CoV2 value set"
 Description: "A set of SNOMED terms that describe the flu A, B, or SARS CoV2 virus detected."
 * ^version = "0.1.0"
+* ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
 * SCT#407479009 "Influenza A virus (organism)"
 * SCT#407480007 "Influenza B virus (organism)"
 * SCT#840533007 "SARS-CoV-2"
@@ -920,6 +975,7 @@ Id: reactive-non-reactive-value-set
 Title: "Reactive - Non-reactive value set"
 Description: "A set of SNOMED CT terms that represent test result values of Reactive and Non-reactive."
 * ^version = "0.1.0"
+* ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
 * SCT#11214006 "Reactive"
 * SCT#131194007 "Non-Reactive"
 

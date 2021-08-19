@@ -147,6 +147,7 @@ WARNING: StructureDefinition.where(url = 'http://fhir.logicahealth.org/covid19/S
 WARNING: StructureDefinition.where(url = 'http://fhir.logicahealth.org/covid19/StructureDefinition/underlying-respiratory-medical-condition-present'): The Implementation Guide contains no examples for this profile
 WARNING: StructureDefinition.where(url = 'http://fhir.logicahealth.org/covid19/StructureDefinition/underlying-uncategorized-medical-condition-present'): The Implementation Guide contains no examples for this profile
 
+
 # Because this is an informational implementation guide, examples were not created for the extensions.
 WARNING: StructureDefinition.where(url = 'http://fhir.logicahealth.org/covid19/StructureDefinition/certainty-of-absence'): The Implementation Guide contains no examples for this extension
 WARNING: StructureDefinition.where(url = 'http://fhir.logicahealth.org/covid19/StructureDefinition/certainty-of-presence'): The Implementation Guide contains no examples for this extension
@@ -199,26 +200,41 @@ WARNING: StructureDefinition.where(url = 'http://fhir.logicahealth.org/covid19/S
 WARNING: StructureDefinition.where(url = 'http://fhir.logicahealth.org/covid19/StructureDefinition/pregnancy-status').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles. Comparison with US Core Pediatric Head Occipital-frontal Circumference Percentile Profile. Comparison with US Core Pediatric BMI for Age Observation Profile. Comparison with US Core Pediatric Weight for Height Observation Profile. Comparison with US Core Blood Pressure Profile. Comparison with US Core BMI Profile. Comparison with US Core Body Height Profile. Comparison with US Core Body Temperature Profile. Comparison with US Core Body Weight Profile. Comparison with US Core Head Circumference Profile. Comparison with US Core Heart Rate Profile. Comparison with US Core Laboratory Result Observation Profile. Comparison with US Core Pulse Oximetry Profile. Comparison with US Core Respiratory Rate Profile. Comparison with US Core Smoking Status Observation Profile. Comparison with US Core Vital Signs Profile
 WARNING: StructureDefinition.where(url = 'http://fhir.logicahealth.org/covid19/StructureDefinition/smoking-status').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles. Comparison with US Core Pediatric Head Occipital-frontal Circumference Percentile Profile. Comparison with US Core Pediatric BMI for Age Observation Profile. Comparison with US Core Pediatric Weight for Height Observation Profile. Comparison with US Core Blood Pressure Profile. Comparison with US Core BMI Profile. Comparison with US Core Body Height Profile. Comparison with US Core Body Temperature Profile. Comparison with US Core Body Weight Profile. Comparison with US Core Head Circumference Profile. Comparison with US Core Heart Rate Profile. Comparison with US Core Laboratory Result Observation Profile. Comparison with US Core Pulse Oximetry Profile. Comparison with US Core Respiratory Rate Profile. Comparison with US Core Smoking Status Observation Profile. Comparison with US Core Vital Signs Profile
 WARNING: StructureDefinition.where(url = 'http://fhir.logicahealth.org/covid19/StructureDefinition/travel-history').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles. Comparison with US Core Pediatric Head Occipital-frontal Circumference Percentile Profile. Comparison with US Core Pediatric BMI for Age Observation Profile. Comparison with US Core Pediatric Weight for Height Observation Profile. Comparison with US Core Blood Pressure Profile. Comparison with US Core BMI Profile. Comparison with US Core Body Height Profile. Comparison with US Core Body Temperature Profile. Comparison with US Core Body Weight Profile. Comparison with US Core Head Circumference Profile. Comparison with US Core Heart Rate Profile. Comparison with US Core Laboratory Result Observation Profile. Comparison with US Core Pulse Oximetry Profile. Comparison with US Core Respiratory Rate Profile. Comparison with US Core Smoking Status Observation Profile. Comparison with US Core Vital Signs Profile
-
+WARNING: StructureDefinition.where(url = 'http://fhir.logicahealth.org/covid19/StructureDefinition/COVID-19-ICD10-Diagnosis').baseDefinition: US FHIR Usage rules require that all profiles on Condition derive from the core US profile
+WARNING: StructureDefinition.where(url = 'http://fhir.logicahealth.org/covid19/StructureDefinition/COVID-19-Snomed-Diagnosis').baseDefinition: US FHIR Usage rules require that all profiles on Condition derive from the core US profile
+WARNING: StructureDefinition.where(url = 'http://fhir.logicahealth.org/covid19/StructureDefinition/case-patient-report-id').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
+WARNING: StructureDefinition.where(url = 'http://fhir.logicahealth.org/covid19/StructureDefinition/covid-19-exposure-core').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
+WARNING: StructureDefinition.where(url = 'http://fhir.logicahealth.org/covid19/StructureDefinition/covid19-manufacturer').baseDefinition: US FHIR Usage rules require that all profiles on Organization derive from the core US profile
+WARNING: StructureDefinition.where(url = 'http://fhir.logicahealth.org/covid19/StructureDefinition/covid19-symptoms-absent').baseDefinition: US FHIR Usage rules require that all profiles on Condition derive from the core US profile
+WARNING: StructureDefinition.where(url = 'http://fhir.logicahealth.org/covid19/StructureDefinition/covid19-symptoms-present').baseDefinition: US FHIR Usage rules require that all profiles on Condition derive from the core US profile
+WARNING: StructureDefinition.where(url = 'http://fhir.logicahealth.org/covid19/StructureDefinition/covid19-underlying-condition-observation').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
+WARNING: StructureDefinition.where(url = 'http://fhir.logicahealth.org/covid19/StructureDefinition/covid19-underlying-condition-observation-parent').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
+WARNING: StructureDefinition.where(url = 'http://fhir.logicahealth.org/covid19/StructureDefinition/exposure-type').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
+WARNING: StructureDefinition.where(url = 'http://fhir.logicahealth.org/covid19/StructureDefinition/gestational-age-at-onset-of-illness').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
+WARNING: StructureDefinition.where(url = 'http://fhir.logicahealth.org/covid19/StructureDefinition/known-exposure').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
+WARNING: StructureDefinition.where(url = 'http://fhir.logicahealth.org/covid19/StructureDefinition/pregnancy-status').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
+WARNING: StructureDefinition.where(url = 'http://fhir.logicahealth.org/covid19/StructureDefinition/smoking-status').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
+WARNING: StructureDefinition.where(url = 'http://fhir.logicahealth.org/covid19/StructureDefinition/travel-history').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
 
 
 # These codes are known to be SNOMED CT extension codes.
-ValueSet.compose[0].include[0].concept[3]	warning	The code 24721000205109 is not valid in the system http://snomed.info/sct
+WARNING: ValueSet/close-contact-setting-vs: ValueSet.compose[0].include[0].concept[3]: The code 24721000205109 is not valid in the system http://snomed.info/sct
+
 
 # This code system should be supported.
-ValueSet.compose[0].include[0]	warning	Unknown System specified, so Concepts and Filters can''t be checked
+WARNING: ValueSet/hl7-yes-no-vs: ValueSet.compose[0].include[0]: Unknown System specified, so Concepts and Filters can''t be checked
 WARNING: ValueSet.where(id = 'hl7-yes-no-vs'): Error from server: Unable to provide support for code system https://terminology.hl7.org/ValueSet/v2-0136
 
 # These LOINC Answer codes have not yet been released.
-ValueSet.compose[0].include[0].concept[0]	warning	The code LA30830-6 is not valid in the system http://loinc.org
-ValueSet.compose[0].include[0].concept[1]	warning	The code LA30831-4 is not valid in the system http://loinc.org
-ValueSet.compose[0].include[0].concept[2]	warning	The code LA30832-2 is not valid in the system http://loinc.org
-ValueSet.compose[0].include[0].concept[3]	warning	The code LA30833-0 is not valid in the system http://loinc.org
-ValueSet.compose[0].include[0].concept[4]	warning	The code LA30834-8 is not valid in the system http://loinc.org
-ValueSet.compose[0].include[0].concept[5]	warning	The code LA30835-5 is not valid in the system http://loinc.org
-ValueSet.compose[0].include[0].concept[6]	warning	The code LA30836-3 is not valid in the system http://loinc.org
-ValueSet.compose[0].include[0].concept[7]	warning	The code LA30837-1 is not valid in the system http://loinc.org
-ValueSet.compose[0].include[0].concept[8]	warning	The code LA30838-9 is not valid in the system http://loinc.org
-ValueSet.compose[0].include[0].concept[9]	warning	The code LA30839-7 is not valid in the system http://loinc.org
-ValueSet.compose[0].include[0].concept[10]	warning	The code LA30840-5 is not valid in the system http://loinc.org
-ValueSet.compose[0].include[0].concept[11]	warning	The code LA30841-3 is not valid in the system http://loinc.org
+WARNING: ValueSet/known-exposure-la-ValueSet: ValueSet.compose[0].include[0].concept[0]: The code LA30830-6 is not valid in the system http://loinc.org
+WARNING: ValueSet/known-exposure-la-ValueSet: ValueSet.compose[0].include[0].concept[1]: The code LA30831-4 is not valid in the system http://loinc.org
+WARNING: ValueSet/known-exposure-la-ValueSet: ValueSet.compose[0].include[0].concept[2]: The code LA30832-2 is not valid in the system http://loinc.org
+WARNING: ValueSet/known-exposure-la-ValueSet: ValueSet.compose[0].include[0].concept[3]: The code LA30833-0 is not valid in the system http://loinc.org
+WARNING: ValueSet/known-exposure-la-ValueSet: ValueSet.compose[0].include[0].concept[4]: The code LA30834-8 is not valid in the system http://loinc.org
+WARNING: ValueSet/known-exposure-la-ValueSet: ValueSet.compose[0].include[0].concept[5]: The code LA30835-5 is not valid in the system http://loinc.org
+WARNING: ValueSet/known-exposure-la-ValueSet: ValueSet.compose[0].include[0].concept[6]: The code LA30836-3 is not valid in the system http://loinc.org
+WARNING: ValueSet/known-exposure-la-ValueSet: ValueSet.compose[0].include[0].concept[7]: The code LA30837-1 is not valid in the system http://loinc.org
+WARNING: ValueSet/known-exposure-la-ValueSet: ValueSet.compose[0].include[0].concept[8]: The code LA30838-9 is not valid in the system http://loinc.org
+WARNING: ValueSet/known-exposure-la-ValueSet: ValueSet.compose[0].include[0].concept[9]: The code LA30839-7 is not valid in the system http://loinc.org
+WARNING: ValueSet/known-exposure-la-ValueSet: ValueSet.compose[0].include[0].concept[10]: The code LA30840-5 is not valid in the system http://loinc.org
+WARNING: ValueSet/known-exposure-la-ValueSet: ValueSet.compose[0].include[0].concept[11]: The code LA30841-3 is not valid in the system http://loinc.org
