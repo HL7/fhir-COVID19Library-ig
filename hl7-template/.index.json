@@ -1,0 +1,23 @@
+﻿{
+  "index-version": 1,
+  "files": [
+    {
+      "filename": "onGenerate-ig-working.json",
+      "resourceType": "ImplementationGuide",
+      "id": "hl7.fhir.us.covid19",
+      "url": "http://fhir.logicahealth.org/covid19/ImplementationGuide/hl7.fhir.us.covid19",
+      "version": "0.13.1"
+    },
+    {
+      "filename": "onGenerate-validation.json",
+      "resourceType": "OperationOutcome"
+    },
+    {
+      "filename": "onLoad-ig-working.json",
+      "resourceType": "ImplementationGuide",
+      "id": "hl7.fhir.us.covid19",
+      "url": "http://fhir.logicahealth.org/covid19/ImplementationGuide/hl7.fhir.us.covid19",
+      "version": "0.13.1"
+    }
+  ]
+}
