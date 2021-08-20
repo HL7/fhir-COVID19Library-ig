@@ -12,8 +12,8 @@
 id: hl7.fhir.us.covid19
 canonical: http://hl7.org/fhir/us/covid19
 version: 0.13.0
-name: LogicaCOVID19FHIRProfileLibraryIG
-title: Logica COVID-19 FHIR Profile Library IG
+name: COVID19FHIRProfileLibraryIG
+title: COVID-19 FHIR Profile Library IG
 status: active
 publisher:
   -
