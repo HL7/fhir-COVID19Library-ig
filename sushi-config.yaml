@@ -60,10 +60,6 @@ pages:
     title: Esposure questionnaire example
   9_COVID19Immunization.md:
     title: CVOID-19 Immunization
-  10_downloads.md:
-    title: Downloads
-  history.md:
-    title: History
 
 menu:
   IG Home: index.html
