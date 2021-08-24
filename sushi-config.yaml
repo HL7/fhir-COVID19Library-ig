@@ -17,8 +17,8 @@ title: COVID-19 FHIR Profile Library IG
 status: active
 publisher:
   -
-    name: Orders and Observations
-    url: https://www.hl7.org/Special/committees/orders/index.cfm
+    name: HL7 International - Cliniical Information Modeling Initiative
+    url: http://hl7.org/Special/committees/cimi/index.cfm
   -
     name: Logica
     url: https://www.logicahealth.org/
@@ -33,6 +33,7 @@ dependencies:
 parameters:
   show-inherited-invariants: false
   path-expansion-params: ../../exp-params.json
+copyright: HL7 International & Logica Health, all rights reserved Creative Commons License
 copyrightYear: 2021+
 releaseLabel: ci-build
 jurisdiction: urn:iso:std:iso:3166#US "United States of America"
@@ -40,28 +41,28 @@ jurisdiction: urn:iso:std:iso:3166#US "United States of America"
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
 # │  To use a provided ig-data/input/includes/menu.xml file, delete the "menu" property below.     │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-pages:
-  index.md:
-  1_Logica_comparison_to_eICR.md:
-    title: Logica comparison to eICR
-  2_Patient_Demographics_and_Vital_Signs.md:
-    title: Patient demographics and Vital Signs
-  3_CaseReportingInfo.md:
-    title: Case reporting information
-  4_ExposureInfo.md:
-    title: Exposure information
-  5_SignsSymptoms_Diagnoses_Comorbidities.md:
-    title: Signs, Symptoms, Diagnoses, and Underlying conditions
-  6_LabProfiles.md:
-    title: Lab profiles
-  7_SmokingStatus_PregnancyStatus.md:
-    title: Smoking status and Pregnancy status
-  8_ExposureQuestionnaire.md:
-    title: Esposure questionnaire example
-  9_COVID19Immunization.md:
-    title: CVOID-19 Immunization
-  10_downloads.md:
-    title: Downloads
+#pages:
+#  index.md:
+#  1_Logica_comparison_to_eICR.md:
+#    title: Logica comparison to eICR
+#  2_Patient_Demographics_and_Vital_Signs.md:
+#    title: Patient demographics and Vital Signs
+#  3_CaseReportingInfo.md:
+#    title: Case reporting information
+#  4_ExposureInfo.md:
+#    title: Exposure information
+#  5_SignsSymptoms_Diagnoses_Comorbidities.md:
+#    title: Signs, Symptoms, Diagnoses, and Underlying conditions
+#  6_LabProfiles.md:
+#    title: Lab profiles
+#  7_SmokingStatus_PregnancyStatus.md:
+#    title: Smoking status and Pregnancy status
+#  8_ExposureQuestionnaire.md:
+#    title: Esposure questionnaire example
+#  9_COVID19Immunization.md:
+#    title: CVOID-19 Immunization
+#  10_downloads.md:
+#    title: Downloads
 
 
 menu:

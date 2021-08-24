@@ -1,9 +1,9 @@
 ﻿
 #### Tobacco Smoking Status
 
-The Smoking Status profile is used to capture if the patient is a current smoker, former smoker, or never smoked.
+The Smoking Status profile is used to capture if the patient is a current smoker, former smoker, or never smoked.  The US Core Implementation Guide has defined a profile for this and can be found at the link below.  This IG will not create another profile for it.
 
-[Smoking Status](StructureDefinition-smoking-status.html)
+[Smoking Status](http://hl7.org/fhir/us/core/STU3.1/StructureDefinition-us-core-smokingstatus.html)
 
 #### Pregnancy Status
 

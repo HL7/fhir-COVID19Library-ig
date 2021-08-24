@@ -386,7 +386,7 @@ Description: "The set of SNOMED CT terms that describe the state of tobacco use.
 * ^version = "0.1.0"
 * ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
 * SCT#77176002 "Smoker (finding)"
-* SCT#266919005 "Never smoked tovacco (finding)"
+* SCT#266919005 "Never smoked tobacco (finding)"
 * SCT#8517006 "Ex-smoker (finding)"
 * SCT#266927001 "Tobacco smoking consumption unknown (finding)"
 

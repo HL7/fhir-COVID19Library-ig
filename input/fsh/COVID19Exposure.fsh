@@ -58,7 +58,7 @@ Description: "The country or countries to which the subject may have traveled."
 * component[TravelEndDate].code = LNC#91560-3 "Date of departure from travel destination"
 * component[TravelEndDate].value[x] only dateTime
 
-Profile: SmokingStatus
+/* Profile: SmokingStatus
 Parent: Observation
 Id: smoking-status
 Title: "Tobacco smoking status"
@@ -72,7 +72,7 @@ Description: "Smoking Status describes an individual's current state of tobacco 
 * specimen 0..0
 * device 0..0
 * referenceRange 0..0
-* hasMember 0..0
+* hasMember 0..0 */
 
 //Profile: DiseaseStage
 //Parent: Observation
