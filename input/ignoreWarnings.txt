@@ -1,4 +1,4 @@
-==Supressed Messages==
+==Suppressed Messages==
 # Because this is an informational implementation guide, examples were not created for the profiles.  As per Lloyd McKenzie, Aug 24, 2021 because the Sept. 2021 ballot is "comment only", "we can relax the 'must have examples' requirement".
 WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/covid19/StructureDefinition/COVID-19-ICD10-Diagnosis'): The Implementation Guide contains no examples for this profile
 WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/covid19/StructureDefinition/covid-19-immunization'): The Implementation Guide contains no examples for this profile
@@ -151,7 +151,7 @@ WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/covid19/Structu
 WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/covid19/StructureDefinition/certainty-of-absence'): The Implementation Guide contains no examples for this extension
 WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/covid19/StructureDefinition/certainty-of-presence'): The Implementation Guide contains no examples for this extension
 WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/covid19/StructureDefinition/covid-19-exposure-questionnaire'): The Implementation Guide contains no examples for this profile
-# The US Core profiles of Observation and Condition are either too specific or insuficient to be used as bases for this Implementation Guide's needs.  We are in discussions with the Cross Group Projects WG about them.
+# The US Core profiles of Observation and Condition are either too specific or insuficient to be used as bases for this Implementation Guide's needs.  We are in discussions with the Cross Group Projects WG about them.  Jira tracker issue ID = FHIR-33246.
 WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/covid19/StructureDefinition/case-patient-report-id').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
 WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/covid19/StructureDefinition/covid-19-exposure-core').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
 WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/covid19/StructureDefinition/COVID-19-ICD10-Diagnosis').baseDefinition: US FHIR Usage rules require that all profiles on Condition derive from the core US profile
@@ -167,9 +167,6 @@ WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/covid19/Structu
 WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/covid19/StructureDefinition/pregnancy-status').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
 WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/covid19/StructureDefinition/smoking-status').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
 WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/covid19/StructureDefinition/travel-history').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
-# These are version 2 code sets, the URLs used are from the FHIR R4 Spec, and should be supported.
-WARNING: ValueSet/hl7-yes-no-vs: ValueSet.compose[0].include[0].concept[0]: The code Y is not valid in the system https://terminology.hl7.org/ValueSet/v2-0136
-WARNING: ValueSet/hl7-yes-no-vs: ValueSet.compose[0].include[0].concept[1]: The code N is not valid in the system https://terminology.hl7.org/ValueSet/v2-0136
 # These LOINC Answer codes are valid but not yet attached to any LOINC term.  Regenstrief to resolve the issue in the Feb. 2022 release of LOINC.
 WARNING: ValueSet/known-exposure-la-ValueSet: ValueSet.compose[0].include[0].concept[0]: The code LA30830-6 is not valid in the system http://loinc.org
 WARNING: ValueSet/known-exposure-la-ValueSet: ValueSet.compose[0].include[0].concept[1]: The code LA30831-4 is not valid in the system http://loinc.org
