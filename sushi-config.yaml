@@ -9,8 +9,8 @@
 # │  The properties below are used to create the ImplementationGuide resource. For a list of       │
 # │  supported properties, see: https://fshschool.org/sushi/configuration/                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: hl7.fhir.us.covid19
-canonical: http://hl7.org/fhir/us/covid19
+id: hl7.fhir.us.covid19library
+canonical: http://hl7.org/fhir/us/covid19library
 version: 0.13.0
 name: COVID19FHIRProfileLibraryIG
 title: COVID-19 FHIR Profile Library IG
