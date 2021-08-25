@@ -1,5 +1,5 @@
 Profile: COVID19Manufacturer
-Parent: Organization
+Parent: USCoreOrganization
 Id: covid19-manufacturer 
 Title: "COVID 19 Vaccine Manufacturer"
 Description: "A profile of the Organization resource to constain it to vaccine manufacturers."
