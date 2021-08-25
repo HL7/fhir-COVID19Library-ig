@@ -170,7 +170,6 @@ WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/covid19/Structu
 # These are version 2 code sets, the URLs used are from the FHIR R4 Spec, and should be supported.
 WARNING: ValueSet/hl7-yes-no-vs: ValueSet.compose[0].include[0].concept[0]: The code Y is not valid in the system https://terminology.hl7.org/ValueSet/v2-0136
 WARNING: ValueSet/hl7-yes-no-vs: ValueSet.compose[0].include[0].concept[1]: The code N is not valid in the system https://terminology.hl7.org/ValueSet/v2-0136
-WARNING: ValueSet.where(id = 'hl7-yes-no-vs'): Error from server: Unable to provide support for code system https://terminology.hl7.org/ValueSet/v2-0136
 WARNING: ValueSet.compose[0].include[0]	warning	Unknown System specified, so Concepts and Filters can''t be checked
 # These LOINC Answer codes are valid but not yet attached to any LOINC term.  Regenstrief to resolve the issue in the Feb. 2022 release of LOINC.
 WARNING: ValueSet/known-exposure-la-ValueSet: ValueSet.compose[0].include[0].concept[0]: The code LA30830-6 is not valid in the system http://loinc.org

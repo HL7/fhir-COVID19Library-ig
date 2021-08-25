@@ -181,14 +181,14 @@ Description: "The SNOMED CT codes to answer in the affirmative or negative."
 * SCT#373066001 "Yes (qualifier value)"
 * SCT#373067005 "No (qualifier value)"
 
-ValueSet: HL7YesNoVS
-Id: hl7-yes-no-vs
-Title: "HL7 Yes/No value set"
-Description: "The HL7 version 2 codes for answers in the affirmative or negative."
-* ^version = "0.1.0"
-* ^copyright = "TBD"
-* YesNo#Y "Yes"
-* YesNo#N "No"
+//ValueSet: HL7YesNoVS
+//Id: hl7-yes-no-vs
+//Title: "HL7 Yes/No value set"
+//Description: "The HL7 version 2 codes for answers in the affirmative or negative."
+//* ^version = "0.1.0"
+//* ^copyright = "TBD"
+//* YesNo#Y "Yes"
+//* YesNo#N "No"
 
 //ValueSet: CountryCodesVS
 //Id: country-codes-vs
