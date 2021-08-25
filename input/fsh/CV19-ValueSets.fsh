@@ -9,7 +9,7 @@ Description: "The SNOMED CT codes for present, absent, and unknown."
 * SCT#261665006 "Unknown (qualifier value)"
 
 ValueSet: DetNotDetEqInVS
-Id: covid19-det-not-det-inconclusive-vs 
+Id: covid19-det-notdet-eq-inc-vs 
 Title: "Detected, Not Detected, Inconclusive Value Set"
 Description: "A set of SNOMED codes representing the result of a test as detected, not detected, equivalent, or inconclusive."
 * ^version = "0.1.0"
@@ -190,13 +190,13 @@ Description: "The HL7 version 2 codes for answers in the affirmative or negative
 * YesNo#Y "Yes"
 * YesNo#N "No"
 
-ValueSet: CountryCodesVS
-Id: country-codes-vs
-Title: "Country Codes Value Set"
-Description: "The set of SNOMED CT codes that represent countries."
-* ^version = "0.1.0"
-* ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
-* codes from system SCT where concept is-a #223369002 "Country (geographical location)"
+//ValueSet: CountryCodesVS
+//Id: country-codes-vs
+//Title: "Country Codes Value Set"
+//Description: "The set of SNOMED CT codes that represent countries."
+//* ^version = "0.1.0"
+//* ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
+//* codes from system SCT where concept is-a #223369002 "Country (geographical location)"
 
 ValueSet: ISOCountryVS
 Id: iso-country-codes-value-set

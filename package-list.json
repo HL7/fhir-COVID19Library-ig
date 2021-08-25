@@ -1,7 +1,7 @@
 {
     "package-id": "hl7.fhir.us.covid19",
     "title": "Logica COVID-19 FHIR Profile Library IG",
-    "canonical": "http://hl7.org/fhir/us/covid19library",
+    "canonical": "http://hl7.org/fhir/us/covid19",
     "category": "Public Health",
     "introduction": "The COVID-19 IG describes structured data to be collected and communicated between providers and aggregators.",
     "list": [{
