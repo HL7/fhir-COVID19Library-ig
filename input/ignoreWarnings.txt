@@ -1,4 +1,4 @@
-==Suppressed Messages==
+== Suppressed Messages ==
 
 # Because this is an informational implementation guide, examples were not created for the profiles.  As per Lloyd McKenzie, Aug 24, 2021 because the Sept. 2021 ballot is "comment only", "we can relax the 'must have examples' requirement".
 The Implementation Guide contains no examples for this profile
