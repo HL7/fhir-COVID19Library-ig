@@ -18,7 +18,7 @@ status: active
 publisher:
   -
     name: HL7 International - Clinical Information Modeling Initiative
-    url: http://hl7.org/Special/committees/cimi/index.cfm
+    url: http://hl7.org/Special/committees/cimi
   -
     name: Logica
     url: https://www.logicahealth.org/

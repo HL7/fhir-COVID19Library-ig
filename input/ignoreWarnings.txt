@@ -4,7 +4,7 @@
 The Implementation Guide contains no examples for this profile
 The Implementation Guide contains no examples for this extension
 
-W# The US Core profiles of Observation and Condition are either too specific or insuficient to be used as bases for this Implementation Guide's needs.  We are in discussions with the Cross Group Projects WG about them.  Jira tracker issue ID = FHIR-33246.
+# The US Core profiles of Observation and Condition are either too specific or insuficient to be used as bases for this Implementation Guide's needs.  US Core Variance request approved  Aug. 26, 2021, Jira tracker issue ID = FHIR-33246.
 US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
 
 # These LOINC Answer codes are valid but not yet attached to any LOINC term.  Regenstrief to resolve the issue in the Feb. 2022 release of LOINC.
