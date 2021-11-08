@@ -1,7 +1,7 @@
 # COVID-19 / SARS-CoV-2 FHIR Profiles Implementation Guide (IG)
 
 * [Discussion group](https://groups.google.com/a/logicahealth.org/forum/#!forum/covid): https://groups.google.com/a/logicahealth.org/forum/#!forum/covid
-* [Production Release](https://covid-19-ig.logicahealth.org): https://covid-19-ig.logicahealth.org
+* [Ballot Release](www.hl7.org/fhir/us/covid19library/2021Sep): www.hl7.org/fhir/us/covid19library/2021Sep
 * [Staging](https://covid-19-ig.logicahealth.org): https://covid-19-ig.logicahealth.org
 * [Logica COVID-19 Interoperability Project](https://www.logicahealth.org/covid-19-interoperability-project): https://www.logicahealth.org/covid-19-interoperability-project
 * [COVID-19 Interoperability Alliance](https://www.covid19ia.org): https://www.covid19ia.org

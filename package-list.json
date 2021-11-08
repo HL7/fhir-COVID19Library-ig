@@ -18,6 +18,14 @@
             "status": "ballot",
             "sequence": "Drafts",
             "fhirversion": "4.0.1"
+        },
+        {   "version": "0.14.0",
+            "date": "2021-11-08",
+            "desc": "Official informative ballot release",
+            "path": "http://hl7.org/fhir/us/covid19library/2022Jan",
+            "status": "ballot",
+            "sequence": "Drafts",
+            "fhirversion": "4.0.1"
         }
     ]
 }

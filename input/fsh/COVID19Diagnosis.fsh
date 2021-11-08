@@ -36,26 +36,6 @@ Description: "An extension to capture the degree certainty of the existence of a
 * value[x] only CodeableConcept
 * valueCodeableConcept from CertaintyOfPresenceVS (required)
 
-Profile: COVID19UnderlyingMedicalConditionAbsent
-Parent: USCoreCondition
-Id: COVID-19-underlying-medical-condition-absent
-Title: "COVID-19 General Underlying Conditions Absent"
-Description: "An assertion that generalized conditions such as chronic respiratory disease ARE NOT present along with the COVID-19 disease."
-* modifierExtension contains
-    CertaintyOfAbsence named certaintyOfAbsence 1..1
-* verificationStatus 0..0
-* bodySite 0..0
-* code from COVID19UnderlyingMedicalConditionVS (extensible)
-* stage 0..0
-* evidence 0..0
-
-Extension: CertaintyOfAbsence
-Id: certainty-of-absence
-Title: "Certainty of Absence"
-Description: "An extension to capture the degree certainty of the non-existence of a condition."
-* value[x] only CodeableConcept
-* valueCodeableConcept from CertaintyOfAbsenceVS (required)
-
 Profile: COVID19UnderlyingCardiovascularMedicalConditionPresent
 Parent: USCoreCondition
 Id: underlying-cardiovascular-medical-condition-present

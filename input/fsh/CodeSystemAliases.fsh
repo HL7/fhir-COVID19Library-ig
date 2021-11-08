@@ -28,4 +28,3 @@ Alias:   YesNo = https://terminology.hl7.org/ValueSet/v2-0136
 Alias:   NUCC = http://nucc.org/provider-taxonomy
 Alias:   LabObs = COVID19LabValuesCS
 Alias:   CVX = http://hl7.org/fhir/sid/cvx
-

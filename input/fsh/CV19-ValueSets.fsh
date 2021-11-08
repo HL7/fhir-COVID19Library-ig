@@ -291,23 +291,23 @@ Description: "The set of SNOMED CT codes that represent the level of certainty t
 * SCT#410515003 "Known present (qualifier value)"
 * SCT#410591008 "Definitely Present (qualifier value)"
 
-ValueSet: CertaintyOfAbsenceVS 
+/* ValueSet: CertaintyOfAbsenceVS 
 Id: certainty-of-absence-value-set
 Title: "Certainty of Absence Value Set"
-Description: "The set of SNOMED CT codes that represent the leve of certainty that a condition does not exist."
+Description: "The set of SNOMED CT codes that represent the level of certainty that a condition does not exist."
 * ^version = "0.2.0"
 * ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
 * SCT#410594000	"Definitely NOT present (qualifier value)"
 * SCT#723511001	"Refuted (qualifier value)"
-* SCT#410516002 "Known absent"
+* SCT#410516002 "Known absent" */
 
-ValueSet: HealthcareOccupationVS
+/* ValueSet: HealthcareOccupationVS
 Id: healthcare-occupation-value-set
 Title: "Healthcare Occupation Value Set"
 Description: "A set of SNOMED CT codes that represent occupations within the health care industry."
 * ^version = "0.1.0"
 * ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
-* codes from system SCT where concept is-a #223366009 "Healthcare professional (occupation)"
+* codes from system SCT where concept is-a #223366009 "Healthcare professional (occupation)" */
 
 // ValueSet: NUCCValueSet
 // Id: nucc-value-set
