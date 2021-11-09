@@ -1,5 +1,3 @@
-_For previous release notes, see the [history page](history.html)_
-
 ### Introduction
 
 The COVID-19 crisis presents an unprecedented need to share information in a standards-based way to support direct patient care, patient screening, public health reporting, and research.  Logica (formerly HSPC) has decided to use the resources of the organization to produce information models and terminology to support sharing of data and information related to COVID-19.  We have created and are sharing at no cost, HL7 FHIR profiles for COVID-19 related data, and a spreadsheet with the same information. We hope that people can use the spreadsheet to make their own implementations targeting HL7 CDA, HL7 V2.X, or other solutions. Our goal is to provide immediate help in the current crisis, not in 6 months from now, so we are publishing artifacts as soon as possible, recognizing they will not be perfect or comprehensive, but hopefully they will be useful.  We will then publish corrections and additional content iteratively as fast as we can.

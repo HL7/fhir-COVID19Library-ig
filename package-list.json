@@ -7,7 +7,7 @@
     "list": [{
             "version": "current",
             "desc": "Continuous Integration Build (latest in version control)",
-            "path": "http://build.fhir.org/ig/HL7/covid19library",
+            "path": "http://build.fhir.org/ig/HL7/fhir-COVID19Library-ig/branches/master/index.html",
             "status": "ci-build",
             "current": true
         },
