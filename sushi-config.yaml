@@ -43,6 +43,7 @@ jurisdiction: urn:iso:std:iso:3166#US "United States of America"
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 pages:
   index.md:
+    title: Home
   1_Logica_comparison_to_eICR.md:
     title: Logica comparison to eICR
   2_Patient_Demographics_and_Vital_Signs.md:
@@ -58,9 +59,9 @@ pages:
   7_SmokingStatus_PregnancyStatus.md:
     title: Smoking status and Pregnancy status
   8_ExposureQuestionnaire.md:
-    title: Esposure questionnaire example
+    title: Exposure questionnaire example
   9_COVID19Immunization.md:
-    title: CVOID-19 Immunization
+    title: COVID-19 Immunization
   10_downloads.md:
     title: Downloads
 

@@ -18,7 +18,7 @@ If you are using profiles or guidance from this implementation guide or plan on 
 
 The following reporting forms, documents, and terminology sources were consulted when creating the profiles for this IG.  This list will grow as new profiles are added.
 
-- CDC COVID-19 Person Under Ivestigation (PUI) form
+- CDC COVID-19 Person Under Ivestigation (PUI) form.  You may download a PDF version of the form [here](https://www.okmed.org/web/images/online/documents/COVID19/CDC-PUI-Report-Form.pdf)
 - Council of State and Territorial Epidemiologists (CTSE) and national notification for 2019 novel coronavirus disease (COVID-19)
 - Salt Lake County COVID-19 form
 - CDC COVID-19-Associated Hospitalization Surveillance Case Report Form

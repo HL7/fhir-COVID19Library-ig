@@ -12,22 +12,22 @@ Description: "A parent, abstract profile to be used for the CDC COVID 19 PUI rep
 * referenceRange 0..0
 * hasMember 0..0
 
-Profile: ExposureType
+Profile: KnownSARSCoV2Exposure
 Parent: COVID19ExposureCore
+Id: known-sars-cov-2-exposure
+Title: "Known Exposure"
+Description: "Known SARS-CoV-2 Exposure is an observation to state that it is known that an individual has or has not been exposed to the SARS-CoV-2 virus."
+* extension contains
+    ExposureType named exposureType 0..1 MS
+* value[x] only CodeableConcept
+* valueCodeableConcept = SCT#840533007 "Severe acute respiratory syndrome coronavirus 2 (organism)"
+
+Extension: ExposureType
 Id: exposure-type
 Title: "Exposure Type"
-Description: "Exposure Type is a description of how, when, where, and with whom and individual was exposed to SARS CoV 2 virus."
-* code = LNC#88636-6
+Description: "An extension to record the manner in which an individual was exposed to a contagion or substance."
 * value[x] only CodeableConcept
-* valueCodeableConcept from KnownExposureLAVS (preferred)
-
-Profile: KnownExposure
-Parent: COVID19ExposureCore
-Id: known-exposure
-Title: "Known Exposure"
-Description: "Known Exposure is an observation to state that it is known that an individual has or has not been exposed to a contagion."
-* value[x] only CodeableConcept
-* valueCodeableConcept from YesNoVS (preferred)
+* valueCodeableConcept from ExposureTypeLAVS (extensible)
 
 Profile: TravelHistory
 Parent: COVID19ExposureCore

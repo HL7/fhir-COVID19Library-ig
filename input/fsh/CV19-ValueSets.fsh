@@ -315,16 +315,11 @@ Description: "A set of SNOMED CT codes that represent occupations within the hea
 // Description: "The unique codes that describe provider types, classifications, and areas of specialization.  This value set includes content from NUCC Health Care Provider Taxonomy Code Set for providers which is copyright © 2016+ American Medical Association. For commercial use, including sales or licensing, a license must be obtained"
 // * codes from NUCC
 
-ValueSet: KnownExposureLAVS
-Id: known-exposure-la-ValueSet
-Title: "Known Exposure LOINC Answer Value Set"
-Description: "A set of LOINC answers for known expopsure"
-* ^version = "0.1.0"
+ValueSet: ExposureTypeLAVS
+Id: exposure-type-la-value-set
+Title: "Exposure Type LOINC Answer Value Set"
+Description: "A set of LOINC answers that describe the manner in which and individual was exposed."
 * ^copyright = "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc"
-* LNC#LA30830-6 "Travel to Wuhan"
-* LNC#LA30831-4 "Travel to Hubei"
-* LNC#LA30832-2 "Travel to mainland China"
-* LNC#LA30833-0 "Travel to other non-US country"
 * LNC#LA30834-8 "Household contact with other lab-confirmed COVID-19 case-patient"
 * LNC#LA30835-5 "Community contact with other lab-confirmed COVID-19 case-patient"
 * LNC#LA30836-3 "Any healthcare contact with other lab-confirmed COVID-19 case-patient"

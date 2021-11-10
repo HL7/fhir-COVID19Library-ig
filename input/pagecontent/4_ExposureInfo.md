@@ -1,8 +1,13 @@
-﻿
-These profiles should be used to record/transmit the data surrounding the context of how, when, and where an individual's exposure to SARS CoV 2 occurred.  The profiles consist of questions about known exposure (it's known that the individual was or was not exposed to SARS CoV 2), exposure type (who, what, how, etc.),  and travel history (where and when the exposure happened.)
+﻿### Exposure and Travel History
 
-[Known Exposure](StructureDefinition-known-exposure.html)
+The intent of these profiles is to record/transmit exposure data in the context of if an individual was exposed, and if so, the type of exposure.  And also to record/transmit travel to potential exposure "hot spots".
 
-[Exposure Type](StructureDefinition-exposure-type.html)
+#### Exposure
+
+This profile indicates whether or not an individual has been exposed to SARS-CoV-2 and if so, the type of exposure.
+
+[Known Exposure](StructureDefinition-known-sars-cov-2-exposure.html)
+
+The Travel History profile is used to indicate to where and when an individual has treveled.  This profile has components for country, state/province, and city of travel as well as components for the start and end dates of the travel.  **Note** If it is important to know duration of stay at different locations during a single travel event, separate instances of this profile should be used.  For example, an individual may travel to Mexico and may spend time in both Mexico City and Cancun.  If the duration of stay for both cities in important, then this profile should have separate instances for both cities rather than one instance for the entire trip.
 
 [Travel History](StructureDefinition-travel-history.html)

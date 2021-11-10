@@ -7,7 +7,7 @@
     "list": [{
             "version": "current",
             "desc": "Continuous Integration Build (latest in version control)",
-            "path": "http://build.fhir.org/ig/HL7/fhir-COVID19Library-ig/branches/master/index.html",
+            "path": "http://build.fhir.org/ig/HL7/covid19library",
             "status": "ci-build",
             "current": true
         },
@@ -15,14 +15,6 @@
             "date": "2021-08-20",
             "desc": "Official for-comment ballot release",
             "path": "http://hl7.org/fhir/us/covid19library/2021Sep",
-            "status": "ballot",
-            "sequence": "Drafts",
-            "fhirversion": "4.0.1"
-        },
-        {   "version": "0.14.0",
-            "date": "2021-11-08",
-            "desc": "Official informative ballot release",
-            "path": "http://hl7.org/fhir/us/covid19library/2022Jan",
             "status": "ballot",
             "sequence": "Drafts",
             "fhirversion": "4.0.1"

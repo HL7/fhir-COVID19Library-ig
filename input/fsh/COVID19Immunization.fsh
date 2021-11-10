@@ -11,7 +11,7 @@ Id: covid-19-immunization
 Title: "COVID-19 Immunization"
 Description: "A profile of the Immunization resource, constrainind some elements to specific to SARS CoV 2 information."
 * extension contains
-    ProcedureCode named procedureCode 0..1 MS
+    ProcedureCode named procedureCode 1..1 MS
 * extension[procedureCode].valueCodeableConcept = SCT#33879002 "Administration of vaccine to produce active immunity (procedure)"
 * vaccineCode.coding.code from COVID19_CVX_CodesVS (extensible)
 * manufacturer only Reference(covid19-manufacturer)
