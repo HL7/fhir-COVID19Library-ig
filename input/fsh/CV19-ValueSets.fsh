@@ -277,7 +277,7 @@ Description: "The set of SNOMED CT codes that represent the signs and symptoms a
 * SCT#422400008 "Vomiting (disorder)"
 * SCT#56018004 "Wheezing (finding)"
 
-ValueSet: CertaintyOfPresenceVS
+/* ValueSet: CertaintyOfPresenceVS
 Id: certainty-of-presence-value-set
 Title: "Certainty of Presence Value Set"
 Description: "The set of SNOMED CT codes that represent the level of certainty that a condition exists."
@@ -289,7 +289,7 @@ Description: "The set of SNOMED CT codes that represent the level of certainty t
 * SCT#410590009 "Known possible (qualifier value)"
 * SCT#410605003	"Confirmed present (qualifier value)"
 * SCT#410515003 "Known present (qualifier value)"
-* SCT#410591008 "Definitely Present (qualifier value)"
+* SCT#410591008 "Definitely Present (qualifier value)" */
 
 /* ValueSet: CertaintyOfAbsenceVS 
 Id: certainty-of-absence-value-set

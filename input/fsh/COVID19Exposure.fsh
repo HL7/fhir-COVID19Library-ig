@@ -19,6 +19,7 @@ Title: "Known Exposure"
 Description: "Known SARS-CoV-2 Exposure is an observation to state that it is known that an individual has or has not been exposed to the SARS-CoV-2 virus."
 * extension contains
     ExposureType named exposureType 0..1 MS
+* code = LNC#88636-6
 * value[x] only CodeableConcept
 * valueCodeableConcept = SCT#840533007 "Severe acute respiratory syndrome coronavirus 2 (organism)"
 

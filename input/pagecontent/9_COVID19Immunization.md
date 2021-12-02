@@ -10,3 +10,5 @@ Also indluded in this profile is an extension creatd to capture a procedure code
 
 [COVID-19 Immunization profile](StructureDefinition-covid-19-immunization.html)
 
+- [Example](Immunization-COVID19ImmunizationExample.html)
+

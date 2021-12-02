@@ -4,7 +4,15 @@ These profiles are based on LOINC codes specific to SARS CoV 2(the causitive age
 
 For information about mapping COVID-19 laboratory test codes to a specific test, click [here](https://www.cdc.gov/csels/dls/sars-cov-2-livd-codes.html) to download CDC's up to date test mapping tool site supported by [SHIELD](https://mdic.org/program/systemic-harmonization-and-interoperability-enhancement-for-lab-data-shield/).
 
-## LOINC/Profile table
+### Examples of the lab profiles
+
+Two examples for SARS CoV2 testing have been created, one to represent quantitative types and one to represent coded or ordinal types of tests.  Since all of the types are are well represented by these, examples for each profile were not created.
+
+- [Quantitative SARS CoV2 example](Observation-SARScoronavirus2AbIgGAcncPtSerPlasQnIALabObsExample.html)
+
+- [Ordinal/Coded SARS CoV2 example](Observation-SARScoronavirus2AbIgGPlusIgMPrThrPtSerPlasOrdIALabObsExample.html)
+
+### LOINC/Profile table
 
 | LOINC Code | Profile link |
 | :--- | :--- |

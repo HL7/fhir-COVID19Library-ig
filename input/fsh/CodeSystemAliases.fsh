@@ -1,5 +1,6 @@
 // Code Systems
 Alias:   LNC = http://loinc.org
+Alias:   LNCAL = http://loinc.org/vs/
 Alias:   SCT = http://snomed.info/sct
 Alias:   UCUM = http://unitsofmeasure.org
 Alias:   MTH = http://ncimeta.nci.nih.gov
@@ -28,3 +29,5 @@ Alias:   YesNo = https://terminology.hl7.org/ValueSet/v2-0136
 Alias:   NUCC = http://nucc.org/provider-taxonomy
 Alias:   LabObs = COVID19LabValuesCS
 Alias:   CVX = http://hl7.org/fhir/sid/cvx
+Alias:   STATUS = http://hl7.org/fhir/ValueSet/observation-status
+Alias:   CondCat = http://terminology.hl7.org/CodeSystem/condition-category

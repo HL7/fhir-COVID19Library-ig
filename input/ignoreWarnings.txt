@@ -24,3 +24,5 @@ The code LA30841-3 is not valid in the system http://loinc.org
 # This code is from a local SNOMED CT extension and will not be found in any released version (international, US, or other) until reviewed and accepted by SNOMED. 
 The code 24721000205109 is not valid in the system http://snomed.info/sct
 
+# A code system is provided for this code.
+A code with no system has no defined meaning. A system should be provided

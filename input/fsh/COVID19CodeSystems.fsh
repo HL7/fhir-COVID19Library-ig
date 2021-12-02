@@ -2,6 +2,7 @@ CodeSystem: COVID19UnderlyingConditionCategoryCS
 Id: covid19-underlying-condition-category-cs
 Title: "COVID19 Underlying Condition Category Code System"
 Description: "A set of types of underlying condition categories."
+* ^caseSensitive = true
 * #MEDCOND "COVID19 Underlying Medical Condition"
 * #CARCOND "COVID19 Underlying Cardiovascular Condition"
 * #NEUROCOND "COVID19 Underlying Neurologic Condition"
@@ -18,5 +19,6 @@ CodeSystem: COVID19LabValuesCS
 Id: covid19-lab-values-cs
 Title: "COVID19 Undefined Lab Values code system"
 Description: "A set of laboratory result values that are not defined in any code system."
+* ^caseSensitive = false
 * #equivalent "equivalent"
 * #invalid "invalid"
