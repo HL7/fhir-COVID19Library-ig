@@ -79,6 +79,7 @@ menu:
     Labs: 6_LabProfiles.html
     Smoking and pregnancy status: 7_SmokingStatus_PregnancyStatus.html
     COVID-19 Immunization: 9_COVID19Immunization.html
+    Other examples: Other_examples.html
   Artifacts: artifacts.html
   Support:
     FHIR Spec: new-tab http://hl7.org/fhir/R4/index.html
