@@ -11,6 +11,14 @@
             "status": "ci-build",
             "current": true
         },
+        {   "version": "0.14.0",
+            "date": "2021-12-02",
+            "desc": "Official informative ballot release",
+            "path": "http://hl7.org/fhir/us/covid19library/2022Jan",
+            "status": "ballot",
+            "sequence": "Drafts",
+            "fhirversion": "4.0.1"
+        },
         {   "version": "0.13.0",
             "date": "2021-08-20",
             "desc": "Official for-comment ballot release",
@@ -18,14 +26,7 @@
             "status": "ballot",
             "sequence": "Drafts",
             "fhirversion": "4.0.1"
-        },
-        {   "version": "0.14.0",
-            "date": "2021-12-02",
-            "desc": "Official informative ballot release",
-            "path": "http://hl7.org/fhir/us/covid19library/2022Jan/index.html",
-            "status": "ballot",
-            "sequence": "Drafts",
-            "fhirversion": "4.0.1"
         }
+        
     ]
 }

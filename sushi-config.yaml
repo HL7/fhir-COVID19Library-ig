@@ -35,7 +35,7 @@ parameters:
   path-expansion-params: ../../exp-params.json
 copyright: HL7 International & Logica Health, all rights reserved Creative Commons License
 copyrightYear: 2021+
-releaseLabel: ci-build
+releaseLabel: Informative Ballot
 jurisdiction: urn:iso:std:iso:3166#US "United States of America"
 
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
