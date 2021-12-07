@@ -36,15 +36,6 @@ Description: "Abstract base class for laboratory observations."
 * performer[performingLaboratory] only Reference(Organization)
 * performer[performingOrganizationMedicalDirector] only Reference(Practitioner)
 // Extension for standalone reporting priority
-* extension contains 
-    ReportingPriority named reportingPriority 0..1
-
-Extension: ReportingPriority
-Id: reporting-priority
-Description: "The urgency level for which an observation must be reported."
-Title: "Reporting Priority"
-* value[x] only CodeableConcept
-* valueCodeableConcept from ReportingPriorityVS (preferred)
 
 Profile: QuantitativeLaboratoryObservationBase
 Parent: LaboratoryObservationBase

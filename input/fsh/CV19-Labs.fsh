@@ -1,4 +1,4 @@
-Profile:  SARScoronavirus2AbIgGAcncPtSerPlasQnIALabObs
+Profile:  SARScoronavirus2AbIgGAcncPtSerPlasQnIALabObs 
 Parent:   QuantitativeLaboratoryObservationBase
 Title:    "SARS-CoV-2 (COVID19) IgG Ab [Units/volume] in Serum or Plasma by Immunoassay"
 Description: "SARScoronavirus2AbIgGAcncPtSerPlasQnIALabObs is a quantitative test for the SARS-CoV-2 (COVID19) IgG antibody via immunoassay. LOINC code 94505-5."
@@ -11,19 +11,26 @@ Parent:   LaboratoryObservationPanelBase
 Title:    "SARS-CoV-2 (COVID19) IgG and IgM panel - Serum or Plasma Qualitative by Rapid immunoassay"
 Description:  "SARS-CoV-2 (COVID19) IgG and IgM panel - Serum or Plasma Qualitative by Rapid immunoassay"
 * code = LNC#94503-0
+* value[x] 0..0
 * hasMember contains
-    SARScoronavirus2AbIgGPrThrPtSerPlasOrdIArapidLabObs 0..1 and
-    SARScoronavirus2AbIgMPrThrPtSerPlasOrdIArapidLabObs 0..1 and
-    SARScoronavirus2AbIgGPlusIgMPrThrPtSerPlasOrdIALabObs 0..1
+    SARS-CoV-2AbIgG-IA-rapid 0..1 and
+    SARS-CoV-2AbIgM-IA-rapid 0..1 and
+    SARS-CoV-2AbIgG-IgM-IA 0..1
+* hasMember[SARS-CoV-2AbIgG-IA-rapid] only Reference(SARScoronavirus2AbIgGPrThrPtSerPlasBldOrdIArapid)
+* hasMember[SARS-CoV-2AbIgM-IA-rapid] only Reference(SARScoronavirus2AbIgMPrThrPtSerPlasOrdIArapidLabObs)
+* hasMember[SARS-CoV-2AbIgG-IgM-IA] only Reference(SARScoronavirus2AbIgGPlusIgMPrThrPtSerPlasOrdIALabObs)
 
 Profile:  SARScoronavirus2AbIgGandIgMpanelPtSerPlasQnIALabObs
 Parent:   LaboratoryObservationPanelBase
 Title: "SARS-CoV-2 (COVID19) IgG and IgM panel - Serum or Plasma by Immunoassay"
 Description: "SARScoronavirus2AbIgGandIgMpanelPtSerPlasQnIALabObs is a collection of quantitative tests for SARS-CoV-2 (COVID19) antibodies, IgG and IgM. LOINC code 94504-8."
 * code = LNC#94504-8
+* value[x] 0..0
 * hasMember contains
-    SARScoronavirus2AbIgGAcncPtSerPlasQnIALabObs 0..1 and
-    SARScoronavirus2AbIgGPrThrPtSerPlasOrdIALabObs 0..1
+    SARS-CoV-2AbIgG-Qn-IA 0..1 and
+    SARS-CoV-2AbIgG-Ord-IA 0..1
+* hasMember[SARS-CoV-2AbIgG-Qn-IA] only Reference(SARScoronavirus2AbIgGAcncPtSerPlasQnIALabObs)
+* hasMember[SARS-CoV-2AbIgG-Ord-IA] only Reference(SARScoronavirus2AbIgGPrThrPtSerPlasOrdIALabObs)
 
 Profile:  SARScoronavirus2AbIgGPlusIgMPrThrPtSerPlasOrdIALabObs
 Parent:   CodedLaboratoryObservationBase
@@ -150,10 +157,14 @@ Parent:   LaboratoryObservationPanelBase
 Title: "SARS-CoV-2 (COVID19) RNA panel - Respiratory specimen by NAA with probe detection"
 Description: "SARScoronavirus2RNAPanelPtRespPrbAmpTar is a collection of tests for the SARS-CoV-2 (COVID19) RNA. LOINC code 94531-1."
 * code = LNC#94531-1
+* value[x] 0..0
 * hasMember contains
     SARScoronavirus2NGenePrThrPtRespOrdPrbAmpTarLabObs 0..1 and
     SARScoronavirus2RdRpGenePrThePtRespOrdPrbAmpTarLabObs 0..1 and
     SARScoronavirus2RNAPrThrPtRespOrdPrbAmpTarLabObs 0..1
+* hasMember[SARScoronavirus2NGenePrThrPtRespOrdPrbAmpTarLabObs] only Reference(SARScoronavirus2NGenePrThrPtRespOrdPrbAmpTarLabObs)
+* hasMember[SARScoronavirus2RdRpGenePrThePtRespOrdPrbAmpTarLabObs] only Reference(SARScoronavirus2RdRpGenePrThePtRespOrdPrbAmpTarLabObs)
+* hasMember[SARScoronavirus2RNAPrThrPtRespOrdPrbAmpTarLabObs] only Reference(SARScoronavirus2RNAPrThrPtRespOrdPrbAmpTarLabObs)
 
 Profile:  SARScoronavirus2RNAPrThrPtRespOrdPrbAmpTarLabObs
 Parent:   CodedLaboratoryObservationBase
@@ -192,9 +203,12 @@ Parent:   LaboratoryObservationPanelBase
 Title: "SARS-Cov-2 (COVID19) RNA panel - Unspecified specimen by NAA with probe detection"
 Description: "SARSCoV2RNAPnlXXXNAAprobeLabObs is a colection of tests for the SARS-CoV-2 (COVID19) organism. LOINC code 94306-8."
 * code = LNC#94306-8
+* value[x] 0..0
 * hasMember contains
     SARSCoV2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN1LabObs 0..1 and
     SARSCoV2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN2LabObs 0..1
+* hasMember[SARSCoV2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN1LabObs] only Reference(SARSCoV2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN1LabObs)
+* hasMember[SARSCoV2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN2LabObs] only Reference(SARSCoV2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN2LabObs)
 
 Profile:  SARSLikecoronavirusNGenePrThrPtXXXOrdPrbAmpTarLabObs
 Parent:   CodedLaboratoryObservationBase
@@ -725,10 +739,14 @@ Parent: LaboratoryObservationPanelBase
 Title: "Influenza virus A and B RNA and SARS-CoV-2 (COVID-19) N gene panel - Respiratory specimen by NAA with probe detection"
 Description: "Influenza virus A and B RNA and SARS-CoV-2 (COVID-19) N gene panel - Respiratory specimen by NAA with probe detection is a laboratory panel for the detection of Influenza A, B, and SARS CoV 2."
 * code = LNC#95422-2
+* value[x] 0..0
 * hasMember contains
     SARScoronavirus2NGenePrThrPtRespOrdPrbAmpTarLabObs 0..1 and
     FluAvRNARespQlNaaProbe 0..1 and
     FluBvRNARespAlNAAProbe 0..1
+* hasMember[SARScoronavirus2NGenePrThrPtRespOrdPrbAmpTarLabObs] only Reference(SARScoronavirus2NGenePrThrPtRespOrdPrbAmpTarLabObs)
+* hasMember[FluAvRNARespQlNaaProbe] only Reference(FluAvRNARespQlNaaProbe)
+* hasMember[FluBvRNARespAlNAAProbe] only Reference(FluBvRNARespAlNAAProbe)
 
 Profile: SARScoronavirus2RNAPrThrPtRespiratoryOrdNonprobeamptar
 Parent: CodedLaboratoryObservationBase
@@ -871,6 +889,7 @@ Parent: LaboratoryObservationPanelBase
 Title: "SARS-CoV-2 (COVID-19) RNA panel - Saliva (oral fluid) by NAA with probe detection"
 Description: "A set of lab tests for the detection of SARS-CoV-2 RNA in Saliva via NAA with probe detection."
 * code = LNC#95826-4
+* value[x] 0..0
 * hasMember contains
     SARScoronavirus2NGenePrThrPtSalivaOrdProbeamptar 0..1 and
     SARSCoV2NgenePrThrPtSalivaOrdProbeamptarCDCprimerprobesetN1 0..1 and
@@ -878,6 +897,12 @@ Description: "A set of lab tests for the detection of SARS-CoV-2 RNA in Saliva v
     SARScoronavirus2RdRpgenePrThrPtSalivaOrdProbeamptar 0..1 and
     SARSCoV2RNAPrThrPtSalivaOrdProbAmpTar 0..1 and
     SARSrelatedcoronavirusEgenePrThrPtSalivaOrdProbeamptar 0..1
+* hasMember[SARScoronavirus2NGenePrThrPtSalivaOrdProbeamptar] only Reference(SARScoronavirus2NGenePrThrPtSalivaOrdProbeamptar)
+* hasMember[SARSCoV2NgenePrThrPtSalivaOrdProbeamptarCDCprimerprobesetN1] only Reference(SARSCoV2NgenePrThrPtSalivaOrdProbeamptarCDCprimerprobesetN1)
+* hasMember[SARScoronavirus2ORF1abregionPrThrPtSalivaOrdProbeamptar] only Reference(SARScoronavirus2ORF1abregionPrThrPtSalivaOrdProbeamptar)
+* hasMember[SARScoronavirus2RdRpgenePrThrPtSalivaOrdProbeamptar] only Reference(SARScoronavirus2RdRpgenePrThrPtSalivaOrdProbeamptar)
+* hasMember[SARSCoV2RNAPrThrPtSalivaOrdProbAmpTar] only Reference(SARSCoV2RNAPrThrPtSalivaOrdProbAmpTar)
+* hasMember[SARSrelatedcoronavirusEgenePrThrPtSalivaOrdProbeamptar] only Reference(SARSrelatedcoronavirusEgenePrThrPtSalivaOrdProbeamptar)
 
 Profile: RSVRNAPrThrPtRespiratoryOrdProbeAmpRTar
 Parent: CodedLaboratoryObservationBase
@@ -892,11 +917,16 @@ Parent: LaboratoryObservationPanelBase
 Title: "Influenza virus A and B and SARS-CoV-2 (COVID-19) and Respiratory syncytial virus RNA panel - Respiratory specimen by NAA with probe detection"
 Description: "A set of lab tests for SARS-CoV-2, RSV, and Influenza Virus A and B."
 * code = LNC#95941-1
+* value[x] 0..0
 * hasMember contains
     FluAvRNARespQlNaaProbe 0..1 and
     FluBvRNARespAlNAAProbe 0..1 and
     SARScoronavirus2RNAPrThrPtRespOrdPrbAmpTarLabObs 0..1 and
-    RespiratorysyncytialvirusRNAPrThrPtRespiratoryOrdProbeAmpRTar 0..1
+    RSVRNAPrThrPtRespiratoryOrdProbeAmpRTar 0..1
+* hasMember[FluAvRNARespQlNaaProbe] only Reference(FluAvRNARespQlNaaProbe)
+* hasMember[FluBvRNARespAlNAAProbe] only Reference(FluBvRNARespAlNAAProbe)
+* hasMember[SARScoronavirus2RNAPrThrPtRespOrdPrbAmpTarLabObs] only Reference(SARScoronavirus2RNAPrThrPtRespOrdPrbAmpTarLabObs)
+* hasMember[RSVRNAPrThrPtRespiratoryOrdProbeAmpRTar] only Reference(RSVRNAPrThrPtRespiratoryOrdProbeAmpRTar)
 
 Profile: InfluenzavirusAAgPrThePtNphOrdIArapid
 Parent: CodedLaboratoryObservationBase
@@ -919,10 +949,14 @@ Parent: LaboratoryObservationPanelBase
 Title: "Influenza virus A and B and SARS-CoV+SARS-CoV-2 (COVID-19) Ag panel - Upper respiratory specimen by Rapid immunoassay"
 Description: "A set of lab tests for SARS-CoV-2, SARS-CoV, and Influenza A and B antigens via rapid immunoassay."
 * code = LNC#95942-9
+* value[x] 0..0
 * hasMember contains
     SARSCoronavirusPlusSARSCoV2AgPrThrPtRespOrdIARapid 0..1 and
     InfluenzavirusAAgPrThePtNphOrdIArapid 0..1 and
     InfluenzavirusBAgPrThrPtNphOrdIArapid 0..1
+* hasMember[SARSCoronavirusPlusSARSCoV2AgPrThrPtRespOrdIARapid] only Reference(SARSCoronavirusPlusSARSCoV2AgPrThrPtRespOrdIARapid)
+* hasMember[InfluenzavirusAAgPrThePtNphOrdIArapid] only Reference(InfluenzavirusAAgPrThePtNphOrdIArapid)
+* hasMember[InfluenzavirusBAgPrThrPtNphOrdIArapid] only Reference(InfluenzavirusBAgPrThrPtNphOrdIArapid)
 
 Profile: GammaInterferonBackgroundACncPtBldQnIA
 Parent: QuantitativeLaboratoryObservationBase
@@ -953,6 +987,7 @@ Parent: LaboratoryObservationPanelBase
 Title: "SARS CoV-2 stimulated gamma interferon panel - Blood"
 Description: "A set of lab tests for SARS-CoV-2 stimulated gamma inteferon, gamma interferon, and mitogen stimulated gamma interferon."
 * code = LNC#95974-2
+* value[x] 0..0
 * hasMember contains
     SARScoronavirus2stimulatedgammainterferonPrThrPtBldOrd 0..1 and
     SARSCoV2stimgammainterfRlsebyTcellscrctdforbckgrndACncPtBldQn 0..1 and
@@ -960,12 +995,19 @@ Description: "A set of lab tests for SARS-CoV-2 stimulated gamma inteferon, gamm
     GammaInterferonBackgroundACncPtBldQnIA 0..1 and
     MitogenStimulatedGammaInterferonACncPtBldQn 0..1 and
     MitogenStimGammaIntfrnCrctdForBckgrndACncPtBldQn 0..1
+* hasMember[SARScoronavirus2stimulatedgammainterferonPrThrPtBldOrd] only Reference(SARScoronavirus2stimulatedgammainterferonPrThrPtBldOrd)
+* hasMember[SARSCoV2stimgammainterfRlsebyTcellscrctdforbckgrndACncPtBldQn] only Reference(SARSCoV2stimgammainterfRlsebyTcellscrctdforbckgrndACncPtBldQn)
+* hasMember[SARSCoV2stimulatedgammainterferonreleasebyTcellsACncPtBldQn] only Reference(SARSCoV2stimulatedgammainterferonreleasebyTcellsACncPtBldQn)
+* hasMember[GammaInterferonBackgroundACncPtBldQnIA] only Reference(GammaInterferonBackgroundACncPtBldQnIA)
+* hasMember[MitogenStimulatedGammaInterferonACncPtBldQn] only Reference(MitogenStimulatedGammaInterferonACncPtBldQn)
+* hasMember[MitogenStimGammaIntfrnCrctdForBckgrndACncPtBldQn] only Reference(MitogenStimGammaIntfrnCrctdForBckgrndACncPtBldQn)
 
 Profile: SARSCoV2andSARSrltdcoronavirusRNApanelPtRespiratoryProbeamptar
 Parent: LaboratoryObservationPanelBase
 Title: "SARS-CoV-2 (COVID-19) and SARS-related CoV RNA panel - Respiratory specimen by NAA with probe detection"
 Description: "A set of lab tests for SARS-CoV-2 and SARS-related coronavirus RNA in respiratory specimens via NAA with probe detection."
 * code = LNC#96094-8
+* value[x] 0..0
 * hasMember contains
     SARSCoV2NgenePrThrPtRespOrdProbAmpTarN2 0..1 and
     SARSCoV2NgenePrThrPtRespOrdProbAmpTarN1 0..1 and
@@ -982,13 +1024,32 @@ Description: "A set of lab tests for SARS-CoV-2 and SARS-related coronavirus RNA
     SARScoronavirus2SgeneThreshNumPtRespiratoryQnProbeamptarLabObs 0..1 and
     SARSCoV2EgenePrThrPtRespOrdProbAmpTar 0..1 and
     SARSRelatedCoronavirusRNAPrThrPtRespOrdPrbAmpTarLabObs 0..1
+* hasMember[SARSCoV2NgenePrThrPtRespOrdProbAmpTarN2] only Reference(SARSCoV2NgenePrThrPtRespOrdProbAmpTarN2)
+* hasMember[SARSCoV2NgenePrThrPtRespOrdProbAmpTarN1] only Reference(SARSCoV2NgenePrThrPtRespOrdProbAmpTarN1)
+* hasMember[SARScoronavirus2NGenePrThrPtRespOrdPrbAmpTarLabObs] only Reference(SARScoronavirus2NGenePrThrPtRespOrdPrbAmpTarLabObs)
+* hasMember[SARScoronavirus2NGeneLnCncPtRespiratoryQnProbeamptar] only Reference(SARScoronavirus2NGeneLnCncPtRespiratoryQnProbeamptar)
+* hasMember[SARScoronavirus2NGeneNCncPtRespiratoryQnProbeamptar] only Reference(SARScoronavirus2NGeneNCncPtRespiratoryQnProbeamptar)
+* hasMember[SARSCoV2ORF1abRespQlNAAprobeLabObs] only Reference(SARSCoV2ORF1abRespQlNAAprobeLabObs)
+* hasMember[SARScoronavirus2ORF1abregionThreshNumPtRespiratoryQnProbeamptarLabObs] only Reference(SARScoronavirus2ORF1abregionThreshNumPtRespiratoryQnProbeamptarLabObs)
+* hasMember[SARScoronavirus2RdRpGenePrThePtRespOrdPrbAmpTarLabObs] only Reference(SARScoronavirus2RdRpGenePrThePtRespOrdPrbAmpTarLabObs)
+* hasMember[SARScoronavirus2RdRpgeneThreshNumPtRespiratoryQnProbeamptarLabObs] only Reference(SARScoronavirus2RdRpgeneThreshNumPtRespiratoryQnProbeamptarLabObs)
+* hasMember[SARScoronavirus2RNAPrThrPtRespOrdPrbAmpTarLabObs] only Reference(SARScoronavirus2RNAPrThrPtRespOrdPrbAmpTarLabObs)
+* hasMember[SARSCoV2RNACycleThresholdRespQnNAAProbAmpTar] only Reference(SARSCoV2RNACycleThresholdRespQnNAAProbAmpTar)
+* hasMember[SARScoronavirus2SgenePrThrPtRespiratoryOrdProbeamptarLabObs] only Reference(SARScoronavirus2SgenePrThrPtRespiratoryOrdProbeamptarLabObs)
+* hasMember[SARScoronavirus2SgeneThreshNumPtRespiratoryQnProbeamptarLabObs] only Reference(SARScoronavirus2SgeneThreshNumPtRespiratoryQnProbeamptarLabObs)
+* hasMember[SARSCoV2EgenePrThrPtRespOrdProbAmpTar] only Reference(SARSCoV2EgenePrThrPtRespOrdProbAmpTar)
+* hasMember[SARSRelatedCoronavirusRNAPrThrPtRespOrdPrbAmpTarLabObs] only Reference(SARSRelatedCoronavirusRNAPrThrPtRespOrdPrbAmpTarLabObs)
 
 Profile: SARScoronavirus2AbpanelPtBlddotIA
 Parent: LaboratoryObservationPanelBase
 Title: "SARS-CoV-2 (COVID-19) Ab panel - DBS by Immunoassay"
 Description: "A set of lab tests for SARS-CoV-2 antibodies in dried blood spots via immunoassay."
 * code = LNC#96118-5
+* value[x] 0..0
 * hasMember contains
     SARCCoV2AbIgGPrThrPtBldDotOrsdIA 0..1 and
     SARScoronavirus2AbIgMPrThrPtBlddotOrdIA 0..1 and
     SARScoronavirus2AbPrThrPtBlddotOrdIA 0..1
+* hasMember[SARCCoV2AbIgGPrThrPtBldDotOrsdIA] only Reference(SARCCoV2AbIgGPrThrPtBldDotOrsdIA)
+* hasMember[SARScoronavirus2AbIgMPrThrPtBlddotOrdIA] only Reference(SARScoronavirus2AbIgMPrThrPtBlddotOrdIA)
+* hasMember[SARScoronavirus2AbPrThrPtBlddotOrdIA] only Reference(SARScoronavirus2AbPrThrPtBlddotOrdIA)

@@ -58,12 +58,14 @@ pages:
     title: Lab profiles
   7_SmokingStatus_PregnancyStatus.md:
     title: Smoking status and Pregnancy status
-  8_ExposureQuestionnaire.md:
-    title: Exposure questionnaire example
+#  8_ExposureQuestionnaire.md:
+#    title: Exposure questionnaire example
   9_COVID19Immunization.md:
     title: COVID-19 Immunization
   10_downloads.md:
     title: Downloads
+  Other_examples.md:
+    title: Other examples
 
 
 menu:
