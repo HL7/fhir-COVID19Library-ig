@@ -17,7 +17,7 @@ Description: "A set of SNOMED codes representing the result of a test as detecte
 * SCT#260415000 "Not detected (qualifier value)"
 * SCT#419984006 "Inconclusive (qualifier value)"
 * SCT#260373001 "Detected (qualifier value)"
-* LabObs#equivalent "equivalent"
+* SCT#42425007 "Equivocal"
 
 ValueSet: DetNotDetIncVS
 Id: detected-not-detected-value-set
@@ -109,6 +109,16 @@ Description: "The set of laboratory values for tests that report positive, negat
 * SCT#260385009 "Negative (qualifier value)"
 * SCT#82334004 "Indeternimate (qualifier value)"
 
+ValueSet: PosNegInvInclVS
+Id: covid19-pos-neg-inv-incl-vs 
+Title: "COVID19 Positive, Negative, Invalid, Inconclusive value set"
+Description: "A set of laboratory values that report positive, negative, invalid, and inconclusive results."
+* ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
+* SCT#10828004 "Positive (qualifier value)"
+* SCT#260385009 "Negative (qualifier value)"
+* LabObs#invalid "invalid"
+* SCT#419984006 "Inconclusive (qualifier value)"
+
 ValueSet: ReactiveNonreactiveInvalidVS
 Id: covid19-react-nonreact-inv-vs
 Title: "COVID19 Reactive, Non-reactive, Invalid value set"
@@ -127,6 +137,16 @@ Description: "The set of values for laboratory tests that report reactive or non
 * ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
 * SCT#11214006 "Reactive (qualifier value)"
 * SCT#131194007 "Non-reactive (qualifier value)"
+
+ValueSet: ReactiveNonreactiveBLInvVS
+Id: covid19-react-nonreact-borderline-inv-value-set
+Title: "Reactive, Non-reactive, Borderline, Invalid value set"
+Description: "A set of codes that describe various reactivity result values."
+* ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
+* SCT#11214006 "Reactive (qualifier value)"
+* SCT#131194007 "Non-reactive (qualifier value)"
+* LabObs#invalid "invalid"
+* LabObs#borderline "borderline"
 
 ValueSet: AbNotDetPastRecentInfectionVS
 Id: Ab-det-past-recent-infection-vs
@@ -993,3 +1013,68 @@ Description: "A set of SNOEMD CT procedure codes that describe the administratio
 * SCT#1119350007 "Administration of SARS-CoV-2 mRNA vaccine (procedure)"
 * SCT#1144997007 "Administration of first dose of SARS-CoV-2 mRNA vaccine (procedure)"
 * SCT#1144998002 "Administration of second dose of SARS-CoV-2 mRNA vaccine (procedure)" */
+
+ValueSet: COVID19_WHO_Pathogen_LA_Codes
+Id: covid19-who-path-la-codes-value-set
+Title: "World Health Organization, COVID-19 variant LOINC answer code value set"
+Description: "A set of LOINC answer codes for the World Health Organization (WHO) COVID-19 variants."
+* ^copyright = "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc"
+* LNC#LA31569-9 "SARS-CoV-2 Alpha variant (WHO)"
+* LNC#LA31570-7 "SARS-CoV-2 Beta variant (WHO)"
+* LNC#LA31621-8 "SARS-CoV-2 Gamma variant (WHO)"
+* LNC#LA31620-0 "SARS-CoV-2 B.1.1.238 lineage"
+* LNC#LA31571-5 "SARS-CoV-2 Cluster 5 variant"
+* LNC#LA32552-4 "SARS-CoV-2 Delta variant (WHO)"
+
+ValueSet: COVID19_Detected_Gene_Mutation_LA_Codes
+Id: covid19-detected-genetic-mutation-la-codes-value-set
+Title: "Detected Genetic Mutations LOINC answer codes value set"
+Description: "A set of LOINC answer codes that describe the detected gene mutations."
+* ^copyright = "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc"
+* LNC#LA31603-6 "D614G"
+* LNC#LA31604-4 "N501Y"
+* LNC#LA31605-1 "K417N"
+* LNC#LA31606-9 "E484K"
+
+ValueSet: SARSCoV2LineageLOINCAnswerVS
+Id: sars-cov2-lineage-loinc-answer-value-set 
+Title: "SARS CoV 2 Lineage LOINC Answers"
+Description: "A set of LOINC answer codes that describe the identified SARS CoV 2 lineage."
+* ^copyright = "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc"
+* LNC#LA31701-8 "SARS-CoV-2 A.1.1 lineage"
+* LNC#LA31620-0 "SARS-CoV-2 B.1.1.238 lineage"
+* LNC#LA31703-4 "SARS-CoV-2 B.1.2 lineage"
+* LNC#LA31704-2 "SARS-CoV-2 B.1.1 lineage"
+* LNC#LA31705-9 "SARS-CoV-2 B.1.1.7 lineage"
+* LNC#LA31706-7 "SARS-CoV-2 B.1.29 lineage"
+* LNC#LA31702-6 "SARS-CoV-2 B.2.4 lineage"
+* LNC#LA32553-2 "SARS-CoV-2 B.1.351 lineage"
+* LNC#LA32555-7 "SARS-CoV-2 P.1 lineage"
+* LNC#LA32556-5 "SARS-CoV-2 B.1.617.2 lineage"
+
+ValueSet: SARSCoV2CladeLOINCAnswerVS
+Id: sars-cov2-clade-loinc-answer-value-set
+Title: "SARS CoV 2 Clade Assignment LOINC Answer value set"
+Description: "A set of LOINC answer codes that describe the clade assignment."
+* ^copyright = "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc"
+* LNC#LA31687-9 "SARS-CoV-2 clade 19A"
+* LNC#LA31688-7 "SARS-CoV-2 clade 19B"
+* LNC#LA31689-5 "SARS-CoV-2 clade 20A"
+* LNC#LA31690-3 "SARS-CoV-2 clade 20B"
+* LNC#LA31691-1 "SARS-CoV-2 clade 20C"
+* LNC#LA31692-9 "SARS-CoV-2 clade 20D"
+* LNC#LA31693-7 "SARS-CoV-2 clade 20E"
+* LNC#LA31694-5 "SARS-CoV-2 clade 20F"
+* LNC#LA31695-2 "SARS-CoV-2 clade 20G"
+* LNC#LA31696-0 "SARS-CoV-2 clade 20H"
+* LNC#LA31697-8 "SARS-CoV-2 clade 20I"
+* LNC#LA31698-6 "SARS-CoV-2 clade 20J"
+
+ValueSet: SARSCoV2RdRpGeneMutationVS
+Id: sars-cov2-rdrp-mutation-vs
+Title: "SARS CoV 2 RdRp Gene Mutation value set"
+Description: "A set of LOINC answer codes that describe the RdRp gene mutation detected."
+* ^copyright = "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc"
+* LNC#LA32886-6 "F480P"
+* LNC#LA32887-4 "P227L"
+* LNC#LA32888-2 "P323L"

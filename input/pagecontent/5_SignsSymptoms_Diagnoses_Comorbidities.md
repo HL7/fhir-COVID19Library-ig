@@ -1,6 +1,6 @@
 ﻿### Signs and Symptoms
 
-The following profile is for recording/transmitting data associated with COVID-19 signs and symptoms.  This list of signs and symtpoms is not comprehensive.  It will be added to as we receive information from contributing partners.
+The following profile is for recording/transmitting data associated with COVID-19 signs and symptoms.  This list of signs and symptoms is not comprehensive.  It will be added to as we receive information from contributing partners.
 
 The profile is based on the Observation resource where the code (Observation.code) is bound to the list of signs and symptoms and the value is bound to a list of presence/absence findings (present, absent, unknown).
 

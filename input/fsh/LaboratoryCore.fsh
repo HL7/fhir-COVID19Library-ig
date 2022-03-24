@@ -5,7 +5,6 @@ Title: "Laboratory Observation Base"
 Description: "Abstract base class for laboratory observations."
 * ^abstract = true
 * bodySite 0..0
-* method 0..0
 * component 0..0
 // slicing rules for identifier
 * identifier ^slicing.discriminator.type = #pattern
@@ -74,3 +73,19 @@ Description: "A panel that contains member observations"
 // No value[x] or components on panels
 * value[x] 0..0
 * component 0..0
+
+Profile: NarrativeLaboratoryObservationBase
+Parent: LaboratoryObservationBase
+Id: c19-narrative-laboratory-observation-base
+Title: "Narrative Laboratory Observation Base"
+Description: "Abstract base class for narrative laboratory observations."
+* ^abstract = true
+* value[x] only string
+
+Profile: TiterLaboratoryObservationBase
+Parent: LaboratoryObservationBase
+Id: c19-titer-lab-obs-base
+Title: "Titer Laboratory Observation Base"
+Description: "Abstract base class for titer laboratory tests"
+* ^abstract = true
+* value[x] only Ratio 

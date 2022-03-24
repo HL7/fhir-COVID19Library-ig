@@ -1,6 +1,6 @@
 ﻿### Exposure and Travel History
 
-The intent of these profiles is to record/transmit exposure data in the context of if an individual was exposed, and if so, the type of exposure.  And also to record/transmit travel to potential exposure "hot spots".
+The intent of these profiles is to record/transmit exposure data with relation to whether a individual is exposed and what they were exposed to. These profiles also record/transmit whether the individual traveled to a potential exposure "hot spot".
 
 #### Exposure
 
@@ -10,7 +10,7 @@ This profile indicates whether or not an individual has been exposed to SARS-CoV
 
 - [Exposure example](Observation-KnownSARSCoV2ExposureExample.html)
 
-The Travel History profile is used to indicate to where and when an individual has treveled.  This profile has components for country, state/province, and city of travel as well as components for the start and end dates of the travel.  **Note** If it is important to know duration of stay at different locations during a single travel event, separate instances of this profile should be used.  For example, an individual may travel to Mexico and may spend time in both Mexico City and Cancun.  If the duration of stay for both cities in important, then this profile should have separate instances for both cities rather than one instance for the entire trip.
+The Travel History profile is used to indicate to where and when an individual has traveled.  This profile has components for country, state/province, and city of travel as well as components for the start and end dates of the travel.  **Note** If it is important to know duration of stay at different locations during a single travel event, separate instances of this profile should be used.  For example, an individual may travel to Mexico and may spend time in both Mexico City and Cancun.  If the duration of stay for both cities in important, then this profile should have separate instances for both cities rather than one instance for the entire trip.
 
 [Travel History](StructureDefinition-travel-history.html)
 

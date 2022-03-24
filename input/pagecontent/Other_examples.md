@@ -43,7 +43,7 @@ The table below contains examples for all of the laboratory profiles.  These wer
 |96118-5|[SARS-CoV-2 (COVID-19) Ab panel - DBS by Immunoassay](Observation-SARScoronavirus2AbNeutPrThrPtSerOrdpVNTExample.html)|
 |95825-6|[SARS-CoV-2 (COVID-19) Ab [Presence] in DBS by Immunoassay](Observation-SARScoronavirus2AbNeutTitrPtSerQnpVNTExample.html)|
 |96119-3|[SARS-CoV-2 (COVID-19) Ag [Presence] in Upper respiratory specimen by Immunoassay](Observation-SARScoronavirus2AbpanelPtBlddotIAExample.html)|
-|94315-|[9 SARS-related coronavirus E gene [Presence] in Specimen by NAA with probe detection](Observation-SARScoronavirus2AbPrThrPtBlddotOrdIAExample.html)|
+|94315-9|[SARS-related coronavirus E gene [Presence] in Specimen by NAA with probe detection](Observation-SARScoronavirus2AbPrThrPtBlddotOrdIAExample.html)|
 |94509-7|[SARS-related coronavirus E gene [Cycle Threshold #] in Specimen by NAA with probe detection](Observation-SARScoronavirus2AgPrThrPtRespiratoryupperOrdIAExample.html)|
 |95522-9|[SARS-CoV-2 (COVID-19) N gene [Log #/volume] (viral load) in Respiratory specimen by NAA with probe detection](Observation-SARScoronavirus2EGenePrThrPtXXXOrdPrbAmpTarLabObsExample.html)|
 |95521-1|[SARS-CoV-2 (COVID-19) N gene [#/volume] (viral load) in Respiratory specimen by NAA with probe detection](Observation-SARScoronavirus2EGeneThreshNumPtXXXQnPrbAmpTarLabObsExample.html)|

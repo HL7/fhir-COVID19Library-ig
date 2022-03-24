@@ -11,7 +11,7 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: hl7.fhir.us.covid19library
 canonical: http://hl7.org/fhir/us/covid19library
-version: 0.14.0
+version: current
 name: COVID19FHIRProfileLibraryIG
 title: COVID-19 FHIR Profile Library IG
 status: active
@@ -35,12 +35,397 @@ parameters:
   path-expansion-params: ../../exp-params.json
 copyright: HL7 International & Logica Health, all rights reserved Creative Commons License
 copyrightYear: 2021+
-releaseLabel: Informative Ballot
+releaseLabel: CI Build
 jurisdiction: urn:iso:std:iso:3166#US "United States of America"
 
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
 # │  To use a provided ig-data/input/includes/menu.xml file, delete the "menu" property below.     │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+groups:
+  GroupA:
+    name: Non-laboratory profiles
+    description: Profiles in this IG that are not laboratory related
+    resources:
+    - StructureDefinition/case-patient-report-id
+    - StructureDefinition/COVID-19-Snomed-Diagnosis
+    - StructureDefinition/COVID-19-ICD10-Diagnosis
+    - StructureDefinition/COVID-19-underlying-medical-condition
+    - StructureDefinition/underlying-cardiovascular-medical-condition
+    - StructureDefinition/underlying-neuroligic-medical-condition
+    - StructureDefinition/underlying-immunocompromised-medical-condition
+    - StructureDefinition/underlying-respiratory-medical-condition
+    - StructureDefinition/underlying-metabolic-medical-condition
+    - StructureDefinition/underlying-hemoglobinopathy-medical-condition
+    - StructureDefinition/underlying-renal-medical-condition
+    - StructureDefinition/underlying-immune-medical-condition
+    - StructureDefinition/underlying-gastrointestinal-hepatic-medical-condition
+    - StructureDefinition/underlying-uncategorized-medical-condition
+    - StructureDefinition/covid-19-exposure-core
+    - StructureDefinition/known-sars-cov-2-exposure
+    - StructureDefinition/travel-history
+    - StructureDefinition/pregnancy-status
+    - StructureDefinition/gestational-age-at-onset-of-illness
+    - StructureDefinition/covid19-manufacturer 
+    - StructureDefinition/covid-19-immunization 
+    - StructureDefinition/covid19-symptoms
+    - StructureDefinition/covid19-underlying-condition-observation-parent
+    - StructureDefinition/covid19-underlying-condition-observation
+  GroupB:
+    name: Quantitative Laboratory Tests
+    description: SARS coronavirus 2 laboratory tests that have quantitative values
+    resources:
+    - StructureDefinition/SARScoronavirus2AbIgGAcncPtSerPlasQnIALabObs
+    - StructureDefinition/SARScoronavirus2AbIgMAcncPtSerPlasQnIALabObs
+    - StructureDefinition/SARScoronavirus2EGeneThreshNumPtXXXQnPrbAmpTarLabObs
+    - StructureDefinition/SARScoronavirus2NgeneThreshNumPtXXXQnPrbAmpTarLabObs
+    - StructureDefinition/SARSCoV2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN1LabObs
+    - StructureDefinition/SARSCoV2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN2LabObs
+    - StructureDefinition/SARScoronavirus2ORF1AbRegionThreshNumPtXXXQnPrbAmpTarLabObs
+    - StructureDefinition/SARSLikecoronavirusNGeneThreshNumPtXXXQnPrbAmpTarLabObs
+    - StructureDefinition/SARS-CoV2-Sgene-ThreshNum-Pt-Resp-Qn-ProbAmpTar-LabObs
+    - StructureDefinition/SARS-CoV2-Sgene-ThreshNum-Pt-xxx-Qn-ProbAmpTar-LabObs
+    - StructureDefinition/sars-cov2-2orf1-abregion-threshnum-pt-resp-qn-probamptar
+    - StructureDefinition/SARS-CoV2-RdRpgene-ThreshNum-pt-xxx-Qn-ProbAmpTar-LabObs
+    - StructureDefinition/sars-cov2-2rdrpgene-threshnum-pt-resp-qn-ProbAmpTar
+    - StructureDefinition/SARS-CoV2-ab-IgA-acnc-pt-serplas-qn-ia-LabObs
+    - StructureDefinition/SARS-CoV2-RNA-cycle-thresh-resp-qn-naa-probamptar
+    - StructureDefinition/SARS-Cov2-rna-threshnum-pt-xxx-qn-probamptar
+    - StructureDefinition/SARSCoV2AbACncPtSerPlasQnIA
+    - StructureDefinition/SARSCoV2RNALnCncPtXXXQnProbAmpTar
+    - StructureDefinition/SARScoronavirus2NGeneLnCncPtRespiratoryQnProbeamptar
+    - StructureDefinition/SARScoronavirus2AbNeutTitrPtSerQnpVNT
+    - StructureDefinition/SARScoronavirus2AbIgATitrPtSerPlasQnIF
+    - StructureDefinition/SARScoronavirus2AbIgMTitrPtSerPlasQnIF
+    - StructureDefinition/SARScoronavirus2AbIgGTitrPtSerPlasQnIF
+    - StructureDefinition/SARSCoV2stimgammainterfRlsebyTcellscrctdforbckgrndACncPtBldQn
+    - StructureDefinition/SARSCoV2stimulatedgammainterferonreleasebyTcellsACncPtBldQn
+    - StructureDefinition/GammaInterferonBackgroundACncPtBldQnIA
+    - StructureDefinition/MitogenStimulatedGammaInterferonACncPtBldQn
+    - StructureDefinition/MitogenStimGammaIntfrnCrctdForBckgrndACncPtBldQn
+    - StructureDefinition/SARScoronavirus2AbIgGMCncPtSerPlasQnIA
+    - StructureDefinition/SARScoronavirus2EgeneThreshNumPtRespiratoryQnProbeamptar
+    - StructureDefinition/SARSCoV2NgeneThreshNumPtOPwashQnProbeamptar
+    - StructureDefinition/SARSCoV2ORF1abregionPrNumPtOropharyngealwashQnProbeamptar
+    - StructureDefinition/SARSCoV2SgeneThreshNumPtOPwashQnProbeamptar
+    - StructureDefinition/SARSCoV2MgenePrThrPtRespUpperOrdProbeamptar
+    - StructureDefinition/SARSCoV2ORF1abregionACncPtRespUpperQnProbeamptar
+    - StructureDefinition/PercentNeutSARSCoV2spikeprtRBDAbneutAFrPtSerPlasQnIA
+    - StructureDefinition/SARScoronavirus2spikeproteinRBDAbneutACncPtSerPlasQnIA
+    - StructureDefinition/SARSCoV2stimugammaintfCD4TcorrectedforbkgndACncPtBldQnIA
+    - StructureDefinition/SARSCoV2stimugammaintflymphcorrectedbkgndACncPtBldQnIA
+    - StructureDefinition/SARSCoV2stimgammaintfTcellsSpikeAgsptcntbkgrndNumPtBldQn
+    - StructureDefinition/SARSCoV2stmgammaintfTcellsNuccpsdAgsptcntNumPtBldQn
+    - StructureDefinition/SARScoronavirus2NGeneNCncPtRespiratoryQnProbeamptar
+  GroupC:
+    name: Coded Laboratory tests
+    description: SARS coronavirus 2 laboratory tests with ordinal or nominal values
+    resources:
+    - StructureDefinition/SARScoronavirus2AbIgGPlusIgMPrThrPtSerPlasOrdIALabObs
+    - StructureDefinition/SARScoronavirus2AbIgMPrThrPtSerPlasOrdIArapidLabObs
+    - StructureDefinition/SARScoronavirus2EGenePrThrPtXXXOrdPrbAmpTarLabObs
+    - StructureDefinition/SARScoronavirus2NGenePrThrPtRespOrdPrbAmpTarLabObs
+    - StructureDefinition/SARScoronavirus2NgenePrThrPtXXXOrdPrbAmpTarLabObs
+    - StructureDefinition/SARSCoV2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN1LabObs
+    - StructureDefinition/SARSCoV2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN2LabObs
+    - StructureDefinition/SARScoronavirus2RdRpGenePrThePtRespOrdPrbAmpTarLabObs
+    - StructureDefinition/SARScoronavirus2RdRpGenePrThrPtXXXOrdPrbAmpTarLabObs
+    - StructureDefinition/SARScoronavirus2RNAPrThrPtRespOrdPrbAmpTarLabObs
+    - StructureDefinition/SARScoronavirus2RNAPrThrPtXXXOrdPrbAmpTarLabObs
+    - StructureDefinition/SARSCoV2AgRespQlIArapidLabObs
+    - StructureDefinition/SARSCoV2ORF1abRespQlNAAprobeLabObs
+    - StructureDefinition/SARSLikecoronavirusNGenePrThrPtXXXOrdPrbAmpTarLabObs
+    - StructureDefinition/SARSrelatedCoVPlusMERSCoVRNAPrThrPtRespOrdPrbAmpTarLabObs
+    - StructureDefinition/SARSRelatedCoronavirusRNAPrThrPtRespOrdPrbAmpTarLabObs
+    - StructureDefinition/SARScoronavirus2AbIgAPrThrPtSerPlasOrdIALabObs
+    - StructureDefinition/SARScoronavirus2AbIgGPrThrPtSerPlasOrdIALabObs
+    - StructureDefinition/SARScoronavirus2AbIgMPrThrPtSerPlasOrdIALabObs
+    - StructureDefinition/SARScoronavirus2RNAPrThrPtNphOrdNonprobeamptarLabObs
+    - StructureDefinition/Humancoronavirus229EHKU1OC43NL63RNAPresNsphLabObs
+    - StructureDefinition/Humancoronavirus229ERNAPrThrPtNphOrdNonprobeamptarLabObs
+    - StructureDefinition/HumancoronavirusHKU1RNAPrThrPtNphOrdNonprobeamptarLabObs
+    - StructureDefinition/HumancoronavirusNL63RNAPrThrPtNphOrdNonprobeamptarLabObs
+    - StructureDefinition/HumancoronavirusOC43RNAPrThrPtNphOrdNonprobeamptarLabObs
+    - StructureDefinition/SARScoronavirus2ORF1abregionPrThrPtXXXOrdProbeamptarLabObs
+    - StructureDefinition/SARS-CoV2-Sgene-PrThr-Pt-Resp-Ord-ProbAmpTar-LabObs
+    - StructureDefinition/SARS-CoV2-Sgene-PrThr-Pt-xxx-ord-ProbeAmptTar-LabObs
+    - StructureDefinition/SARS-rel-coronavirus-RNA-PrThr-Pt-xxx-probamptar-LabObs
+    - StructureDefinition/SARS-CoV2-RNA-PrThr-pt-serplas-ord-probamptar-LabObs
+    - StructureDefinition/SARS-CoV2-Ab-Imp-pt-serplas-nom-LabObs
+    - StructureDefinition/SARS-CoV2-Egene-prthr-pt-resp-ord-probamptar
+    - StructureDefinition/SARS-CoV2-Ngene-prthr-resp-ord-probamptar-N1
+    - StructureDefinition/SARS-CoV2-Ngene-prthr-pt-resp-ord-probamptar-N2
+    - StructureDefinition/SARS-CoV2-ab-IgG-prthr-pt-blddot-ord-ia
+    - StructureDefinition/SARSCoV2NgenePrThrPtNphOrdProbAmpTar
+    - StructureDefinition/SARSCoV2RNAPrThrPtNphOrdProbAmpTar
+    - StructureDefinition/SARSCoV2AbPrThrPtSerPlasOrdIA
+    - StructureDefinition/SARSCoV2PrThrPtXXXOrdOrganismSpecificCulture
+    - StructureDefinition/SARSCoV2wholegenomeSeqPtIsolateNomSequencing
+    - StructureDefinition/SARSCoV2SgenePrThrPtSerPlasOrdProbAmpTar
+    - StructureDefinition/SARSCoV2EgenePrThrPtSerPlasOrdProbAmpTar
+    - StructureDefinition/SARSCoV2NgenePrThrPtSerPlasOrdProbAmpTar
+    - StructureDefinition/SARSCoV2AbIgAPrThrPtSerPlasBldOrdIARapid
+    - StructureDefinition/SARSCoV2RNAPrThrPtSalivaOrdSequencing
+    - StructureDefinition/SARSCoV2RNAPrThrPtSalivaOrdProbAmpTar
+    - StructureDefinition/SARSCoV2AbIgAplusIgMPrThrPtSerPlasordIA
+    - StructureDefinition/SARSCoronavirusPlusSARSCoV2AgPrThrPtRespOrdIARapid
+    - StructureDefinition/SARScoronavirus2AbIgGPrThrPtSerPlasBldOrdIArapid
+    - StructureDefinition/SARScoronavirus2RNAPrThrPtNoseOrdProbeamptar
+    - StructureDefinition/SARScoronavirus2NGenePrThrPtNoseOrdProbeamptar
+    - StructureDefinition/SARScoronavirus2AbNeutPrThrPtSerOrdpVNT
+    - StructureDefinition/SARScoronavirus2AbIgMPrThrPtBlddotOrdIA
+    - StructureDefinition/SARScoronavirus2RNAPrThrPtRespiratoryOrdSequencing
+    - StructureDefinition/SARScoronavirus2NGenePrThrPtSalivaOrdProbeamptar
+    - StructureDefinition/SARScoronavirus2AbIgGAndIgMPrThrPtSerPlasBldOrdIArapid
+    - StructureDefinition/FluABSARSCoV2SARSrCoVRespNAAprb
+    - StructureDefinition/FluABSARSCoV2RespNAAprobe
+    - StructureDefinition/FluAvRNARespQlNaaProbe
+    - StructureDefinition/FluBvRNARespAlNAAProbe
+    - StructureDefinition/SARScoronavirus2RNAPrThrPtRespiratoryOrdNonprobeamptar
+    - StructureDefinition/SARScoronavirus2SgenePrThrPtRespiratoryOrdSequencing
+    - StructureDefinition/SARSrelatedcoronavirusEgenePrThrPtSalivaOrdProbeamptar
+    - StructureDefinition/SARScoronavirus2ORF1abregionPrThrPtSalivaOrdProbeamptar
+    - StructureDefinition/SARScoronavirus2AbPrThrPtBlddotOrdIA
+    - StructureDefinition/SARSCoV2specificTCRBgenererngmtsPrThrPtBldOrdSequencing
+    - StructureDefinition/SARScoronavirus2stimulatedgammainterferonPrThrPtBldOrd
+    - StructureDefinition/SARScoronavirus2RdRpgenePrThrPtSalivaOrdProbeamptar
+    - StructureDefinition/SARScoronavirus2AgPrThrPtRespiratoryupperOrdIA
+    - StructureDefinition/SARSCoV2RdRpgenePrThrPtRespiratorylowerOrdProbeamptar
+    - StructureDefinition/SARSrltdcovEgenePrThrPtResplwrOrdProbeamptar
+    - StructureDefinition/SARSrltdcovEgenePrThrPtRespupOrdProbeamptar
+    - StructureDefinition/SARScoronavirus2RdRpgenePrThrPtRespiratoryupperOrdProbeamptar
+    - StructureDefinition/SARSCoV2NgenePrThrPtSalivaOrdProbeamptarCDCprimerprobesetN1
+    - StructureDefinition/SARSCoV2spikeproteinRBDAbneutPrThrPtSerPlasOrdIA
+    - StructureDefinition/RSVRNAPrThrPtRespiratoryOrdProbeAmpRTar
+    - StructureDefinition/InfluenzavirusAAgPrThePtNphOrdIArapid
+    - StructureDefinition/InfluenzavirusBAgPrThrPtNphOrdIArapid
+    - StructureDefinition/SARScoronavirus2variantTypePtXXXNomSequencing
+    - StructureDefinition/SARScoronavirus2SgenemutationdetectedPridPtXXXNomMolgen
+    - StructureDefinition/SARScoronavirus2SgenemutationPrThrPtXXXOrdMolgen
+    - StructureDefinition/SARScoronavirus2EgenePrThrPtRespiratoryOrdProbeamptar
+    - StructureDefinition/SARScoronavirus2SgenePrThrPtSalivaOrdProbeamptar
+    - StructureDefinition/SARScoronavirus2RNAPrThrPtOropharyngealwashOrdProbeamptar
+    - StructureDefinition/SARScoronavirus2RNAPrThrPtXXXDonorOrdProbeamptar
+    - StructureDefinition/SARScoronavirus2lineagePridPtXXXNomMolgen
+    - StructureDefinition/SARScoronavirus2cladeTypePtXXXNomMolgen
+    - StructureDefinition/SARSCoV2NgenePrThrPtSalivaOrdProbeamptarN2
+    - StructureDefinition/SARScoronavirus2NgenePrThrPtNoseOrdNonprobeamptar
+    - StructureDefinition/SARScoronavirus2AgPrThrPtRespiratoryupperOrdIArapid
+    - StructureDefinition/SARSCoV2Nsp2genePrThrPtRespUpperOrdProbeamptar
+    - StructureDefinition/SARScoronavirus2AbPrThrPtSalivaOrdIArapid
+    - StructureDefinition/SARSCoV2ORF1bregionPrThrPtRespOrdProbeamptar
+    - StructureDefinition/SARSCoV2ORF1aregionPrThrPtRespOrdProbeamptar
+    - StructureDefinition/SARScoronavirus2ORF1bregionPrThrPtSalivaOrdProbeamptar
+    - StructureDefinition/SARScoronavirus2ORF1aregionPrThrPtSalivaOrdProbeamptar
+    - StructureDefinition/SARSCoV2nuccpsdptnAbIgGPrThrPtSerPlasOrdIA
+    - StructureDefinition/SARScoronavirus2spikeproteinAbIgGPrThrPtSerPlasOrdIA
+    - StructureDefinition/SARScoronavirus2stimulatedgammainterferonImpPtBldOrd
+    - StructureDefinition/SARSCoV2RdRpgenemutndetPridPtXXXNomMolgen
+  GroupD:
+    name: Laboratory Panels
+    description: Collections of laboratory tests for SARS coronavirus 2 and related pathogens (Ifnluenza A & B, RSV, etc.)
+    resources:
+    - StructureDefinition/SARScoronavirus2AbIgGandIgMpanelPtSerPlasOrdIArapidLabObs
+    - StructureDefinition/SARScoronavirus2AbIgGandIgMpanelPtSerPlasQnIALabObs
+    - StructureDefinition/SARScoronavirus2RNAPanelPtRespPrbAmpTarLabObs
+    - StructureDefinition/SARSCoV2RNAPnlXXXNAAprobePanelLabObs
+    - StructureDefinition/FluABSARSCoV2PnlRespNAAprb
+    - StructureDefinition/SARScoronavirus2RNApanelPtSalivaProbeamptar
+    - StructureDefinition/FluAandBandSARSCoV2andRSVRNApanelPtRespProbeamptar
+    - StructureDefinition/FluAandBandSARSCoVSARSCoV2AgpanelPtRespiratoryupperIArapid
+    - StructureDefinition/SARScoronavirus2stimulatedgammainterferonpanelPtBld
+    - StructureDefinition/SARSCoV2andSARSrltdcoronavirusRNApanelPtRespiratoryProbeamptar
+    - StructureDefinition/SARScoronavirus2AbpanelPtBlddotIA
+    - StructureDefinition/SARScoronavirus2sequencingidentificationpanelPtXXXMolgen
+    - StructureDefinition/SARScoronavirus2RNApanelPtOropharyngealwashProbeamptar
+    - StructureDefinition/FluAFluBSARSCoV2AgpanelPtRespiratoryupperIArapid
+    - StructureDefinition/SARSCoV2SARSrelatedCoVRNApanelPtSalivaProbeamptar
+  GroupE:
+    name: Other Laboratory tests
+    descritption: SARS CoV 2 laboratory tests with narrative or other non-coded, non-quantitative values.
+    resources:
+    - StructureDefinition/SARScoronavirus2variantinterpretationImpPtXXXNar
+    - StructureDefinition/SARSCoV2spkptnRBDAbneutTitrPtSerPlasQnIA
+    - StructureDefinition/SequencingStudyIdentifier
+    - StructureDefinition/GISAIDSequenceAccessionNumber
+    
+  GroupF: 
+    name: Quantitative laboratory examples
+    description: Examples of the quantitative laboratory profiles
+    resources:
+    - Observation/SARScoronavirus2AbIgGAcncPtSerPlasQnIALabObsExample
+    - Observation/SARScoronavirus2AbIgMAcncPtSerPlasQnIALabObsExample
+    - Observation/SARScoronavirus2EGeneThreshNumPtXXXQnPrbAmpTarLabObsExample
+    - Observation/SARScoronavirus2NgeneThreshNumPtXXXQnPrbAmpTarLabObsExample
+    - Observation/SARSCoV2NgeneThreshNumPtXXXQnN1LabObsExample
+    - Observation/SARSCoV2NgeneThreshNumPtXXXQnN2LabObsExample
+    - Observation/SARScov2ORF1AbRegionThreshNumPtXXXQnLabObsExample
+    - Observation/SARSLikecoronavirusNGeneThreshNumPtXXXQnPrbAmpTarLabObsExample
+    - Observation/SARScov2SgeneThreshNumPtRespiratoryQnLabObsExample
+    - Observation/SARScoronavirus2SgeneThreshNumPtXXXQnProbeamptarLabObsExample
+    - Observation/SARScov2ORF1abregionThreshNumPtRespLabObsExample
+    - Observation/SARScoronavirus2RdRpgeneThreshNumPtXXXQnProbeamptarLabObsExample
+    - Observation/SARScov2RdRpgeneThreshNumPtRespiratoryQnLabObsExample
+    - Observation/SARScoronavirus2AbIgAACncPtSerPlasQnIALabObsExample
+    - Observation/SARSCoV2RNACycleThresholdRespQnNAAProbAmpTarExample
+    - Observation/SARSCoV2RNAThreshNumPtXXXQnProbAmpTarExample
+    - Observation/SARSCoV2AbACncPtSerPlasQnIAExample
+    - Observation/SARSCoV2RNALnCncPtXXXQnProbAmpTarExample
+    - Observation/SARScoronavirus2NGeneNCncPtRespiratoryQnProbeamptarExample
+    - Observation/SARScoronavirus2NGeneLnCncPtRespiratoryQnProbeamptarExample
+    - Observation/SARScoronavirus2AbNeutTitrPtSerQnpVNTExample
+    - Observation/SARScoronavirus2AbIgATitrPtSerPlasQnIFExample
+    - Observation/SARScoronavirus2AbIgMTitrPtSerPlasQnIFExample
+    - Observation/SARScoronavirus2AbIgGTitrPtSerPlasQnIFExample
+    - Observation/SARSCoV2stimgammainterfRlsebyTcellACncPtBldQnExample
+    - Observation/SARSCoV2stimulatedTcellsACncPtBldQnExample
+    - Observation/GammaInterferonBackgroundACncPtBldQnIAExample
+    - Observation/MitogenStimulatedGammaInterferonACncPtBldQnExample
+    - Observation/MitogenStimGammaIntfrnCrctdForBckgrndACncPtBldQnExample
+    - Observation/SARScoronavirus2AbIgGMCncPtSerPlasQnIAExample
+    - Observation/SARScoronavirus2EgeneThreshNumPtRespiratoryQnProbeamptarExample
+    - Observation/SARSCoV2ORF1abregionPrNumPtOropharyngealwashQnProbeamptarExample
+    - Observation/SARSCoV2NgeneThreshNumPtOPwashQnProbeamptarExample
+    - Observation/SARSCoV2ORF1abregionACncPtRespUpperQnProbeamptarExample
+    - Observation/PercentNeutSARSCoV2spikeprtRBDAbneutAFrPtSerPlasQnIAExample
+    - Observation/SARScoronavirus2spikeproteinRBDAbneutACncPtSerPlasQnIAExample
+    - Observation/SARSCoV2stimugammaintfCD4TcorrectedforbkgndACncPtBldQnIAExample
+    - Observation/SARSCoV2stimugammaintflymphcorrectedbkgndACncPtBldQnIAExample
+    - Observation/SARSCoV2stimgammaintfTcellsSpikeAgsptcntbkgrndNumPtBldQnExample
+    - Observation/SARSCoV2stmgammaintfTcellsNuccpsdAgsptcntNumPtBldQnExample
+  GroupG:
+    name: Coded laboratory examples
+    description: Examples of the coded (ordinal and nominal) laboratory profiles
+    resources:
+    - Observation/SARScoronavirus2AbIgGPlusIgMPrThrPtSerPlasOrdIALabObsExample
+    - Observation/SARScoronavirus2AbIgMPrThrPtSerPlasOrdIArapidLabObsExample
+    - Observation/SARScoronavirus2EGenePrThrPtXXXOrdPrbAmpTarLabObsExample
+    - Observation/SARScoronavirus2NGenePrThrPtRespOrdPrbAmpTarLabObsExample
+    - Observation/SARScoronavirus2NgenePrThrPtXXXOrdPrbAmpTarLabObsExample
+    - Observation/SARSCoV2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN1LabObsExample
+    - Observation/SARSCoV2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN2LabObsExample
+    - Observation/SARScoronavirus2RdRpGenePrThePtRespOrdPrbAmpTarLabObsExample
+    - Observation/SARScoronavirus2RdRpGenePrThrPtXXXOrdPrbAmpTarLabObsExample
+    - Observation/SARScoronavirus2RNAPrThrPtRespOrdPrbAmpTarLabObsExample
+    - Observation/SARScoronavirus2RNAPrThrPtXXXOrdPrbAmpTarLabObsExample
+    - Observation/SARSCoV2AgRespQlIArapidLabObsExample
+    - Observation/SARSCoV2ORF1abRespQlNAAprobeLabObsExample
+    - Observation/SARSLikecoronavirusNGenePrThrPtXXXOrdPrbAmpTarLabObsExample
+    - Observation/SARSrelatedCoVPlusMERSCoVRNAPrThrPtRespOrdPrbAmpTarLabObsExample
+    - Observation/SARSRelatedCoronavirusRNAPrThrPtRespOrdPrbAmpTarLabObsExample
+    - Observation/SARScoronavirus2AbIgAPrThrPtSerPlasOrdIALabObsExample
+    - Observation/SARScoronavirus2AbIgGPrThrPtSerPlasOrdIALabObsExample
+    - Observation/SARScoronavirus2AbIgMPrThrPtSerPlasOrdIALabObsExample
+    - Observation/SARScoronavirus2RNAPrThrPtNphOrdNonprobeamptarLabObsExample
+    - Observation/Humancoronavirus229EHKU1OC43NL63RNAPresNsphLabObsExample
+    - Observation/Humancoronavirus229ERNAPrThrPtNphOrdNonprobeamptarLabObsExample
+    - Observation/HumancoronavirusHKU1RNAPrThrPtNphOrdNonprobeamptarLabObsExample
+    - Observation/HumancoronavirusNL63RNAPrThrPtNphOrdNonprobeamptarLabObsExample
+    - Observation/HumancoronavirusOC43RNAPrThrPtNphOrdNonprobeamptarLabObsExample
+    - Observation/SARScov2ORF1abregionPrThrPtXXXOrdProbeamptarLabObsExample
+    - Observation/SARScov2SgenePrThrPtRespiratoryOrdProbeamptarLabObsExample
+    - Observation/SARScoronavirus2SgenePrThrPtXXXOrdProbeamptarLabObsExample
+    - Observation/SARSrelatedcoronavirusRNAPrThrPtXXXOrdProbeamptarLabObsExample
+    - Observation/SARScoronavirus2RNAPrThrPtSerPlasOrdProbeamptarLabObsExample
+    - Observation/SARScoronavirus2AbImpPtSerPlasNomLabObsExample
+    - Observation/SARSCoV2EgenePrThrPtRespOrdProbAmpTarExample
+    - Observation/SARSCoV2NgenePrThrPtRespOrdProbAmpTarN1Example
+    - Observation/SARSCoV2NgenePrThrPtRespOrdProbAmpTarN2Example
+    - Observation/SARCCoV2AbIgGPrThrPtBldDotOrsdIAExample
+    - Observation/SARSCoV2NgenePrThrPtNphOrdProbAmpTarExample
+    - Observation/SARSCoV2RNAPrThrPtNphOrdProbAmpTarExample
+    - Observation/SARSCoV2AbPrThrPtSerPlasOrdIAExample
+    - Observation/SARSCoV2PrThrPtXXXOrdOrganismSpecificCultureExample
+    - Observation/SARSCoV2wholegenomeSeqPtIsolateNomSequencingExample
+    - Observation/SARSCoV2SgenePrThrPtSerPlasOrdProbAmpTarExample
+    - Observation/SARSCoV2EgenePrThrPtSerPlasOrdProbAmpTarExample
+    - Observation/SARSCoV2NgenePrThrPtSerPlasOrdProbAmpTarExample
+    - Observation/SARSCoV2AbIgAPrThrPtSerPlasBldOrdIARapidExample
+    - Observation/SARSCoV2RNAPrThrPtSalivaOrdSequencingExample
+    - Observation/SARSCoV2RNAPrThrPtSalivaOrdProbAmpTarExample
+    - Observation/SARSCoV2AbIgAplusIgMPrThrPtSerPlasordIAExample
+    - Observation/SARSCoronavirusPlusSARSCoV2AgPrThrPtRespOrdIARapidExample
+    - Observation/SARScoronavirus2AbIgGPrThrPtSerPlasBldOrdIArapidExample
+    - Observation/SARScoronavirus2RNAPrThrPtNoseOrdProbeamptarExample
+    - Observation/SARScoronavirus2NGenePrThrPtNoseOrdProbeamptarExample
+    - Observation/SARScoronavirus2AbNeutPrThrPtSerOrdpVNTExample
+    - Observation/SARScoronavirus2AbIgMPrThrPtBlddotOrdIAExample
+    - Observation/SARScoronavirus2RNAPrThrPtRespiratoryOrdSequencingExample
+    - Observation/SARScoronavirus2NGenePrThrPtSalivaOrdProbeamptarExample
+    - Observation/SARScoronavirus2AbIgGAndIgMPrThrPtSerPlasBldOrdIArapidExample
+    - Observation/FluABSARSCoV2SARSrCoVRespNAAprbExample
+    - Observation/FluABSARSCoV2RespNAAprobeExample
+    - Observation/FluAvRNARespQlNaaProbeExample
+    - Observation/FluBvRNARespAlNAAProbeExample
+    - Observation/SARScoronavirus2RNAPrThrPtRespiratoryOrdNonprobeamptarExample
+    - Observation/SARScoronavirus2SgenePrThrPtRespiratoryOrdSequencingExample
+    - Observation/SARSrelatedcoronavirusEgenePrThrPtSalivaOrdProbeamptarExample
+    - Observation/SARScoronavirus2ORF1abregionPrThrPtSalivaOrdProbeamptarExample
+    - Observation/SARScoronavirus2AbPrThrPtBlddotOrdIAExample
+    - Observation/SARSCoV2specificTCRBgenererngmtsPrThrPtBldOrdSequencingExample
+    - Observation/SARScoronavirus2stimulatedgammainterferonPrThrPtBldOrdExample
+    - Observation/SARScoronavirus2RdRpgenePrThrPtSalivaOrdProbeamptarExample
+    - Observation/SARScoronavirus2AgPrThrPtRespiratoryupperOrdIAExample
+    - Observation/SARSCoV2RdRpgenePrThrPtRespiratorylowerOrdProbeamptarExample
+    - Observation/SARSrltdcovEgenePrThrPtResplwrOrdProbeamptarExample
+    - Observation/SARSrltdcovEgenePrThrPtRespupOrdProbeamptarExample
+    - Observation/SARScov2RdRpgenePrThrPtRespupperOrdProbeamptarExample
+    - Observation/SARSCoV2NgenePrThrPtSalivaOrdPATCDCN1Example
+    - Observation/SARSCoV2spikeproteinRBDAbneutPrThrPtSerPlasOrdIAExample
+    - Observation/RSVRNAPrThrPtRespiratoryOrdProbeAmpRTarExample
+    - Observation/InfluenzavirusAAgPrThePtNphOrdIArapidExample
+    - Observation/InfluenzavirusBAgPrThrPtNphOrdIArapidExample
+    - Observation/SARScoronavirus2variantTypePtXXXNomSequencingExample
+    - Observation/SARScoronavirus2SgenemutationdetectedPridPtXXXNomMolgenExample
+    - Observation/SARScoronavirus2SgenemutationPrThrPtXXXOrdMolgenExample
+    - Observation/SARScoronavirus2EgenePrThrPtRespiratoryOrdProbeamptarExample
+    - Observation/SARScoronavirus2SgenePrThrPtSalivaOrdProbeamptarExample
+    - Observation/SARScoronavirus2RNAPrThrPtOropharyngealwashOrdProbeamptarExample
+    - Observation/SARScoronavirus2RNAPrThrPtXXXDonorOrdProbeamptarExample
+    - Observation/SARScoronavirus2lineagePridPtXXXNomMolgenExample
+    - Observation/SARScoronavirus2cladeTypePtXXXNomMolgenExample
+    - Observation/SARSCoV2MgenePrThrPtRespUpperOrdProbeamptarExample
+    - Observation/SARSCoV2NgenePrThrPtSalivaOrdProbeamptarN2Example
+    - Observation/SARScoronavirus2NgenePrThrPtNoseOrdNonprobeamptarExample
+    - Observation/SARScoronavirus2AgPrThrPtRespiratoryupperOrdIArapidExample
+    - Observation/SARSCoV2Nsp2genePrThrPtRespUpperOrdProbeamptarExample
+    - Observation/SARScoronavirus2AbPrThrPtSalivaOrdIArapidExample
+    - Observation/SARSCoV2ORF1bregionPrThrPtRespOrdProbeamptarExample
+    - Observation/SARSCoV2ORF1aregionPrThrPtRespOrdProbeamptarExample
+    - Observation/SARScoronavirus2ORF1bregionPrThrPtSalivaOrdProbeamptarExample
+    - Observation/SARScoronavirus2ORF1aregionPrThrPtSalivaOrdProbeamptarExample
+    - Observation/SARSCoV2nuccpsdptnAbIgGPrThrPtSerPlasOrdIAExample
+    - Observation/SARScoronavirus2spikeproteinAbIgGPrThrPtSerPlasOrdIAExample
+    - Observation/SARScoronavirus2stimulatedgammainterferonImpPtBldOrdExample
+    - Observation/SARSCoV2RdRpgenemutndetPridPtXXXNomMolgenExample
+  GroupH:
+    name: Panel examples
+    description: Examples of laboratory panels for SARS coronavirus 2 and related pathogens 
+    resources:
+    - Observation/SARScoronavirus2AbIgGandIgMpanelPtSerPlasOrdIArapidLabObsExample
+    - Observation/SARScoronavirus2AbIgGandIgMpanelPtSerPlasQnIALabObsExample
+    - Observation/SARScoronavirus2RNAPanelPtRespPrbAmpTarLabObsExample
+    - Observation/SARSCoV2RNAPnlXXXNAAprobePanelLabObsExample
+    - Observation/FluABSARSCoV2PnlRespNAAprbExample
+    - Observation/SARScoronavirus2RNApanelPtSalivaProbeamptarExample
+    - Observation/FluAandBandSARSCoV2andRSVRNApanelPtRespProbeamptarExample
+    - Observation/FluAandBandSARSCoVSARSCoV2AgPtRespupIArapidExample
+    - Observation/SARScoronavirus2stimulatedgammainterferonpanelPtBldExample
+    - Observation/SARSCoV2andSARSrltdcovRNApanelPtRespProbeamptarExample
+    - Observation/SARScoronavirus2AbpanelPtBlddotIAExample
+    - Observation/SARScoronavirus2sequencingidentificationpanelPtXXXMolgenExample
+    - Observation/SARScoronavirus2RNApanelPtOropharyngealwashProbeamptarExample
+    - Observation/FluAFluBSARSCoV2AgpanelPtRespiratoryupperIArapidExample
+    - Observation/SARSCoV2SARSrelatedCoVRNApanelPtSalivaProbeamptarExample
+  GroupI:
+    name: Other Laboratory examples
+    description: Examples of laboratory tests that are not quanitative, coded, or panels
+    resources:
+    - Observation/SARScoronavirus2variantinterpretationImpPtXXXNarExample
+    - Observation/SequencingStudyIdentifierExample
+    - Observation/GISAIDSequenceAccessionNumberExample
+    - Observation/SARSCoV2spkptnRBDAbneutTitrPtSerPlasQnIAExample
+
 pages:
   index.md:
     title: Home
@@ -66,7 +451,6 @@ pages:
     title: Downloads
   Other_examples.md:
     title: Other examples
-
 
 menu:
   IG Home: index.html

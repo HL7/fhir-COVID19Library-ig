@@ -670,8 +670,8 @@ Usage: #example
 * subject = Reference(patient-anyperson-mary)
 * effectiveDateTime = "2021-09-21"
 
-Instance: SARSCoV2RNAPrThrPtNphOrsdProbAmpTarExample
-InstanceOf: SARSCoV2RNAPrThrPtNphOrsdProbAmpTar
+Instance: SARSCoV2RNAPrThrPtNphOrdProbAmpTarExample
+InstanceOf: SARSCoV2RNAPrThrPtNphOrdProbAmpTar
 Description: "An examle of the SARS-CoV-2 (COVID-19) RNA [Presence] in Nasopharynx by NAA with probe detection test."
 Usage: #example
 * status = #final
@@ -1666,3 +1666,527 @@ Usage: #example
 * hasMember[0] = Reference(SARCCoV2AbIgGPrThrPtBldDotOrsdIAExample)
 * hasMember[1] = Reference(SARScoronavirus2AbIgMPrThrPtBlddotOrdIAExample)
 * hasMember[2] = Reference(SARScoronavirus2AbPrThrPtBlddotOrdIAExample)
+
+Instance: SARScoronavirus2variantTypePtXXXNomSequencingExample
+InstanceOf: SARScoronavirus2variantTypePtXXXNomSequencing
+Description: "An example of the SARS-CoV-2 (COVID-19) variant [Type] in Specimen by Sequencing laboratory test"
+Usage: #example
+* status = #final
+* category = ObsCat#laboratory
+* code = LNC#96741-4
+* valueCodeableConcept = LNC#LA31569-9 "SARS-CoV-2 Alpha variant (WHO)"
+* subject = Reference(patient-anyperson-mary)
+* effectiveDateTime = "2021-09-21"
+
+Instance: SARScoronavirus2AbIgGMCncPtSerPlasQnIAExample
+InstanceOf: SARScoronavirus2AbIgGMCncPtSerPlasQnIA
+Description: "An example of the SARS-CoV-2 (COVID-19) IgG Ab [Mass/volume] in Serum or Plasma by Immunoassay laboratory test"
+Usage: #example
+* status = #final
+* category = ObsCat#laboratory
+* code = LNC#96742-2
+* valueQuantity.value = 19
+* valueQuantity.code = UCUM#ug/mL
+* valueQuantity.system = "http://unitsofmeasure.org"
+* subject = Reference(patient-anyperson-mary)
+* effectiveDateTime = "2021-09-21"
+
+Instance: SARScoronavirus2SgenemutationdetectedPridPtXXXNomMolgenExample
+InstanceOf: SARScoronavirus2SgenemutationdetectedPridPtXXXNomMolgen
+Description: "An example of the SARS-CoV-2 (COVID-19) S gene mutation detected [Identifier] in Specimen by Molecular genetics method laboratory test"
+Usage: #example
+* status = #final
+* category = ObsCat#laboratory
+* code = LNC#96751-3
+* valueCodeableConcept = LNC#LA31604-4 "N501Y"
+* subject = Reference(patient-anyperson-mary)
+* effectiveDateTime = "2021-09-21"
+
+Instance: SARScoronavirus2SgenemutationPrThrPtXXXOrdMolgenExample
+InstanceOf: SARScoronavirus2SgenemutationPrThrPtXXXOrdMolgen
+Description: "An example of the SARS-CoV-2 (COVID-19) S gene mutation [Presence] in Specimen by Molecular genetics method laboratory test"
+Usage: #example
+* status = #final
+* category = ObsCat#laboratory
+* code = LNC#96752-1
+* valueCodeableConcept = SCT#260373001 "Detected (qualifier value)"
+* subject = Reference(patient-anyperson-mary)
+* effectiveDateTime = "2021-09-21"
+
+Instance: SARScoronavirus2variantinterpretationImpPtXXXNarExample
+InstanceOf: SARScoronavirus2variantinterpretationImpPtXXXNar
+Description: "An example of the SARS-CoV-2 (COVID-19) variant interpretation in Specimen Narrative laboratory test"
+Usage: #example
+* status = #final
+* category = ObsCat#laboratory
+* code = LNC#96755-4
+* valueString = "Negative for SARC CoV 2"
+* subject = Reference(patient-anyperson-mary)
+* effectiveDateTime = "2021-09-21"
+
+Instance: SARScoronavirus2EgenePrThrPtRespiratoryOrdProbeamptarExample
+InstanceOf: SARScoronavirus2EgenePrThrPtRespiratoryOrdProbeamptar
+Description: "An example of the SARS-CoV-2 (COVID-19) E gene [Presence] in Respiratory specimen by NAA with probe detection laboratory test"
+Usage: #example
+* status = #final
+* category = ObsCat#laboratory
+* code = LNC#96763-8
+* valueCodeableConcept = SCT#260385009 "Negative (qualifier value)"
+* subject = Reference(patient-anyperson-mary)
+* effectiveDateTime = "2021-09-21"
+
+Instance: SARScoronavirus2EgeneThreshNumPtRespiratoryQnProbeamptarExample
+InstanceOf: SARScoronavirus2EgeneThreshNumPtRespiratoryQnProbeamptar
+Description: "An example of the SARS-CoV-2 (COVID-19) E gene [Cycle Threshold #] in Respiratory specimen by NAA with probe detection laboratory test"
+Usage: #example
+* status = #final
+* category = ObsCat#laboratory
+* code = LNC#96764-6
+* valueQuantity.value = 13.3
+* valueQuantity.code = UCUM#{Ct_value}
+* valueQuantity.system = "http://unitsofmeasure.org"
+* subject = Reference(patient-anyperson-mary)
+* effectiveDateTime = "2021-09-21"
+
+Instance: SARScoronavirus2SgenePrThrPtSalivaOrdProbeamptarExample
+InstanceOf: SARScoronavirus2SgenePrThrPtSalivaOrdProbeamptar
+Description: "An example of the SARS-CoV-2 (COVID-19) S gene [Presence] in Saliva (oral fluid) by NAA with probe detection laboratory test"
+Usage: #example
+* status = #final
+* category = ObsCat#laboratory
+* code = LNC#96765-3
+* valueCodeableConcept = SCT#260385009 "Negative (qualifier value)"
+* subject = Reference(patient-anyperson-mary)
+* effectiveDateTime = "2021-09-21"
+
+Instance: SARScoronavirus2RNAPrThrPtOropharyngealwashOrdProbeamptarExample
+InstanceOf: SARScoronavirus2RNAPrThrPtOropharyngealwashOrdProbeamptar
+Description: "An example of the SARS-CoV-2 (COVID-19) RNA [Presence] in Oropharyngeal wash by NAA with probe detection laboratory test"
+Usage: #example
+* status = #final
+* category = ObsCat#laboratory
+* code = LNC#96797-6
+* valueCodeableConcept = SCT#260385009 "Negative (qualifier value)"
+* subject = Reference(patient-anyperson-mary)
+* effectiveDateTime = "2021-09-21"
+
+Instance: SARScoronavirus2RNAPrThrPtXXXDonorOrdProbeamptarExample
+InstanceOf: SARScoronavirus2RNAPrThrPtXXXDonorOrdProbeamptar
+Description: "An example of the SARS-CoV-2 (COVID-19) RNA [Presence] in Specimen from Donor by NAA with probe detection laboratory test"
+Usage: #example
+* status = #final
+* category = ObsCat#laboratory
+* code = LNC#96829-7
+* valueCodeableConcept = SCT#260415000 "Not detected (qualifier value)"
+* subject = Reference(patient-anyperson-mary)
+* effectiveDateTime = "2021-09-21"
+
+Instance: SARScoronavirus2sequencingidentificationpanelPtXXXMolgenExample
+InstanceOf: SARScoronavirus2sequencingidentificationpanelPtXXXMolgen
+Description: "An example of the SARS-CoV-2 (COVID-19) sequencing and identification panel - Specimen by Molecular genetics method laboratory panel"
+Usage: #example
+* status = #final
+* category = ObsCat#laboratory
+* code = LNC#96894-1
+* dataAbsentReason = DAR#not-permitted
+* subject = Reference(patient-anyperson-mary)
+* effectiveDateTime = "2021-09-21"
+* hasMember[0] = Reference(SequencingStudyIdentifierExample)
+* hasMember[1] = Reference(GISAIDSequenceAccessionNumberExample)
+* hasMember[2] = Reference(SARSCoV2wholegenomeSeqPtIsolateNomSequencingExample)
+* hasMember[3] = Reference(SARScoronavirus2SgenemutationdetectedPridPtXXXNomMolgenExample)
+* hasMember[4] = Reference(SARScoronavirus2SgenemutationPrThrPtXXXOrdMolgenExample)
+* hasMember[5] = Reference(SARScoronavirus2lineagePridPtXXXNomMolgenExample)
+* hasMember[6] = Reference(SARScoronavirus2cladeTypePtXXXNomMolgenExample)
+* hasMember[7] = Reference(SARScoronavirus2variantTypePtXXXNomSequencingExample)
+* hasMember[8] = Reference(SARScoronavirus2variantinterpretationImpPtXXXNarExample)
+
+Instance: SARScoronavirus2lineagePridPtXXXNomMolgenExample
+InstanceOf: SARScoronavirus2lineagePridPtXXXNomMolgen
+Description: "An example of the SARS-CoV-2 (COVID-19) lineage [Identifier] in Specimen by Molecular genetics method laboratory test"
+Usage: #example
+* status = #final
+* category = ObsCat#laboratory
+* code = LNC#96895-8
+* valueCodeableConcept = LNC#LA31703-4 "SARS-CoV-2 B.1.2 lineage"
+* subject = Reference(patient-anyperson-mary)
+* effectiveDateTime = "2021-09-21"
+
+Instance: SARScoronavirus2cladeTypePtXXXNomMolgenExample
+InstanceOf: SARScoronavirus2cladeTypePtXXXNomMolgen
+Description: "An example of the SARS-CoV-2 (COVID-19) clade [Type] in Specimen by Molecular genetics method laboratory test"
+Usage: #example
+* status = #final
+* category = ObsCat#laboratory
+* code = LNC#96896-6
+* valueCodeableConcept = LNC#LA31688-7 "SARS-CoV-2 clade 19B"
+* subject = Reference(patient-anyperson-mary)
+* effectiveDateTime = "2021-09-21"
+
+Instance: SARScoronavirus2RNApanelPtOropharyngealwashProbeamptarExample
+InstanceOf: SARScoronavirus2RNApanelPtOropharyngealwashProbeamptar
+Description: "An example of the SARS-CoV-2 (COVID-19) RNA panel - Oropharyngeal wash by NAA with probe detection laboratory panel"
+Usage: #example
+* status = #final
+* category = ObsCat#laboratory
+* code = LNC#96897-4
+* dataAbsentReason = DAR#not-permitted
+* subject = Reference(patient-anyperson-mary)
+* effectiveDateTime = "2021-09-21"
+* hasMember[0] = Reference(SARScoronavirus2RNAPrThrPtOropharyngealwashOrdProbeamptarExample)
+* hasMember[1] = Reference(SARSCoV2NgeneThreshNumPtOPwashQnProbeamptarExample)
+* hasMember[2] = Reference(SARSCoV2ORF1abregionPrNumPtOropharyngealwashQnProbeamptarExample)
+* hasMember[3] = Reference(SARSCoV2SgeneThreshNumPtOPwashQnProbeamptarExample)
+
+Instance: SARSCoV2NgeneThreshNumPtOPwashQnProbeamptarExample
+InstanceOf: SARSCoV2NgeneThreshNumPtOPwashQnProbeamptar
+Description: "An example of the SARS-CoV-2 (COVID-19) N gene [Cycle Threshold #] in Oropharyngeal wash by NAA with probe detection laboratory test"
+Usage: #example
+* status = #final
+* category = ObsCat#laboratory
+* code = LNC#96898-2
+* valueQuantity.value = 86
+* valueQuantity.code = UCUM#{Ct_value}
+* valueQuantity.system = "http://unitsofmeasure.org"
+* subject = Reference(patient-anyperson-mary)
+* effectiveDateTime = "2021-09-21"
+
+Instance: SARSCoV2ORF1abregionPrNumPtOropharyngealwashQnProbeamptarExample
+InstanceOf: SARSCoV2ORF1abregionPrNumPtOropharyngealwashQnProbeamptar
+Description: "An example of the SARS-CoV-2 (COVID-19) ORF1ab region [Cycle Threshold #] in Oropharyngeal wash by NAA with probe detection laboratory test"
+Usage: #example
+* status = #final
+* category = ObsCat#laboratory
+* code = LNC#96899-0
+* valueQuantity.value = 198
+* valueQuantity.code = UCUM#{Ct_value}
+* valueQuantity.system = "http://unitsofmeasure.org"
+* subject = Reference(patient-anyperson-mary)
+* effectiveDateTime = "2021-09-21"
+
+Instance: SARSCoV2SgeneThreshNumPtOPwashQnProbeamptarExample
+InstanceOf: SARSCoV2SgeneThreshNumPtOPwashQnProbeamptar
+Description: "An example of the SARS-CoV-2 (COVID-19) S gene [Cycle Threshold #] in Oropharyngeal wash by NAA with probe detection laboratory test"
+Usage: #example
+* status = #final
+* category = ObsCat#laboratory
+* code = LNC#96900-6
+* valueQuantity.value = 877
+* valueQuantity.code = UCUM#{Ct_value}
+* valueQuantity.system = "http://unitsofmeasure.org"
+* subject = Reference(patient-anyperson-mary)
+* effectiveDateTime = "2021-09-21"
+
+Instance: SARSCoV2MgenePrThrPtRespUpperOrdProbeamptarExample
+InstanceOf: SARSCoV2MgenePrThrPtRespUpperOrdProbeamptar
+Description: "An example of the SARS-CoV-2 (COVID-19) M gene [Presence] in Upper respiratory specimen by NAA with probe detection laboratory test"
+Usage: #example
+* status = #final
+* category = ObsCat#laboratory
+* code = LNC#96957-6
+* valueCodeableConcept = SCT#10828004 "Positive (qualifier value)"
+* subject = Reference(patient-anyperson-mary)
+* effectiveDateTime = "2021-09-21"
+
+Instance: SARSCoV2NgenePrThrPtSalivaOrdProbeamptarN2Example
+InstanceOf: SARSCoV2NgenePrThrPtSalivaOrdProbeamptarN2
+Description: "An example of the SARS-CoV-2 (COVID-19) N gene [Presence] in Saliva (oral fluid) by Nucleic acid amplification using CDC primer-probe set N2 laboratory test"
+Usage: #example
+* status = #final
+* category = ObsCat#laboratory
+* code = LNC#96958-4
+* valueCodeableConcept = LabObs#invalid "invalid"
+* subject = Reference(patient-anyperson-mary)
+* effectiveDateTime = "2021-09-21"
+
+Instance: SARScoronavirus2NgenePrThrPtNoseOrdNonprobeamptarExample
+InstanceOf: SARScoronavirus2NgenePrThrPtNoseOrdNonprobeamptar
+Description: "An example of the SARS-CoV-2 (COVID-19) N gene [Presence] in Nose by NAA with non-probe detection laboratory test"
+Usage: #example
+* status = #final
+* category = ObsCat#laboratory
+* code = LNC#96986-5
+* valueCodeableConcept = SCT#42425007 "Equivocal (qualifier value)"
+* subject = Reference(patient-anyperson-mary)
+* effectiveDateTime = "2021-09-21"
+
+Instance: SARScoronavirus2AgPrThrPtRespiratoryupperOrdIArapidExample
+InstanceOf: SARScoronavirus2AgPrThrPtRespiratoryupperOrdIArapid
+Description: "An example of the SARS-CoV-2 (COVID-19) Ag [Presence] in Upper respiratory specimen by Rapid immunoassay laboratory test"
+Usage: #example
+* status = #final
+* category = ObsCat#laboratory
+* code = LNC#97097-0
+* valueCodeableConcept = SCT#260415000 "Not detected (qualifier value)"
+* subject = Reference(patient-anyperson-mary)
+* effectiveDateTime = "2021-09-21"
+
+Instance: SARSCoV2Nsp2genePrThrPtRespUpperOrdProbeamptarExample
+InstanceOf: SARSCoV2Nsp2genePrThrPtRespUpperOrdProbeamptar
+Description: "An example of the SARS-CoV-2 (COVID-19) Nsp2 gene [Presence] in Upper respiratory specimen by NAA with probe detection laboratory test"
+Usage: #example
+* status = #final
+* category = ObsCat#laboratory
+* code = LNC#97098-8
+* valueCodeableConcept = SCT#260415000 "Not detected (qualifier value)"
+* subject = Reference(patient-anyperson-mary)
+* effectiveDateTime = "2021-09-21"
+
+Instance: FluAFluBSARSCoV2AgpanelPtRespiratoryupperIArapidExample
+InstanceOf: FluAFluBSARSCoV2AgpanelPtRespiratoryupperIArapid
+Description: "An example of the Influenza virus A and B and SARS-CoV-2 (COVID-19) Ag panel - Upper respiratory specimen by Rapid immunoassay laboratory panel"
+Usage: #example
+* status = #final
+* category = ObsCat#laboratory
+* code = LNC#97099-6
+* dataAbsentReason = DAR#not-permitted
+* subject = Reference(patient-anyperson-mary)
+* effectiveDateTime = "2021-09-21"
+* hasMember[0] = Reference(SARScoronavirus2AgPrThrPtRespiratoryupperOrdIArapidExample)
+* hasMember[1] = Reference(InfluenzavirusBAgPrThrPtNphOrdIArapidExample)
+* hasMember[2] = Reference(InfluenzavirusAAgPrThePtNphOrdIArapidExample)
+
+Instance: SARSCoV2ORF1abregionACncPtRespUpperQnProbeamptarExample
+InstanceOf: SARSCoV2ORF1abregionACncPtRespUpperQnProbeamptar
+Description: "An example of the SARS-CoV-2 (COVID-19) ORF1ab region [Units/volume] (viral load) in Upper respiratory specimen by NAA with probe detection laboratory test"
+Usage: #example
+* status = #final
+* category = ObsCat#laboratory
+* code = LNC#97104-4
+* valueQuantity.value = 528.5
+* valueQuantity.code = UCUM#[IU]/mL
+* valueQuantity.system = "http://unitsofmeasure.org"
+* subject = Reference(patient-anyperson-mary)
+* effectiveDateTime = "2021-09-21"
+
+Instance: SARScoronavirus2AbPrThrPtSalivaOrdIArapidExample
+InstanceOf: SARScoronavirus2AbPrThrPtSalivaOrdIArapid
+Description: "An example of the SARS-CoV-2 (COVID-19) Ab [Presence] in Saliva (oral fluid) by Rapid immunoassay laboratory test"
+Usage: #example
+* status = #final
+* category = ObsCat#laboratory
+* code = LNC#98069-8
+* valueCodeableConcept = SCT#260385009 "Negative (qualifier value)"
+* subject = Reference(patient-anyperson-mary)
+* effectiveDateTime = "2021-09-21"
+
+Instance: SARSCoV2SARSrelatedCoVRNApanelPtSalivaProbeamptarExample
+InstanceOf: SARSCoV2SARSrelatedCoVRNApanelPtSalivaProbeamptar
+Description: "An example of the SARS-CoV-2 (COVID-19) and SARS-related CoV RNA panel - Saliva (oral fluid) by NAA with probe detection laboratory panel"
+Usage: #example
+* status = #final
+* category = ObsCat#laboratory
+* code = LNC#98080-5
+* dataAbsentReason = DAR#not-permitted
+* subject = Reference(patient-anyperson-mary)
+* effectiveDateTime = "2021-09-21"
+* hasMember[0] = Reference(SARSCoV2RNAPrThrPtSalivaOrdProbAmpTarExample)
+* hasMember[1] = Reference(SARScoronavirus2NGenePrThrPtSalivaOrdProbeamptarExample)
+* hasMember[2] = Reference(SARSrelatedcoronavirusEgenePrThrPtSalivaOrdProbeamptarExample)
+* hasMember[3] = Reference(SARScoronavirus2ORF1abregionPrThrPtSalivaOrdProbeamptarExample)
+* hasMember[4] = Reference(SARScoronavirus2RdRpgenePrThrPtSalivaOrdProbeamptarExample)
+* hasMember[5] = Reference(SARScoronavirus2SgenePrThrPtSalivaOrdProbeamptarExample)
+
+Instance: SARSCoV2ORF1bregionPrThrPtRespOrdProbeamptarExample
+InstanceOf: SARSCoV2ORF1bregionPrThrPtRespOrdProbeamptar
+Description: "An example of the SARS-CoV-2 (COVID-19) ORF1b region [Presence] in Respiratory specimen by NAA with probe detection laboratory test"
+Usage: #example
+* status = #final
+* category = ObsCat#laboratory
+* code = LNC#98131-6
+* valueCodeableConcept = SCT#260385009 "Negative (qualifier value)"
+* subject = Reference(patient-anyperson-mary)
+* effectiveDateTime = "2021-09-21"
+
+Instance: SARSCoV2ORF1aregionPrThrPtRespOrdProbeamptarExample
+InstanceOf: SARSCoV2ORF1aregionPrThrPtRespOrdProbeamptar
+Description: "An example of the SARS-CoV-2 (COVID-19) ORF1a region [Presence] in Respiratory specimen by NAA with probe detection laboratory test"
+Usage: #example
+* status = #final
+* category = ObsCat#laboratory
+* code = LNC#98132-4
+* valueCodeableConcept = SCT#260385009 "Negative (qualifier value)"
+* subject = Reference(patient-anyperson-mary)
+* effectiveDateTime = "2021-09-21"
+
+Instance: SARScoronavirus2ORF1bregionPrThrPtSalivaOrdProbeamptarExample
+InstanceOf: SARScoronavirus2ORF1bregionPrThrPtSalivaOrdProbeamptar
+Description: "An example of the SARS-CoV-2 (COVID-19) ORF1b region [Presence] in Saliva (oral fluid) by NAA with probe detection laboratory test"
+Usage: #example
+* status = #final
+* category = ObsCat#laboratory
+* code = LNC#98493-0
+* valueCodeableConcept = SCT#260385009 "Negative (qualifier value)"
+* subject = Reference(patient-anyperson-mary)
+* effectiveDateTime = "2021-09-21"
+
+Instance: SARScoronavirus2ORF1aregionPrThrPtSalivaOrdProbeamptarExample
+InstanceOf: SARScoronavirus2ORF1aregionPrThrPtSalivaOrdProbeamptar
+Description: "An example of the SARS-CoV-2 (COVID-19) ORF1a region [Presence] in Saliva (oral fluid) by NAA with probe detection laboratory test"
+Usage: #example
+* status = #final
+* category = ObsCat#laboratory
+* code = LNC#98494-8
+* valueCodeableConcept = SCT#260385009 "Negative (qualifier value)"
+* subject = Reference(patient-anyperson-mary)
+* effectiveDateTime = "2021-09-21"
+
+Instance: SARSCoV2spkptnRBDAbneutTitrPtSerPlasQnIAExample
+InstanceOf: SARSCoV2spkptnRBDAbneutTitrPtSerPlasQnIA
+Description: "An example of the SARS-CoV-2 (COVID-19) S protein RBD neutralizing antibody [Titer] in Serum or Plasma by Immunoassay laboratory test"
+Usage: #example
+* status = #final
+* category = ObsCat#laboratory
+* code = LNC#98732-1
+* valueRatio.numerator.value = 1
+* valueRatio.denominator.value = 256
+* valueRatio.numerator.code = UCUM#{titer}
+* valueRatio.numerator.system = "http://unitsofmeasure.org"
+* subject = Reference(patient-anyperson-mary)
+* effectiveDateTime = "2021-09-21"
+
+Instance: PercentNeutSARSCoV2spikeprtRBDAbneutAFrPtSerPlasQnIAExample
+InstanceOf: PercentNeutSARSCoV2spikeprtRBDAbneutAFrPtSerPlasQnIA
+Description: "An example of the Percent neutralization by SARS coronavirus 2 spike protein RBD neutralizing antibody in Serum or Plasma by Immunoassay laboratory test"
+Usage: #example
+* status = #final
+* category = ObsCat#laboratory
+* code = LNC#98733-9
+* valueQuantity.value = 34
+* valueQuantity.code = UCUM#%
+* valueQuantity.system = "http://unitsofmeasure.org"
+* subject = Reference(patient-anyperson-mary)
+* effectiveDateTime = "2021-09-21"
+
+Instance: SARScoronavirus2spikeproteinRBDAbneutACncPtSerPlasQnIAExample
+InstanceOf: SARScoronavirus2spikeproteinRBDAbneutACncPtSerPlasQnIA
+Description: "An example of the SARS-CoV-2 (COVID-19) S protein RBD neutralizing antibody [Units/volume] in Serum or Plasma by Immunoassay laboratory test"
+Usage: #example
+* status = #final
+* category = ObsCat#laboratory
+* code = LNC#98734-7
+* valueQuantity.value = 345.0
+* valueQuantity.code = UCUM#[IU]/mL
+* valueQuantity.system = "http://unitsofmeasure.org"
+* subject = Reference(patient-anyperson-mary)
+* effectiveDateTime = "2021-09-21"
+
+Instance: SARSCoV2stimugammaintfCD4TcorrectedforbkgndACncPtBldQnIAExample
+InstanceOf: SARSCoV2stimugammaintfCD4TcorrectedforbkgndACncPtBldQnIA
+Description: "An example of the SARS coronavirus 2 stimulated gamma interferon release by Helper (CD4+) T-cells [Units/volume] corrected for background in Blood by Immunoassay laboratory test"
+Usage: #example
+* status = #final
+* category = ObsCat#laboratory
+* code = LNC#98846-9
+* valueQuantity.value = 543.1
+* valueQuantity.code = UCUM#[IU]/mL
+* valueQuantity.system = "http://unitsofmeasure.org"
+* subject = Reference(patient-anyperson-mary)
+* effectiveDateTime = "2021-09-21"
+
+Instance: SARSCoV2stimugammaintflymphcorrectedbkgndACncPtBldQnIAExample
+InstanceOf: SARSCoV2stimugammaintflymphcorrectedbkgndACncPtBldQnIA
+Description: "An example of the SARS coronavirus 2 stimulated gamma interferon release by lymphocytes [Units/volume] corrected for background in Blood by Immunoassay laboratory test"
+Usage: #example
+* status = #final
+* category = ObsCat#laboratory
+* code = LNC#98847-7
+* valueQuantity.value = 453.1
+* valueQuantity.code = UCUM#[IU]/mL
+* valueQuantity.system = "http://unitsofmeasure.org"
+* subject = Reference(patient-anyperson-mary)
+* effectiveDateTime = "2021-09-21"
+
+Instance: SARSCoV2RdRpgenemutndetPridPtXXXNomMolgenExample
+InstanceOf: SARSCoV2RdRpgenemutndetPridPtXXXNomMolgen
+Description: "An example of the SARS-CoV-2 (COVID-19) RdRp gene mutation detected [Identifier] in Specimen by Molecular genetics method laboratory test"
+Usage: #example
+* status = #final
+* category = ObsCat#laboratory
+* code = LNC#99314-7
+* valueCodeableConcept = LNC#LA32887-4 "P227L"
+* subject = Reference(patient-anyperson-mary)
+* effectiveDateTime = "2021-09-21"
+
+Instance: SARSCoV2nuccpsdptnAbIgGPrThrPtSerPlasOrdIAExample
+InstanceOf: SARSCoV2nuccpsdptnAbIgGPrThrPtSerPlasOrdIA
+Description: "An example of the SARS-CoV-2 (COVID-19) N protein IgG Ab [Presence] in Serum or Plasma by Immunoassay laboratory test"
+Usage: #example
+* status = #final
+* category = ObsCat#laboratory
+* code = LNC#99596-9
+* valueCodeableConcept = SCT#260415000 "Not detected (qualifier value)"
+* subject = Reference(patient-anyperson-mary)
+* effectiveDateTime = "2021-09-21"
+
+Instance: SARScoronavirus2spikeproteinAbIgGPrThrPtSerPlasOrdIAExample
+InstanceOf: SARScoronavirus2spikeproteinAbIgGPrThrPtSerPlasOrdIA
+Description: "An example of the SARS-CoV-2 (COVID-19) S protein IgG Ab [Presence] in Serum or Plasma by Immunoassay laboratory test"
+Usage: #example
+* status = #final
+* category = ObsCat#laboratory
+* code = LNC#99597-7
+* valueCodeableConcept = SCT#260415000 "Not detected (qualifier value)"
+* subject = Reference(patient-anyperson-mary)
+* effectiveDateTime = "2021-09-21"
+
+Instance: SARScoronavirus2stimulatedgammainterferonImpPtBldOrdExample
+InstanceOf: SARScoronavirus2stimulatedgammainterferonImpPtBldOrd
+Description: "An example of the SARS-CoV-2 stimulated gamma interferon [Interpretation] in Blood Qualitative laboratory test"
+Usage: #example
+* status = #final
+* category = ObsCat#laboratory
+* code = LNC#99772-6
+* valueCodeableConcept = SCT#131194007 "Non-reactive (qualifier value)"
+* subject = Reference(patient-anyperson-mary)
+* effectiveDateTime = "2021-09-21"
+
+Instance: SARSCoV2stimgammaintfTcellsSpikeAgsptcntbkgrndNumPtBldQnExample
+InstanceOf: SARSCoV2stimgammaintfTcellsSpikeAgsptcntbkgrndNumPtBldQn
+Description: "An example of the SARS coronavirus 2 stimulated gamma interferon release by T-cells.Spike Ag spot count [#] corrected for background in Blood laboratory test"
+Usage: #example
+* status = #final
+* category = ObsCat#laboratory
+* code = LNC#99773-4
+* valueQuantity.value = 789
+* valueQuantity.code = UCUM#{#}
+* valueQuantity.system = "http://unitsofmeasure.org"
+* subject = Reference(patient-anyperson-mary)
+* effectiveDateTime = "2021-09-21"
+
+Instance: SARSCoV2stmgammaintfTcellsNuccpsdAgsptcntNumPtBldQnExample
+InstanceOf: SARSCoV2stmgammaintfTcellsNuccpsdAgsptcntNumPtBldQn
+Description: "An example of the SARS coronavirus 2 stimulated gamma interferon release by T-cells.Nucleocapsid Ag spot count [#] corrected for background in Blood laboratory test"
+Usage: #example
+* status = #final
+* category = ObsCat#laboratory
+* code = LNC#99774-2
+* valueQuantity.value = 987
+* valueQuantity.code = UCUM#{#}
+* valueQuantity.system = "http://unitsofmeasure.org"
+* subject = Reference(patient-anyperson-mary)
+* effectiveDateTime = "2021-09-21"
+
+Instance: SequencingStudyIdentifierExample
+InstanceOf: SequencingStudyIdentifier
+Description: "An example of the Sequencing Study Identifier"
+Usage: #example
+* status = #final
+* category = ObsCat#laboratory
+* code = LNC#98062-3
+* valueString = "5634217"
+* subject = Reference(patient-anyperson-mary)
+* effectiveDateTime = "2021-09-21"
+
+Instance: GISAIDSequenceAccessionNumberExample
+InstanceOf: GISAIDSequenceAccessionNumber
+Description: "An example of the GISAID Sequence Accession Number"
+Usage: #example
+* status = #final
+* category = ObsCat#laboratory
+* code = LNC#96766-1
+* valueString = "TH2347"
+* subject = Reference(patient-anyperson-mary)
+* effectiveDateTime = "2021-09-21"
+
+

@@ -9,16 +9,19 @@ If you are submitting data needed in public health electronic case reporting (re
 DO NOT use the FHIR profiles or data elements defined in the Logica COVID-19 FHIR Profile Library IG to transmit data to state or local health departments as part of electronic case reporting.
 
 
-#### User Response Survey
+#### Other resources for COVID-19 data
 
-If you are using profiles or guidance from this implementation guide or plan on using them, please fill out this survey so that we may know who is using it and in what capacity.  Thank you!  [User Response Survey](https://docs.google.com/forms/d/1oDzSapfUrAkH1pAz3hLR7NXjAm5v6OxMaiRvVnLfkFs/edit)
+This implementation guide is not comprehensive in scope.  There are other, ongoing projects concerning COVID-1 data.  Two good resources are:
+- The [FDA COVID Evidence Accelerator Collaborative](https://www.fda.gov/drugs/coronavirus-covid-19-drugs/covid-19-real-world-data-rwd-data-elements-harmonization-project)
+- The [NIH National COVID Cohort Collaborative (NC3)](https://ncats.nih.gov/n3c)
 
+Please refer to these or others for more information.
 
 #### Sources
 
 The following reporting forms, documents, and terminology sources were consulted when creating the profiles for this IG.  This list will grow as new profiles are added.
 
-- CDC COVID-19 Person Under Ivestigation (PUI) form.  You may download a PDF version of the form [here](https://www.okmed.org/web/images/online/documents/COVID19/CDC-PUI-Report-Form.pdf)
+- CDC COVID-19 Person Under Investigation (PUI) form.  You may download a PDF version of the form [here](https://www.okmed.org/web/images/online/documents/COVID19/CDC-PUI-Report-Form.pdf)
 - Council of State and Territorial Epidemiologists (CTSE) and national notification for 2019 novel coronavirus disease (COVID-19)
 - Salt Lake County COVID-19 form
 - CDC COVID-19-Associated Hospitalization Surveillance Case Report Form

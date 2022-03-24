@@ -22,3 +22,4 @@ Description: "A set of laboratory result values that are not defined in any code
 * ^caseSensitive = false
 * #equivalent "equivalent"
 * #invalid "invalid"
+* #borderline "borderline"
