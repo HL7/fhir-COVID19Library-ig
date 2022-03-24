@@ -4,7 +4,7 @@ The tables below contain examples for all of the laboratory profiles.  These wer
 
 #### Laboratory tests with quantitative results
 
-| LOINC Code | Profile link |
+| LOINC Code | Example link |
 | :--- | :--- |
 | 71776-9 | [Gamma interferon background [Units/volume] in Blood by Immunoassay](Observation-GammaInterferonBackgroundACncPtBldQnIAExample.html) |
 | 71774-4 | [Mitogen stimulated gamma interferon [Units/volume] corrected for background in Blood](Observation-MitogenStimGammaIntfrnCrctdForBckgrndACncPtBldQnExample.html) |
@@ -50,7 +50,7 @@ The tables below contain examples for all of the laboratory profiles.  These wer
 
 #### Laboratory tests with coded results
 
-| LOINC Code | Profile link |
+| LOINC Code | Example link |
 | :--- | :--- |
 | 95423-0 | [Influenza virus A and B and SARS-CoV-2 COVID-19 identified in Respiratory specimen by NAA with probe detection](Observation-FluABSARSCoV2RespNAAprobeExample.html) |
 | 95380-2 | [Influenza virus A and B and SARS-CoV-2 COVID-19 and SARS-related CoV RNA panel - Respiratory specimen by NAA with probe detection](Observation-FluABSARSCoV2SARSrCoVRespNAAprbExample.html) |
@@ -155,7 +155,7 @@ The tables below contain examples for all of the laboratory profiles.  These wer
 
 #### Panels
 
-| LOINC Code | Profile link |
+| LOINC Code | Example link |
 | :--- | :--- |
 | 95941-1 | [Influenza virus A and B and SARS-CoV-2 COVID-19 and Respiratory syncytial virus RNA panel - Respiratory specimen by NAA with probe detection](Observation--FluAandBandSARSCoV2andRSVRNApanelPtRespProbeamptarExample.html) |
 | 95942-9 | [Influenza virus A and B and SARS-CoV+SARS-CoV-2 COVID-19 Ag panel - Upper respiratory specimen by Rapid immunoassay](Observation--FluAandBandSARSCoVSARSCoV2AgpanelPtRespiratoryupperIArapidExample.html) |
@@ -175,7 +175,7 @@ The tables below contain examples for all of the laboratory profiles.  These wer
 
 #### Other tests
 
-| LOINC Code | Profile link |
+| LOINC Code | Example link |
 | :--- | :--- |
 | 95427-1 | [SARS-CoV-2 COVID-19 IgA Ab [Titer] in Serum or Plasma by Immunofluorescence](Observation-SARScoronavirus2AbIgATitrPtSerPlasQnIFExample.html) |
 | 95429-7 | [SARS-CoV-2 COVID-19 IgG Ab [Titer] in Serum or Plasma by Immunofluorescence](Observation-SARScoronavirus2AbIgGTitrPtSerPlasQnIFExample.html) |
