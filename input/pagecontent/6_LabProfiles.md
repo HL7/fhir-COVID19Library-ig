@@ -18,7 +18,7 @@ Two examples for SARS CoV2 testing have been created, one to represent quantitat
 
 ### COVID-19 LOINC Profiles
 
-#### Quantitative LOINC codes
+#### LOINC codes with Quantitative results
 
 | LOINC Code | Profile link |
 | :--- | :--- |
@@ -65,7 +65,7 @@ Two examples for SARS CoV2 testing have been created, one to represent quantitat
 | 98847-7 | [SARS coronavirus 2 stimulated gamma interferon release by lymphocytes [Units/volume] corrected for background in Blood by Immunoassay](StructureDefinition-SARSCoV2stimugammaintflymphcorrectedbkgndACncPtBldQnIA.html) |
 
 
-#### Coded LOINC codes
+#### LOINC codes with coded results
 
 | LOINC Code | Profile link |
 | :--- | :--- |

@@ -520,7 +520,6 @@ Description: "A set of codes that describe underlying cardiovascular medical con
 * SCT#70995007 "Pulmonary hypertension (disorder)"
 * SCT#91434003 "Pulmonic valve regurgitation (disorder)"
 * SCT#56786000 "Pulmonic valve stenosis (disorder)"
-* SCT#56786000 "Pulmonic valve stenosis (disorder)"
 * SCT#415295002 "Restrictive cardiomyopathy (disorder)"
 * SCT#59118001 "Right bundle branch block (disorder)"
 * SCT#195042002 "Second degree atrioventricular block (disorder)"
