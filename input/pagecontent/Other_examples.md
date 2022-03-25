@@ -157,21 +157,21 @@ The tables below contain examples for all of the laboratory profiles.  These wer
 
 | LOINC Code | Example link |
 | :--- | :--- |
-| 95941-1 | [Influenza virus A and B and SARS-CoV-2 COVID-19 and Respiratory syncytial virus RNA panel - Respiratory specimen by NAA with probe detection](Observation--FluAandBandSARSCoV2andRSVRNApanelPtRespProbeamptarExample.html) |
-| 95942-9 | [Influenza virus A and B and SARS-CoV+SARS-CoV-2 COVID-19 Ag panel - Upper respiratory specimen by Rapid immunoassay](Observation--FluAandBandSARSCoVSARSCoV2AgpanelPtRespiratoryupperIArapidExample.html) |
-| 95422-2 | [Influenza virus A and B RNA and SARS-CoV-2 COVID-19 N gene panel - Respiratory specimen by NAA with probe detection](Observation--FluABSARSCoV2PnlRespNAAprbExample.html) |
-| 94503-0 | [SARS-CoV-2 COVID-19 IgG and IgM panel - Serum or Plasma Qualitative by Rapid immunoassay](Observation--SARScoronavirus2AbIgGandIgMpanelPtSerPlasOrdIArapidLabObsExample.html) |
-| 94504-8 | [SARS-CoV-2 COVID-19 IgG and IgM panel - Serum or Plasma by Immunoassay](Observation--SARScoronavirus2AbIgGandIgMpanelPtSerPlasQnIALabObsExample.html) |
-| 96118-5 | [SARS-CoV-2 COVID-19 Ab panel - DBS by Immunoassay](Observation--SARScoronavirus2AbpanelPtBlddotIAExample.html) |
-| 94531-1 | [SARS-CoV-2 COVID-19 RNA panel - Respiratory specimen by NAA with probe detection](Observation--SARScoronavirus2RNAPanelPtRespPrbAmpTarLabObsExample.html) |
-| 95826-4 | [SARS-CoV-2 COVID-19 RNA panel - Saliva (oral fluid) by NAA with probe detection](Observation--SARScoronavirus2RNApanelPtSalivaProbeamptarExample.html) |
-| 95974-2 | [SARS CoV-2 stimulated gamma interferon panel - Blood](Observation--SARScoronavirus2stimulatedgammainterferonpanelPtBldExample.html) |
-| 96094-8 | [SARS-CoV-2 COVID-19 and SARS-related CoV RNA panel - Respiratory specimen by NAA with probe detection](Observation--SARSCoV2andSARSrltdcoronavirusRNApanelPtRespiratoryProbeamptarExample.html) |
-| 94306-8 | [SARS-Cov-2 COVID-19 RNA panel - Unspecified specimen by NAA with probe detection](Observation--SARSCoV2RNAPnlXXXNAAprobePanelLabObsExample.html) |
-| 97099-6 | [Influenza virus A and B and SARS-CoV-2 (COVID-19) Ag panel - Upper respiratory specimen by Rapid immunoassay](Observation--FluAFluBSARSCoV2AgpanelPtRespiratoryupperIArapidExample.html) |
-| 96897-4 | [SARS-CoV-2 (COVID-19) RNA panel - Oropharyngeal wash by NAA with probe detection](Observation--SARScoronavirus2RNApanelPtOropharyngealwashProbeamptarExample.html) |
-| 96894-1 | [SARS-CoV-2 (COVID-19) sequencing and identification panel - Specimen by Molecular genetics method](Observation--SARScoronavirus2sequencingidentificationpanelPtXXXMolgenExample.html) |
-| 98080-5 | [SARS-CoV-2 (COVID-19) and SARS-related CoV RNA panel - Saliva (oral fluid) by NAA with probe detection](Observation--SARSCoV2SARSrelatedCoVRNApanelPtSalivaProbeamptarExample.html) |
+| 95941-1 | [Influenza virus A and B and SARS-CoV-2 COVID-19 and Respiratory syncytial virus RNA panel - Respiratory specimen by NAA with probe detection](Observation-FluAandBandSARSCoV2andRSVRNApanelPtRespProbeamptarExample.html) |
+| 95942-9 | [Influenza virus A and B and SARS-CoV+SARS-CoV-2 COVID-19 Ag panel - Upper respiratory specimen by Rapid immunoassay](Observation-FluAandBandSARSCoVSARSCoV2AgpanelPtRespiratoryupperIArapidExample.html) |
+| 95422-2 | [Influenza virus A and B RNA and SARS-CoV-2 COVID-19 N gene panel - Respiratory specimen by NAA with probe detection](Observation-FluABSARSCoV2PnlRespNAAprbExample.html) |
+| 94503-0 | [SARS-CoV-2 COVID-19 IgG and IgM panel - Serum or Plasma Qualitative by Rapid immunoassay](Observation-SARScoronavirus2AbIgGandIgMpanelPtSerPlasOrdIArapidLabObsExample.html) |
+| 94504-8 | [SARS-CoV-2 COVID-19 IgG and IgM panel - Serum or Plasma by Immunoassay](Observation-SARScoronavirus2AbIgGandIgMpanelPtSerPlasQnIALabObsExample.html) |
+| 96118-5 | [SARS-CoV-2 COVID-19 Ab panel - DBS by Immunoassay](Observation-SARScoronavirus2AbpanelPtBlddotIAExample.html) |
+| 94531-1 | [SARS-CoV-2 COVID-19 RNA panel - Respiratory specimen by NAA with probe detection](Observation-SARScoronavirus2RNAPanelPtRespPrbAmpTarLabObsExample.html) |
+| 95826-4 | [SARS-CoV-2 COVID-19 RNA panel - Saliva (oral fluid) by NAA with probe detection](Observation-SARScoronavirus2RNApanelPtSalivaProbeamptarExample.html) |
+| 95974-2 | [SARS CoV-2 stimulated gamma interferon panel - Blood](Observation-SARScoronavirus2stimulatedgammainterferonpanelPtBldExample.html) |
+| 96094-8 | [SARS-CoV-2 COVID-19 and SARS-related CoV RNA panel - Respiratory specimen by NAA with probe detection](Observation-SARSCoV2andSARSrltdcoronavirusRNApanelPtRespiratoryProbeamptarExample.html) |
+| 94306-8 | [SARS-Cov-2 COVID-19 RNA panel - Unspecified specimen by NAA with probe detection](Observation-SARSCoV2RNAPnlXXXNAAprobePanelLabObsExample.html) |
+| 97099-6 | [Influenza virus A and B and SARS-CoV-2 (COVID-19) Ag panel - Upper respiratory specimen by Rapid immunoassay](Observation-FluAFluBSARSCoV2AgpanelPtRespiratoryupperIArapidExample.html) |
+| 96897-4 | [SARS-CoV-2 (COVID-19) RNA panel - Oropharyngeal wash by NAA with probe detection](Observation-SARScoronavirus2RNApanelPtOropharyngealwashProbeamptarExample.html) |
+| 96894-1 | [SARS-CoV-2 (COVID-19) sequencing and identification panel - Specimen by Molecular genetics method](Observation-SARScoronavirus2sequencingidentificationpanelPtXXXMolgenExample.html) |
+| 98080-5 | [SARS-CoV-2 (COVID-19) and SARS-related CoV RNA panel - Saliva (oral fluid) by NAA with probe detection](Observation-SARSCoV2SARSrelatedCoVRNApanelPtSalivaProbeamptarExample.html) |
 
 #### Other tests
 

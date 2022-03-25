@@ -130,7 +130,7 @@ Two examples for SARS CoV2 testing have been created, one to represent quantitat
 | 94559-2 | [SARS-CoV-2 COVID-19 ORF1ab region [Presence] in Respiratory specimen by NAA with probe detection](StructureDefinition-SARSCoV2ORF1abRespQlNAAprobeLabObs.html) |
 | 94763-0 | [SARS-CoV-2 COVID-19 [Presence] in Unspecified specimen by Organism specific culture](StructureDefinition-SARSCoV2PrThrPtXXXOrdOrganismSpecificCulture.html) |
 | 96120-1 | [SARS-CoV-2 COVID-19 RdRp gene [Presence] in Lower respiratory specimen by NAA with probe detection](StructureDefinition-SARSCoV2RdRpgenePrThrPtRespiratorylowerOrdProbeamptar.html) |
-| 94759-8 | [Sars-CoV-2 COVID-19 RNA [Presence] in Nasopharynx by NAA with probe detection](StructureDefinition-SARSCoV2RNAPrThrPtNphOrsdProbAmpTar.html) |
+| 94759-8 | [Sars-CoV-2 COVID-19 RNA [Presence] in Nasopharynx by NAA with probe detection](StructureDefinition-SARSCoV2RNAPrThrPtNphOrdProbAmpTar.html) |
 | 94845-5 | [SARS-CoV-2 COVID-19 RNA [Presence] in Saliva (viral load) in Unspecified specimen by NAA with probe detection](StructureDefinition-SARSCoV2RNAPrThrPtSalivaOrdProbAmpTar.html) |
 | 94822-4 | [SARS-CoV-2 COVID-19 RNA [Presence] in Saliva (oral fluid) by Sequencing](StructureDefinition-SARSCoV2RNAPrThrPtSalivaOrdSequencing.html) |
 | 94660-8 | [SARS-CoV-2 COVID-19 RNA [Presence] in Serum or Plasma by NAA with probe detection](StructureDefinition-SARS-CoV2-RNA-PrThr-pt-serplas-ord-probamptar-LabObs.html) |
@@ -174,21 +174,21 @@ Two examples for SARS CoV2 testing have been created, one to represent quantitat
 
 | LOINC Code | Profile link |
 | :--- | :--- |
-| 95941-1 | [Influenza virus A and B and SARS-CoV-2 COVID-19 and Respiratory syncytial virus RNA panel - Respiratory specimen by NAA with probe detection](StructureDefinition--FluAandBandSARSCoV2andRSVRNApanelPtRespProbeamptar.html) |
-| 95942-9 | [Influenza virus A and B and SARS-CoV+SARS-CoV-2 COVID-19 Ag panel - Upper respiratory specimen by Rapid immunoassay](StructureDefinition--FluAandBandSARSCoVSARSCoV2AgpanelPtRespiratoryupperIArapid.html) |
-| 95422-2 | [Influenza virus A and B RNA and SARS-CoV-2 COVID-19 N gene panel - Respiratory specimen by NAA with probe detection](StructureDefinition--FluABSARSCoV2PnlRespNAAprb.html) |
-| 94503-0 | [SARS-CoV-2 COVID-19 IgG and IgM panel - Serum or Plasma Qualitative by Rapid immunoassay](StructureDefinition--SARScoronavirus2AbIgGandIgMpanelPtSerPlasOrdIArapidLabObs.html) |
-| 94504-8 | [SARS-CoV-2 COVID-19 IgG and IgM panel - Serum or Plasma by Immunoassay](StructureDefinition--SARScoronavirus2AbIgGandIgMpanelPtSerPlasQnIALabObs.html) |
-| 96118-5 | [SARS-CoV-2 COVID-19 Ab panel - DBS by Immunoassay](StructureDefinition--SARScoronavirus2AbpanelPtBlddotIA.html) |
-| 94531-1 | [SARS-CoV-2 COVID-19 RNA panel - Respiratory specimen by NAA with probe detection](StructureDefinition--SARScoronavirus2RNAPanelPtRespPrbAmpTarLabObs.html) |
-| 95826-4 | [SARS-CoV-2 COVID-19 RNA panel - Saliva (oral fluid) by NAA with probe detection](StructureDefinition--SARScoronavirus2RNApanelPtSalivaProbeamptar.html) |
-| 95974-2 | [SARS CoV-2 stimulated gamma interferon panel - Blood](StructureDefinition--SARScoronavirus2stimulatedgammainterferonpanelPtBld.html) |
-| 96094-8 | [SARS-CoV-2 COVID-19 and SARS-related CoV RNA panel - Respiratory specimen by NAA with probe detection](StructureDefinition--SARSCoV2andSARSrltdcoronavirusRNApanelPtRespiratoryProbeamptar.html) |
-| 94306-8 | [SARS-Cov-2 COVID-19 RNA panel - Unspecified specimen by NAA with probe detection](StructureDefinition--SARSCoV2RNAPnlXXXNAAprobePanelLabObs.html) |
-| 97099-6 | [Influenza virus A and B and SARS-CoV-2 (COVID-19) Ag panel - Upper respiratory specimen by Rapid immunoassay](StructureDefinition--FluAFluBSARSCoV2AgpanelPtRespiratoryupperIArapid.html) |
-| 96897-4 | [SARS-CoV-2 (COVID-19) RNA panel - Oropharyngeal wash by NAA with probe detection](StructureDefinition--SARScoronavirus2RNApanelPtOropharyngealwashProbeamptar.html) |
-| 96894-1 | [SARS-CoV-2 (COVID-19) sequencing and identification panel - Specimen by Molecular genetics method](StructureDefinition--SARScoronavirus2sequencingidentificationpanelPtXXXMolgen.html) |
-| 98080-5 | [SARS-CoV-2 (COVID-19) and SARS-related CoV RNA panel - Saliva (oral fluid) by NAA with probe detection](StructureDefinition--SARSCoV2SARSrelatedCoVRNApanelPtSalivaProbeamptar.html) |
+| 95941-1 | [Influenza virus A and B and SARS-CoV-2 COVID-19 and Respiratory syncytial virus RNA panel - Respiratory specimen by NAA with probe detection](StructureDefinition-FluAandBandSARSCoV2andRSVRNApanelPtRespProbeamptar.html) |
+| 95942-9 | [Influenza virus A and B and SARS-CoV+SARS-CoV-2 COVID-19 Ag panel - Upper respiratory specimen by Rapid immunoassay](StructureDefinition-FluAandBandSARSCoVSARSCoV2AgpanelPtRespiratoryupperIArapid.html) |
+| 95422-2 | [Influenza virus A and B RNA and SARS-CoV-2 COVID-19 N gene panel - Respiratory specimen by NAA with probe detection](StructureDefinition-FluABSARSCoV2PnlRespNAAprb.html) |
+| 94503-0 | [SARS-CoV-2 COVID-19 IgG and IgM panel - Serum or Plasma Qualitative by Rapid immunoassay](StructureDefinition-SARScoronavirus2AbIgGandIgMpanelPtSerPlasOrdIArapidLabObs.html) |
+| 94504-8 | [SARS-CoV-2 COVID-19 IgG and IgM panel - Serum or Plasma by Immunoassay](StructureDefinition-SARScoronavirus2AbIgGandIgMpanelPtSerPlasQnIALabObs.html) |
+| 96118-5 | [SARS-CoV-2 COVID-19 Ab panel - DBS by Immunoassay](StructureDefinition--ARScoronavirus2AbpanelPtBlddotIA.html) |
+| 94531-1 | [SARS-CoV-2 COVID-19 RNA panel - Respiratory specimen by NAA with probe detection](StructureDefinition-SARScoronavirus2RNAPanelPtRespPrbAmpTarLabObs.html) |
+| 95826-4 | [SARS-CoV-2 COVID-19 RNA panel - Saliva (oral fluid) by NAA with probe detection](StructureDefinition-SARScoronavirus2RNApanelPtSalivaProbeamptar.html) |
+| 95974-2 | [SARS CoV-2 stimulated gamma interferon panel - Blood](StructureDefinition-SARScoronavirus2stimulatedgammainterferonpanelPtBld.html) |
+| 96094-8 | [SARS-CoV-2 COVID-19 and SARS-related CoV RNA panel - Respiratory specimen by NAA with probe detection](StructureDefinition-SARSCoV2andSARSrltdcoronavirusRNApanelPtRespiratoryProbeamptar.html) |
+| 94306-8 | [SARS-Cov-2 COVID-19 RNA panel - Unspecified specimen by NAA with probe detection](StructureDefinition-SARSCoV2RNAPnlXXXNAAprobePanelLabObs.html) |
+| 97099-6 | [Influenza virus A and B and SARS-CoV-2 (COVID-19) Ag panel - Upper respiratory specimen by Rapid immunoassay](StructureDefinition-FluAFluBSARSCoV2AgpanelPtRespiratoryupperIArapid.html) |
+| 96897-4 | [SARS-CoV-2 (COVID-19) RNA panel - Oropharyngeal wash by NAA with probe detection](StructureDefinition-SARScoronavirus2RNApanelPtOropharyngealwashProbeamptar.html) |
+| 96894-1 | [SARS-CoV-2 (COVID-19) sequencing and identification panel - Specimen by Molecular genetics method](StructureDefinition-SARScoronavirus2sequencingidentificationpanelPtXXXMolgen.html) |
+| 98080-5 | [SARS-CoV-2 (COVID-19) and SARS-related CoV RNA panel - Saliva (oral fluid) by NAA with probe detection](StructureDefinition-SARSCoV2SARSrelatedCoVRNApanelPtSalivaProbeamptar.html) |
 
 #### Other LOINC codes
 
