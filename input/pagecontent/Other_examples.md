@@ -15,7 +15,7 @@ The tables below contain examples for all of the laboratory profiles.  These wer
 | 95522-9 | [SARS-CoV-2 COVID-19 N gene [Log #/volume] (viral load) in Respiratory specimen by NAA with probe detection](Observation-SARScoronavirus2NGeneLnCncPtRespiratoryQnProbeamptarExample.html) |
 | 95521-1 | [SARS-CoV-2 COVID-19 N gene [#/volume] (viral load) in Respiratory specimen by NAA with probe detection](Observation-SARScoronavirus2NGeneNCncPtRespiratoryQnProbeamptarExample.html) |
 | 94510-5 | [SARS-CoV-2 COVID-19 N gene [Cycle Threshold #] in Unspecified specimen by NAA with probe detection](Observation-SARScoronavirus2NgeneThreshNumPtXXXQnPrbAmpTarLabObsExample.html) |
-| 94511-3 | [SARS-CoV-2 COVID-19 ORF1ab region [Cycle Threshold #] in Unspecified specimen by NAA with probe detection](Observation-SARScoronavirus2ORF1AbRegionThreshNumPtXXXQnPrbAmpTarLabObsExample.html) |
+| 94511-3 | [SARS-CoV-2 COVID-19 ORF1ab region [Cycle Threshold #] in Unspecified specimen by NAA with probe detection](Observation-SARScov2ORF1AbRegionThreshNumPtXXXQnLabObsExample.html) |
 | 94644-2 | [SARS-CoV-2 COVID-19 ORF1ab region [Cycle Threshold #] in Respiratory specimen by NAA with probe detection](Observation-SARScov2ORF1abregionThreshNumPtRespLabObsExample.html) |
 | 94646-7 | [SARS-CoV-2 COVID-19 RdRp gene [Cycle Threshold #] in Respiratory specimen by NAA with probe detection](Observation-SARScov2RdRpgeneThreshNumPtRespiratoryQnLabObsExample.html) |
 | 94769-7 | [SARS-CoV-2 COVID-19 Ab [Units/volume] in Serum or Plasma by Immunoassay](Observation-SARSCoV2AbACncPtSerPlasQnIAExample.html) |
@@ -81,7 +81,7 @@ The tables below contain examples for all of the laboratory profiles.  These wer
 | 95425-5 | [SARS-CoV-2 COVID-19 N gene [Presence] in Saliva (oral fluid) by NAA with probe detection](Observation-SARScoronavirus2NGenePrThrPtSalivaOrdProbeamptarExample.html) |
 | 94316-7 | [SARS-CoV-2 COVID-19 N gene [Presence] in Unspecified specimen by NAA with probe detection](Observation-SARScoronavirus2NgenePrThrPtXXXOrdPrbAmpTarLabObsExample.html) |
 | 95824-9 | [SARS-CoV-2 COVID-19 ORF1ab region [Presence] in Saliva (oral fluid) by NAA with probe detection](Observation-SARScoronavirus2ORF1abregionPrThrPtSalivaOrdProbeamptarExample.html) |
-| 94639-2 | [SARS-CoV-2 COVID-19 ORF1ab region [Presence] in Unspecified specimen by NAA with probe detection](Observation-SARScov2ORF1abregionPrThrPtXXXOrdProbeamptarLabObsExamplehtml) |
+| 94639-2 | [SARS-CoV-2 COVID-19 ORF1ab region [Presence] in Unspecified specimen by NAA with probe detection](Observation-SARScov2ORF1abregionPrThrPtXXXOrdProbeamptarLabObsExample.html) |
 | 94534-5 | [SARS-CoV-2 COVID-19 RdRp gene [Presence] in Respiratory specimen by NAA with probe detection](Observation-SARScoronavirus2RdRpGenePrThePtRespOrdPrbAmpTarLabObsExample.html) |
 | 96123-5 | [SARS-CoV-2 COVID-19 RdRp gene [Presence] in Upper respiratory specimen by NAA with probe detection](Observation-SARScov2RdRpgenePrThrPtRespupperOrdProbeamptarExample.html) |
 | 96091-4 | [SARS-CoV-2 COVID-19 RdRp gene [Presence] in Saliva (oral fluid) by NAA with probe detection](Observation-SARScoronavirus2RdRpgenePrThrPtSalivaOrdProbeamptarExample.html) |

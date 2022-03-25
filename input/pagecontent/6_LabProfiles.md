@@ -179,7 +179,7 @@ Two examples for SARS CoV2 testing have been created, one to represent quantitat
 | 95422-2 | [Influenza virus A and B RNA and SARS-CoV-2 COVID-19 N gene panel - Respiratory specimen by NAA with probe detection](StructureDefinition-FluABSARSCoV2PnlRespNAAprb.html) |
 | 94503-0 | [SARS-CoV-2 COVID-19 IgG and IgM panel - Serum or Plasma Qualitative by Rapid immunoassay](StructureDefinition-SARScoronavirus2AbIgGandIgMpanelPtSerPlasOrdIArapidLabObs.html) |
 | 94504-8 | [SARS-CoV-2 COVID-19 IgG and IgM panel - Serum or Plasma by Immunoassay](StructureDefinition-SARScoronavirus2AbIgGandIgMpanelPtSerPlasQnIALabObs.html) |
-| 96118-5 | [SARS-CoV-2 COVID-19 Ab panel - DBS by Immunoassay](StructureDefinition-ARScoronavirus2AbpanelPtBlddotIA.html) |
+| 96118-5 | [SARS-CoV-2 COVID-19 Ab panel - DBS by Immunoassay](StructureDefinition-SARScoronavirus2AbpanelPtBlddotIA.html) |
 | 94531-1 | [SARS-CoV-2 COVID-19 RNA panel - Respiratory specimen by NAA with probe detection](StructureDefinition-SARScoronavirus2RNAPanelPtRespPrbAmpTarLabObs.html) |
 | 95826-4 | [SARS-CoV-2 COVID-19 RNA panel - Saliva (oral fluid) by NAA with probe detection](StructureDefinition-SARScoronavirus2RNApanelPtSalivaProbeamptar.html) |
 | 95974-2 | [SARS CoV-2 stimulated gamma interferon panel - Blood](StructureDefinition-SARScoronavirus2stimulatedgammainterferonpanelPtBld.html) |
