@@ -340,7 +340,7 @@ Id: exposure-type-la-value-set
 Title: "Exposure Type LOINC Answer Value Set"
 Description: "A set of LOINC answers that describe the manner in which and individual was exposed."
 * ^copyright = "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc"
-* LNC#LA30834-8 "Household contact with other lab-confirmed COVID-19 case-patient"
+//* LNC#LA30834-8 "Household contact with other lab-confirmed COVID-19 case-patient"
 * LNC#LA30835-5 "Community contact with other lab-confirmed COVID-19 case-patient"
 * LNC#LA30836-3 "Any healthcare contact with other lab-confirmed COVID-19 case-patient"
 * LNC#LA30837-1 "Any healthcare contact with a Patient who is lab-confirmed COVID-19 case-patient"
