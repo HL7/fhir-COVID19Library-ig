@@ -4,11 +4,7 @@
 US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
 
 # These LOINC Answer codes are valid but not yet attached to any LOINC term.  Regenstrief to resolve the issue in the Feb. 2022 release of LOINC.
-The code LA30830-6 is not valid in the system http://loinc.org
-The code LA30831-4 is not valid in the system http://loinc.org
-The code LA30832-2 is not valid in the system http://loinc.org
-The code LA30833-0 is not valid in the system http://loinc.org
-The code LA30834-8 is not valid in the system http://loinc.org
+
 The code LA30835-5 is not valid in the system http://loinc.org
 The code LA30836-3 is not valid in the system http://loinc.org
 The code LA30837-1 is not valid in the system http://loinc.org
@@ -22,6 +18,3 @@ The code 24721000205109 is not valid in the system http://snomed.info/sct
 
 # A code system is provided for this code.
 A code with no system has no defined meaning. A system should be provided
-
-#This code system URI is correct
-Code System URI 'urn:iso:std:iso:3166' is unknown so the code cannot be validated
