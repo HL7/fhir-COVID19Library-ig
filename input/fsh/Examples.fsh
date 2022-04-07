@@ -144,7 +144,7 @@ Instance: KnownSARSCoV2ExposureExample
 InstanceOf: KnownSARSCoV2Exposure
 Description: "Example of Known SARS CoV-2 Exposure"
 Usage: #example
-* extension[ExposureType].valueCodeableConcept = LNC#LA30834-8 "Household contact with other lab-confirmed COVID-19 case-patient"
+* extension[ExposureType].valueCodeableConcept = LNC#LA30835-5 "Community contact with other lab-confirmed COVID-19 case-patient"
 * status = #final
 * effectiveDateTime = "2021-09-21"
 * code = LNC#88636-6
