@@ -1090,11 +1090,11 @@ Usage: #example
 
 Instance: SARSCoV2spikeproteinRBDAbneutPrThrPtSerPlasOrdIAExample
 InstanceOf: SARSCoV2spikeproteinRBDAbneutPrThrPtSerPlasOrdIA
-Description: "An example of the SARS-CoV-2 (COVID-19) S protein RBD neutralizing antibody [Presence] in Serum or Plasma by Immunoassay test."
+Description: "An example of the SARS-CoV-2 (COVID-19) S protein RBD neutralizing antibody [Presence] in Serum or Plasma by sVNT test."
 Usage: #example
 * status = #final
 * category = ObsCat#laboratory
-* code = LNC#96603-6 "SARS-CoV-2 (COVID-19) S protein RBD neutralizing antibody [Presence] in Serum or Plasma by Immunoassay"
+* code = LNC#96603-6 "SARS-CoV-2 (COVID-19) S protein RBD neutralizing antibody [Presence] in Serum or Plasma by sVNT"
 * valueCodeableConcept = SCT#10828004 "Positive (qualifier value)"
 * subject = Reference(patient-anyperson-mary)
 * effectiveDateTime = "2021-09-21"
