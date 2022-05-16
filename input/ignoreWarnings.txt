@@ -2,6 +2,7 @@
 
 # The US Core profiles of Observation and Condition are either too specific or insuficient to be used as bases for this Implementation Guide's needs.  US Core Variance request approved  Aug. 26, 2021, Jira tracker issue ID = FHIR-33246.
 US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
+US FHIR Usage rules require that all profiles on Condition derive from one of the base US profiles
 
 # From David Baorto at Regenstrief (April 27, 2022): "At the time, the list LL5552-6 was not associated with any LOINC, hence it was not in the release. From prior communication with Swapna, I found that "...list was supposed to be attached to 88636-6 in the context of 94654-1 Known exposure panel..." We now created that attachment, so the list should appear in the next LOINC release."
 

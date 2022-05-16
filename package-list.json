@@ -6,10 +6,22 @@
     "introduction": "The COVID-19 IG describes structured data to be collected and communicated between providers and aggregators.",
     "list": [{
             "version": "current",
+            "date": "2022-05-10",
             "desc": "Continuous Integration Build (latest in version control)",
             "path": "http://build.fhir.org/ig/HL7/covid19library",
             "status": "ci-build",
+            "sequence": "Drafts",
+            "fhirversion": "4.0.1",
             "current": true
+        },
+        {
+            "version": "1.0.0",
+            "date": "2022-05-12",
+            "desc": "Official informative publication release",
+            "path": "http://hl7.org/fhir/us/covid19library/informative",
+            "status": "draft",
+            "sequence": "Drafts",
+            "fhirversion": "4.0.1"
         },
         {   "version": "0.14.0",
             "date": "2021-12-02",
