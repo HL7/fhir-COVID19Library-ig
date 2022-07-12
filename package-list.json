@@ -18,9 +18,9 @@
             "version": "1.0.0",
             "date": "2022-05-12",
             "desc": "Official informative publication release",
-            "path": "http://hl7.org/fhir/us/covid19library/informative",
-            "status": "draft",
-            "sequence": "Drafts",
+            "path": "http://hl7.org/fhir/us/covid19library/informative1",
+            "status": "release",
+            "sequence": "Informative",
             "fhirversion": "4.0.1"
         },
         {   "version": "0.14.0",
